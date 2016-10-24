@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.8)  24 OCT 2016 14:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.8)  24 OCT 2016 14:42
 entering extended mode
 **./SeminarArbeitWS1617conf.tex
 (SeminarArbeitWS1617conf.tex
@@ -428,22 +428,113 @@ Missing character: There is no Ã in font ptmb7t!
 Missing character: There is no ¶ in font ptmb7t!
 Missing character: There is no Ã in font ptmb7t!
 Missing character: There is no ¤ in font ptmb7t!
-) (einfuehrung.tex) (problemstellung.tex) (untersuchung.tex (add3.tex)
-(probing.tex) (twinpeaks.tex) (goal.tex)) (auswertung.tex) (fazit.tex)
-(ausblick.tex)
+) (einfuehrung.tex) (problemstellung.tex
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 475.
+(Font)              <7> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 475.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 475.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+(Font)              <5> on input line 7.
  [1{C:/Users/Franz/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ÿ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+
+Underfull \hbox (badness 4505) in paragraph at lines 15--16
+\OT1/ptm/m/n/10 Prob-lem aufkom-men, dass der Re-quire-ments En-gi-neer,
+ []
+
+
+Underfull \hbox (badness 3590) in paragraph at lines 15--16
+\OT1/ptm/m/n/10 whrend der An-forderungs-gewinn-nung, keine Rck-sprache
+ []
+
+
+Underfull \hbox (badness 3815) in paragraph at lines 15--16
+\OT1/ptm/m/n/10 mit dem Soft-ware Ar-chitek-ten hlt. Ohne aus-re-ichende
+ []
+
+
+Underfull \hbox (badness 2809) in paragraph at lines 15--16
+\OT1/ptm/m/n/10 Dies kann von fehlen-den bis fehler-haft An-forderun-gen
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 15--16
+\OT1/ptm/m/n/10 nicht aus-re-ichend ver-mit-telt, welche In-for-ma-tio-nen er f
+r
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+) (untersuchung.tex (add3.tex) (probing.tex) (twinpeaks.tex) (goal.tex))
+(auswertung.tex) (fazit.tex) (ausblick.tex)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 475.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 475.
+
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -459,21 +550,22 @@ Before submitting the final camera ready copy, remember to:
 
 ] (SeminarArbeitWS1617conf.aux) ) 
 Here is how much of TeX's memory you used:
- 2450 strings out of 493334
- 40628 string characters out of 3136672
+ 2451 strings out of 493334
+ 40642 string characters out of 3136672
  107226 words of memory out of 3000000
- 5933 multiletter control sequences out of 15000+200000
+ 5934 multiletter control sequences out of 15000+200000
  39235 words of font info for 73 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 40i,10n,25p,1659b,348s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,10n,25p,1659b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/d
-vips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/u
-tmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on SeminarArbeitWS1617conf.pdf (2 pages, 58006 bytes).
+vips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb
+8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on SeminarArbeitWS1617conf.pdf (2 pages, 70534 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
+ 30 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
