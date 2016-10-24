@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.8)  24 OCT 2016 15:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.8)  24 OCT 2016 15:45
 entering extended mode
 **./SeminarArbeitWS1617conf.tex
 (SeminarArbeitWS1617conf.tex
@@ -453,12 +453,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¤ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no Ÿ in font ptmr7t!
+
+Underfull \hbox (badness 1472) in paragraph at lines 13--14
+\OT1/ptm/m/n/10 und Soft-ware Ar-chitekt kein richtiger Di-a-log stat-tfindet,
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
@@ -522,12 +531,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¤ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ÿ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+
+Underfull \hbox (badness 1509) in paragraph at lines 17--18
+\OT1/ptm/m/n/10 d.h. aneinan-der vor-bei re-den. Dies kann kann der Fall
+ []
+
+
+Underfull \hbox (badness 2088) in paragraph at lines 17--18
+\OT1/ptm/m/n/10 sein, wenn zwei Gesprchspart-ner sich nicht gegen-seitig
+ []
+
+
+Underfull \hbox (badness 2582) in paragraph at lines 17--18
+\OT1/ptm/m/n/10 zuhren oder aber die be-sproch-enen In-halte an-schlieend
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+
+Underfull \vbox (badness 1596) has occurred while \output is active []
+
+
+Underfull \hbox (badness 4328) in paragraph at lines 30--31
+[]\OT1/ptm/m/n/10 Nicht klar her-vorge-hobene ar-chitek-tur-rel-e-vante An-
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
 ) (untersuchung.tex (add3.tex) (probing.tex) (twinpeaks.tex) (goal.tex))
 (auswertung.tex) (fazit.tex) (ausblick.tex)
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -546,28 +600,22 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[2
-
-] (SeminarArbeitWS1617conf.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[2] (SeminarArbeitWS1617conf.aux) ) 
 Here is how much of TeX's memory you used:
- 2451 strings out of 493334
- 40642 string characters out of 3136672
- 107223 words of memory out of 3000000
- 5934 multiletter control sequences out of 15000+200000
+ 2452 strings out of 493334
+ 40650 string characters out of 3136672
+ 107226 words of memory out of 3000000
+ 5935 multiletter control sequences out of 15000+200000
  39235 words of font info for 73 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
  40i,10n,25p,1659b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/urw/times/utmri8a.pfb>
-Output written on SeminarArbeitWS1617conf.pdf (2 pages, 70534 bytes).
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc
+/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/ut
+mb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on SeminarArbeitWS1617conf.pdf (2 pages, 72373 bytes).
 PDF statistics:
  30 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
