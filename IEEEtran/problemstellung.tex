@@ -17,17 +17,35 @@ Bei nicht ausreichendem Kommunikationsfluss zwischen Requirements Engineer und S
 In der zweiten Klasse werden Probleme gruppiert, bei denen die Gesprächspartner keinen zielführenden Dialog führen, d.h. aneinander vorbei reden. Dies kann kann der Fall sein, wenn zwei Gesprächspartner sich nicht gegenseitig zuhören oder aber die besprochenen Inhalte anschließend nicht berücksichtigen. Wenn ein Software Architekt einem Requirements Engineer zum Beispiel nicht zuhört, kann es passieren, dass Anweisungen missverstanden werden und die konzipierte Software Architektur nicht den Wünschen des Kunden entspricht. Ein weiteres Problem ist, dass der Software Architekt die Vorgaben des Requirements Engineer ignoriert und die besprochenen Inhalte nicht berücksichtigt. \\
 
 \subsubsection{Konkurrierende Interessen}
+Unter konkurrierenden Interessen ist zu verstehen, dass die Hauptverantwortlichen des Entwicklungsprozesses der Software-Architektur in der Projektarbeit verschiedene Interessen verfolgen, die miteinander in Konflikt stehen. Die Verantwortlichen haben zwar eine gemeinsame Vision von dem fertigen Produkt, verfolgen aufgrund variierender interessen jedoch eine unterschiedliche Art der Zielerreichung.
+So ist es das Ziel des Kunden am Ende der Entwicklung ein kostengünstiges Produkt zu haben mit dem er effizient Arbeiten kann. Hier ergeben sich auf der Ebene des Requirements-Engineers und des Software-Architekten bereits unterschiede. Ziel des Requirements-Engineer ist es hierbei die Vision des Kunden in einem möglichst korrekten und vollständigen Anforderungsdokument festzuhalten. Währenddessen ist es das Ziel des Software Architekt eine Software-Architektur zu entwickeln, welche bestimmte Qualitätsattribute wie Wartbarkeit und Erweiterbarkeit bestmöglich erfüllt. \\
+Da die Bedeutung des Kunden in diesem Zusammenhang eine untergeordnete Rolle spielt, werden die den Kunden betreffenden Konflikte nicht näher untersucht. \\
+Während der Requirements-Engineer die Interessen des Kunden möglichst genau dokumentiert und umgesetzt haben möchte ist es Ziel des Software-Architekten eine möglichst korrekte Software-Architektur in Hinblick auf seine Präferenzen zu realisieren. Diese Punkte können abhängig von der Ausführlichkeit und dem Inhalt der Anforderungsdokumente jedoch in Konflikt stehen.
 
 \subsubsection{Fehlendes Know-How}
+Fehlendes Know-How kann zu diversen Problemen führen. Dabei kann hier zwischen zwei Ebenen unterschieden werden. Einerseits können Probleme aus fehlendem Know-How über die Methodik der jeweils anderen Rolle entstehen. Hierbei können unter anderem Probleme bei der Planung und Umsetzung eines Projektes resultieren, da hierdurch potenziell relevante Vorgehensweisen oder Methoden nicht berücksichtigt werden können. Andererseits können Probleme aus inhaltlich fehlendem Know-How entstehen. So kann es dem Requirements-Engineer zum Beispiel schwer fallen die Schwerpunkte so zu setzen, dass der Software-Architekt die Informationen erhält, die er benötigt. Dies wird dann zum Problem wenn der Requirements-Engineer nicht weiß welche Informationen der Software-Architekt für die Umsetzung benötigt. Ferner können Missverständnisse auftreten, wenn der Software-Architekt bei fachspezifischen Begriffen ein anderes Verständnis hat als der Requirements-Engineer. 
 
 \subsection{Qualit\"at der Anforderungen}
 
 Mit der Untersuchung der Probleme, die sich auf die Qualität der Anforderungen beziehen, fallen folgende auf:
 \begin{itemize}
-\item Zu restriktive Anforderungen
+\item Zu restriktive / detaillierte architekturrelevante Anforderungen
 \item Fehlende architekturrelevante Anforderungen
-\item Ungenaue / sich wiedersprechende architekturrelevante Anforderungen
+\item Ungenaue / sich widersprechende architekturrelevante Anforderungen
 \item Nicht klar hervorgehobene architekturrelevante Anforderungen\\
 \end{itemize}
+
+\subsubsection{Zu restriktive / detaillierte architekturrelevante Anforderungen}
+Restriktive oder detaillierte Anforderungen können die Arbeit von Requirements-Engineer und Software-Architekt unnötig einschränken und dadurch erschweren. Zu genau beschriebene Anforderungen können verursachen, dass das Projekt nicht erfolgreich abgeschlossen werden kann, da die Zeitplanung dadurch erschwert wird. Ferner kann dadurch der Gesamtüberblick verloren gehen. Zu restriktive Anforderungen, können Widersprüche erzeugen, die eine korrekte Umsetzung unmöglich machen, da sie den Lösungsraum zu sehr einschränken. 
+
+\subsubsection{Fehlende architekturrelevante Anforderungen}
+In der Anforderungsgewinnung kann es passieren, dass wichtige architekturrelevante Anforderungen nicht erhoben werden. Dies kann jedoch weitreichende Auswirkungen auf die Software-Architektur haben, da dem Software-Architekt notwendige Informationen bei der Konzeption fehlen. Dieser sieht sich dann gezwungen entweder eine Software-Architektur frei zu entwerfen oder zusätzliche klärende Gespräche mit dem Kunden zu führen.
+
+\subsubsection{Ungenaue / sich widersprechende architekturrelevante Anforderungen}
+Ungenaue oder sich widersprechende Anforderungen verhalten sich ähnlich wie zu detaillierte oder restriktive Anforderungen. Wenn der Requirements-Engineer in den architekturrelevanten Anforderungen wichtige Informationen nicht präzise oder überhaupt nicht formuliert, ergeben sich für den Software-Architekten Probleme während der Architekturkonzeption. Weiter können ebenso Probleme auftreten wenn die definierten Anforderungen sich widersprechen. Auch hier muss der Software-Architekt zusätzliche Rücksprache halten um die problematischen Anforderungen zu klären. Alternativ kann dieser innerhalb seiner Entscheidungskompetenz eine eigene Entscheidung treffen, mit der Gefahr, dass diese im späteren Verlauf unerwünschte Konsequenzen nach sich ziehen.
+
+\subsubsection{Nicht klar hervorgehobene architekturrelevante Anforderungen}
+Werden architekturrelevante Anforderungen für den Software-Architekten nicht hervorgehoben, kann es passieren, dass dieser wichtige Anforderungen erst spät, wenn überhaupt wahrnimmt. Dies kann zur Folge haben, dass wichtige architekturrelevante Entscheidungen nicht rechtzeitig getroffen werden können und zu einem Mehraufwand zu einem späteren Zeitpunkt führen.\\
+\\
 
 Neben den aufgeführten Problemen gibt es weitere, die hier nicht näher behandelt werden. Darunter fiele zum Beispiel ein phasenbezogene Requirements Engineering.
