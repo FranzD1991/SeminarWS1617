@@ -1,4 +1,4 @@
-\subsection{Ziel- und Szenario-basierte Änsätze}
+\subsection{Ziel- und Szenario-basierte Ansätze (FDD)}
 \subsubsection{Beschreibung}
 In der Anforderungserhebung soll es möglich sein Anforderungen in einer Form zu erheben, die es Software Architekten einfacher macht, den Architekturentwurf zu konzipieren. Um dies zu realisieren bietet sich eine Kombination aus Ziel-basierten Ansätzen und Szenario-basierten Ansätzen an. Die Kombination ist deswegen von Relevanz, weil ein Ansatz allein nicht ausreichen kann um die Anforderungen in angemessener Weise zu erheben.
 \subsubsection{Ziel-basierte Ansätze}
@@ -8,7 +8,13 @@ Ein gutes Beispiel für ein Modell-basierten Ansatz ist der KAOS-Ansatz. Dieser 
 Lamsweerde (Lamsweerde Referenz) beschreibt eine modellbasierten Ansatz zur Darstellung von Zielen und den Referenzen innerhalb von Zielen. Hierfür muss zunächst eine genauere Betrachtung der Zieldefinition vorgenommen werden. So sind in dem Kontext der KAOS-Methode Ziele in Bahavioral-Goals und Soft-Goals zu unterteilen. \\
 Behavioral-Goals beschreiben eine deklarative Sicht auf Ziele, die beschreibt, wie ein System sich zu verhalten hat. Dies bedeutet, dass in diesem Fall besonders das Verhalten von Systemen im Fokus steht. Gültig ist eine endliche Menge von Verhaltensweisen des Systems. \\
 Grundsätzlich lassen sich Bahavioral-Goals in zwei Kategorien aufteilen, die Achive-Goals und die Maintain/Avoid-Goals. Die Achive-Goals beschreiben Systemverhalten, bei dem es darauf ankommt, dass ein System zu einem definierten Zeitpunkt einen definierten Zustand erreicht. Maintain/Avoid-Goals beschreiben Systemverhalten, bei dem es darauf ankommt, dass ein System über einen definierten Zeitraum hinweg einen definierten Zustand aufrechterhält, oder einen definierten Zustand vermeidet.\\
-Soft-goals beschreiben Präferenzen innerhalb von gültigen Systemverhaltensweisen.
+Soft-goals beschreiben Präferenzen innerhalb von gültigen Systemverhaltensweisen. Diese lassen sich zunächst in funktionale Ziele und nicht funktionale Ziele aufteilen. Die funktionalen Ziele können die folgenden Kategorien haben:
+\begin{itemize}
+\item Satisfaction: Funtionale Ziele, die sich damit beschäftigen User-Anfragen zu beantworten.
+\item Information: Funtionale Ziele, die damit beschäftigt sind User über wichtige Systemzustände zu informieren.
+\item Stim-response: Funktionale Ziele, die sich damit beschäftigen auf Events eine angemessene Reaktion zu erzeugen.
+\end{itemize}
+Mit dem gegebenen Ziel die Zusammenarbeit zwischen Requirements Engineer und Software Architekt zu optimieren sind vor allem die funktionalen Ziele der Soft-Goals und die Behavioral-Goals von Relevanz.
 \subsubsection{Szenario-basierte Ansätze}
 Szenario-basierte Ansätze zielen vorrangig darauf ab, die wesentlichen geforderten Interaktionen des Systems mit dessen Umgebung zu definieren und mit den Stakeholdern abzustimmen (Silkora Referenz S.18).
 \subsubsection{Kombination der Ansätze}
