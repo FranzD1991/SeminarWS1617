@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.30)  9 DEC 2016 16:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.8)  12 DEC 2016 12:01
 entering extended mode
 **./SeminarArbeitWS1617conf.tex
 (SeminarArbeitWS1617conf.tex
 LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
-(E:\Programme\MikTex\tex\latex\ieeetran\IEEEtran.cls
+(C:\Users\Franz\AppData\Roaming\MiKTeX\2.9\tex\latex\ieeetran\IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -17,7 +17,7 @@ Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 503.
 
-(E:\Programme\MikTex\tex\latex\psnfss\ot1ptm.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -340,7 +340,7 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¤ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
- [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+ [1{C:/Users/Franz/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
@@ -709,73 +709,11 @@ Underfull \hbox (badness 5022) in paragraph at lines 23--24
 \OT1/ptm/m/n/10 fr die da-rauf-fol-gen-den Design-Aktivitten fest-gelegt ist.
  []
 
-) (probing.tex) (twinpeaks.tex) (goal.tex
-Missing character: There is no Ã in font ptmri7t!
-Missing character: There is no ¤ in font ptmri7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¶ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
- [3]
-Missing character: There is no Ã in font ptmri7t!
-Missing character: There is no ¤ in font ptmri7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¼ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¼ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¼ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¼ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¼ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¼ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¼ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¶ in font ptmr7t!
-
-Underfull \hbox (badness 3792) in paragraph at lines 5--7
-\OT1/ptm/m/n/10 Ein gutes Beispiel fr ein Modell-basierten Ansatz ist
+) (probing.tex) (twinpeaks.tex) (goal.tex [3]
+Underfull \hbox (badness 2401) in paragraph at lines 5--7
+\OT1/ptm/m/n/10 Ein gutes Beispiel f[]ur ein Modell-basierten Ansatz ist
  []
 
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¼ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¼ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¼ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¼ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¶ in font ptmr7t!
 
 Underfull \hbox (badness 10000) in paragraph at lines 8--13
  \OT1/ptm/m/it/10 a) KAOS: [][] \OT1/ptm/m/n/10 Lam-sweerde (Lam-sweerde Ref-er
@@ -798,31 +736,15 @@ Underfull \hbox (badness 2875) in paragraph at lines 8--13
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 8--13
-\OT1/ptm/m/n/10 Soft-goals beschreiben Prferen-zen in-ner-halb von glti-gen
+Underfull \hbox (badness 5050) in paragraph at lines 8--13
+\OT1/ptm/m/n/10 Sys-temver-hal-tensweisen. Diese lassen sich zun[]achst in
  []
 
 
-Underfull \hbox (badness 7888) in paragraph at lines 8--13
-\OT1/ptm/m/n/10 Sys-temver-hal-tensweisen. Diese lassen sich zunchst in
+Underfull \hbox (badness 8094) in paragraph at lines 15--16
+[]\OT1/ptm/m/n/10 Stim-response: Funk-tionale Ziele, die sich damit
  []
 
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¼ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¶ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
 
 Underfull \hbox (badness 1888) in paragraph at lines 17--19
 \OT1/ptm/m/n/10 Mit dem gegebe-nen Ziel die Zusam-me-nar-beit zwis-chen
@@ -834,29 +756,141 @@ Underfull \hbox (badness 2326) in paragraph at lines 17--19
  []
 
 
+Underfull \hbox (badness 1694) in paragraph at lines 17--19
+\OT1/ptm/m/n/10 charak-ter-isiert. Die Eigen-schaften k[]onnen unter an-derem
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 17--19
 
  []
 
 
-Underfull \vbox (badness 1024) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+[]\OT1/ptm/m/n/10 --TODO-- Erzeu-gung Ab-bil-dung Und-Oder-Graph +
+ []
 
-Missing character: There is no Ã in font ptmri7t!
-Missing character: There is no ¤ in font ptmri7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
 Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmri7t!
-Missing character: There is no ¤ in font ptmri7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¶ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+
+Underfull \hbox (badness 3930) in paragraph at lines 28--30
+\OT1/ptm/m/n/10 Anwendungsf[]alle k[]onnen als Ober-be-griff f[]ur Szenar-ien
+ []
+
+
+Underfull \hbox (badness 8189) in paragraph at lines 28--30
+\OT1/ptm/m/n/10 be-tra-chtet wer-den, da ein Szenario sich aus einem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
+\OT1/ptm/m/n/10 An-wen-dungs-fall gener-ieren l[]asst. Dies be-deutet ein
+ []
+
+
+Underfull \hbox (badness 4467) in paragraph at lines 28--30
+\OT1/ptm/m/n/10 An-wen-dungs-fall kann Grund-lage fr eine Vielzahl von
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+[4]
+Underfull \hbox (badness 3895) in paragraph at lines 33--35
+[]\OT1/ptm/m/n/10 Zu den No-ta-tion-se-le-menten eines An-wen-dungs-fall-dia-
+ []
+
+
+Underfull \hbox (badness 1953) in paragraph at lines 36--37
+\OT1/ptm/m/n/10 Sys-tem. Ak-teure, die mit dem Sys-tem in-ter-agieren
+ []
+
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
-))
-(auswertung.tex) (fazit.tex) (ausblick.tex)
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+
+Underfull \hbox (badness 1394) in paragraph at lines 42--44
+ \OT1/ptm/m/it/10 b) Message-Sequence-Charts: [][] \OT1/ptm/m/n/10 Mithilfe von
+ Message-
+ []
+
+
+Underfull \hbox (badness 5592) in paragraph at lines 42--44
+\OT1/ptm/m/n/10 zwis-chen Software-Architekt und Requirements-Engineer
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 42--44
+\OT1/ptm/m/n/10 Message-Sequence-Charts ist, dass diese vor allem die
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
+\OT1/ptm/m/n/10 Grundstzlich werde in einem Message-Sequence-Chart
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+
+Underfull \hbox (badness 2653) in paragraph at lines 52--53
+ \OT1/ptm/m/it/10 4) Kom-bi-na-tion der Ans[]atze: [][] \OT1/ptm/m/n/10 Wenn di
+e wesentlichen
+ []
+
+)) (auswertung.tex) (fazit.tex) (ausblick.tex)
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 474.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -873,23 +907,24 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4] (SeminarArbeitWS1617conf.aux) ) 
+[5] (SeminarArbeitWS1617conf.aux) ) 
 Here is how much of TeX's memory you used:
- 1098 strings out of 493334
- 19892 string characters out of 3142689
- 80824 words of memory out of 3000000
- 4657 multiletter control sequences out of 15000+200000
+ 1100 strings out of 493334
+ 20018 string characters out of 3136672
+ 81824 words of memory out of 3000000
+ 4659 multiletter control sequences out of 15000+200000
  37650 words of font info for 71 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
  26i,7n,19p,1659b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
-{E:/Programme/MikTex/fonts/enc/dvips/fontnam
-e/8r.enc}<E:/Programme/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><E:/Prog
-ramme/MikTex/fonts/type1/urw/times/utmb8a.pfb><E:/Programme/MikTex/fonts/type1/
-urw/times/utmbi8a.pfb><E:/Programme/MikTex/fonts/type1/urw/times/utmr8a.pfb><E:
-/Programme/MikTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on SeminarArbeitWS1617conf.pdf (4 pages, 83646 bytes).
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc
+/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/ut
+mb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on SeminarArbeitWS1617conf.pdf (5 pages, 89451 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
+ 39 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

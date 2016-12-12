@@ -1,24 +1,53 @@
-\subsection{Ziel- und Szenario-basierte Ansätze (FDD)}
+\subsection{Ziel- und Szenario-basierte Ans\"atze (FDD)}
 \subsubsection{Beschreibung}
-In der Anforderungserhebung soll es möglich sein Anforderungen in einer Form zu erheben, die es Software Architekten einfacher macht, den Architekturentwurf zu konzipieren. Um dies zu realisieren bietet sich eine Kombination aus Ziel-basierten Ansätzen und Szenario-basierten Ansätzen an. Die Kombination ist deswegen von Relevanz, weil ein Ansatz allein nicht ausreichen kann um die Anforderungen in angemessener Weise zu erheben.
-\subsubsection{Ziel-basierte Ansätze}
-Ziel-basierte Ansätze zielen vorrangig darauf ab, ein umfassendes Verständnis der Wünsche und Ziele der Stakeholder sowie auf die zu erzielenden Auswirkungen auf die Systemumgebung ab (Silkora Referenz S.18). Dies bedeutet, dass es bei Ziel-basierten Ansätzen vor allem darauf ankommt, zu verstehen, welche Vision der Stakeholder von dem Zukünftigen System hat. Bei der Erfassung dieser Vision ist ein natürlichsprachlicher Ansatz fehlerbehaftet, da hier sehr aufwändige manuelle Konsistenzprüfungen notwendig wären. Deswegen bieten sich hier vor allem Modell-basierte Ansätze an.\\
-Ein gutes Beispiel für ein Modell-basierten Ansatz ist der KAOS-Ansatz. Dieser Ansatz bietet den Vorteil, dass er mit wenigen präzise formulierten Modellierungsobjekten auskommt. Dies ist deswegen ein Vorteil, weil so kein besonders tief reichendes Fachwissen notwendig ist um das Modell zu interpretieren. Ferner ist der Ansatz für die Konzeption softwareintensiver eingebetteter Systeme geeignet, was eine verzahnte Entwicklung von Anforderungen und Architektur über mehrere Abstraktionsstufen hinweg ermöglicht (Silkora Referenz S.31).
+In der Anforderungserhebung soll es m\"oglich sein Anforderungen in einer Form zu erheben, die es Software Architekten einfacher macht, den Architekturentwurf zu konzipieren. Um dies zu realisieren bietet sich eine Kombination aus Ziel-basierten Ans\"atzen und Szenario-basierten Ans\"atzen an. Die Kombination ist deswegen von Relevanz, weil ein Ansatz allein nicht ausreichen kann um die Anforderungen in angemessener Weise zu erheben.
+\subsubsection{Ziel-basierte Ans\"atze}
+Ziel-basierte Ans\"atze zielen vorrangig darauf ab, ein umfassendes Verst\"andnis der W\"unsche und Ziele der Stakeholder sowie auf die zu erzielenden Auswirkungen auf die Systemumgebung ab (Silkora Referenz S.18). Dies bedeutet, dass es bei Ziel-basierten Ans\"atzen vor allem darauf ankommt, zu verstehen, welche Vision der Stakeholder von dem Zuk\"unftigen System hat. Bei der Erfassung dieser Vision ist ein nat\"urlichsprachlicher Ansatz fehlerbehaftet, da hier sehr aufw\"andige manuelle Konsistenzpr\"ufungen notwendig w\"aren. Deswegen bieten sich hier vor allem Modell-basierte Ans\"atze an.\\
+Ein gutes Beispiel f\"ur ein Modell-basierten Ansatz ist der KAOS-Ansatz. Dieser Ansatz bietet den Vorteil, dass er mit wenigen pr\"azise formulierten Modellierungsobjekten auskommt. Dies ist deswegen ein Vorteil, weil so kein besonders tief reichendes Fachwissen notwendig ist um das Modell zu interpretieren. Ferner ist der Ansatz f\"ur die Konzeption softwareintensiver eingebetteter Systeme geeignet, was eine verzahnte Entwicklung von Anforderungen und Architektur \"uber mehrere Abstraktionsstufen hinweg erm\"oglicht (Silkora Referenz S.31).
 \paragraph{KAOS}
-Lamsweerde (Lamsweerde Referenz) beschreibt eine modellbasierten Ansatz zur Darstellung von Zielen und den Referenzen innerhalb von Zielen. Hierfür muss zunächst eine genauere Betrachtung der Zieldefinition vorgenommen werden. So sind in dem Kontext der KAOS-Methode Ziele in Bahavioral-Goals und Soft-Goals zu unterteilen. \\
-Behavioral-Goals beschreiben eine deklarative Sicht auf Ziele, die beschreibt, wie ein System sich zu verhalten hat. Dies bedeutet, dass in diesem Fall besonders das Verhalten von Systemen im Fokus steht. Gültig ist eine endliche Menge von Verhaltensweisen des Systems. \\
-Grundsätzlich lassen sich Bahavioral-Goals in zwei Kategorien aufteilen, die Achive-Goals und die Maintain/Avoid-Goals. Die Achive-Goals beschreiben Systemverhalten, bei dem es darauf ankommt, dass ein System zu einem definierten Zeitpunkt einen definierten Zustand erreicht. Maintain/Avoid-Goals beschreiben Systemverhalten, bei dem es darauf ankommt, dass ein System über einen definierten Zeitraum hinweg einen definierten Zustand aufrechterhält, oder einen definierten Zustand vermeidet.\\
-Soft-goals beschreiben Präferenzen innerhalb von gültigen Systemverhaltensweisen. Diese lassen sich zunächst in funktionale Ziele und nicht funktionale Ziele aufteilen. Die funktionalen Ziele können die folgenden Kategorien haben:
+Lamsweerde (Lamsweerde Referenz) beschreibt eine modellbasierten Ansatz zur Darstellung von Zielen und den Referenzen innerhalb von Zielen. Hierf\"ur muss zun\"achst eine genauere Betrachtung der Zieldefinition vorgenommen werden. So sind in dem Kontext der KAOS-Methode Ziele in Bahavioral-Goals und Soft-Goals zu unterteilen. \\
+Behavioral-Goals beschreiben eine deklarative Sicht auf Ziele, die beschreibt, wie ein System sich zu verhalten hat. Dies bedeutet, dass in diesem Fall besonders das Verhalten von Systemen im Fokus steht. G\"ultig ist eine endliche Menge von Verhaltensweisen des Systems. \\
+Grunds\"atzlich lassen sich Bahavioral-Goals in zwei Kategorien aufteilen, die Achive-Goals und die Maintain/Avoid-Goals. Die Achive-Goals beschreiben Systemverhalten, bei dem es darauf ankommt, dass ein System zu einem definierten Zeitpunkt einen definierten Zustand erreicht. Maintain/Avoid-Goals beschreiben Systemverhalten, bei dem es darauf ankommt, dass ein System \"uber einen definierten Zeitraum hinweg einen definierten Zustand aufrechterh\"alt, oder einen definierten Zustand vermeidet.\\
+Soft-goals beschreiben Pr\"aferenzen innerhalb von g\"ultigen Systemverhaltensweisen. Diese lassen sich zun\"achst in funktionale Ziele und nicht funktionale Ziele aufteilen. Die funktionalen Ziele k\"onnen die folgenden Kategorien haben:
 \begin{itemize}
-\item Satisfaction: Funtionale Ziele, die sich damit beschäftigen User-Anfragen zu beantworten.
-\item Information: Funtionale Ziele, die damit beschäftigt sind User über wichtige Systemzustände zu informieren.
-\item Stim-response: Funktionale Ziele, die sich damit beschäftigen auf Events eine angemessene Reaktion zu erzeugen.
+\item Satisfaction: Funtionale Ziele, die sich damit besch\"aftigen User-Anfragen zu beantworten.
+\item Information: Funtionale Ziele, die damit besch\"aftigt sind User \"uber wichtige Systemzust\"ande zu informieren.
+\item Stim-response: Funktionale Ziele, die sich damit besch\"aftigen auf Events eine angemessene Reaktion zu erzeugen.
 \end{itemize}
 Mit dem gegebenen Ziel die Zusammenarbeit zwischen Requirements Engineer und Software Architekt zu optimieren sind vor allem die funktionalen Ziele der Soft-Goals und die Behavioral-Goals von Relevanz.\\
-der KAOS Ansatz, der die zuvor beschriebenen Zielarten als Grundlage nutzt, verwendet zur Modellierung Und-/Oder-Graphen, die in diesem Kontext Zieldiagramm genannt werden. Jedes im Graphen modellierte Ziel wird zunächst durch eine Reihe von Eigenschaften charakterisiert. Diese können unter anderem Name, Definition, Quelle, Zielkategorie und Priorität sein.\\
+der KAOS Ansatz, der die zuvor beschriebenen Zielarten als Grundlage nutzt, verwendet zur Modellierung Und-/Oder-Graphen, die in diesem Kontext Zieldiagramm genannt werden. Jedes im Graphen modellierte Ziel wird zun\"achst durch eine Reihe von Eigenschaften in einer Zielschablone charakterisiert. Die Eigenschaften k\"onnen unter anderem Name, Definition, Quelle, Zielkategorie und Priorit\"at sein.\\
 
-\subsubsection{Szenario-basierte Ansätze}
-Szenario-basierte Ansätze zielen vorrangig darauf ab, die wesentlichen geforderten Interaktionen des Systems mit dessen Umgebung zu definieren und mit den Stakeholdern abzustimmen (Silkora Referenz S.18).
-\subsubsection{Kombination der Ansätze}
-Wenn die wesentlichen Ziele der Stakeholder bekannt sind, besteht die Möglichkeit, diejenige Architekturalternative auszuwählen, mit der die Ziele am besten erfüllt werden können (Silkora Referenz S.18).
+--TODO-- Erzeugung Abbildung Und-Oder-Graph + Beschreibung der Elemente\\
+
+Das Problem von Ziel-basierten Ans\"atzen wie dem KAOS Ansatz ist, dass eine Software Architektur allein basierend auf den Zielen wichtige Aspekte vernachl\"assigt. So zum Beispiel welche Rolle diese Ziele erreichen soll und gegebenenfalls wie die dieses Ziel umzusetzen ist. Daher ist es notwendig Szenario-basierte Ans\"atze zu betrachten.
+
+\subsubsection{Szenario-basierte Ans\"atze}
+Szenario-basierte Ans\"atze zielen vorrangig darauf ab, die wesentlichen geforderten Interaktionen des Systems mit dessen Umgebung zu definieren und mit den Stakeholdern abzustimmen (Silkora Referenz S.18).\\
+Um die optimale Zusammenarbeit zu st\"utzen ist es notwendig, die Szenarien in einer Kombination aus Anwendungsfalldiagrammen und Message Sequence Charts graphisch zu modellieren. Dadurch, kann der Zusammenhang zwischen Szenarien aufgezeigt werden und wichtige Aspekte, die von Bedeutung f\"ur den Design der Softwarearchitektur sind, ber\"ucksichtigt werden. Es ist mit diesem Vorgehen m\"oglich Szenarien zu komplexeren Szenarien zusammenzusetzen und des weiteren Iterationen und alternative Szenarienverl\"aufe abzubilden (Silkora Referenz S.33). Bei der Betrachtung von Szenarien ist es jedoch auch hier notwendig, diese zun\"achst in Schablonen zu dokumentieren, um eine pr\"azise Beschreibung zu haben. In einer Schablone soll unter anderem festgehalten werden, welche prim\"aren und sekund\"aren Akteure gegeben sind. Ferner sollen eine Kurzbeschreibung und mit dem Szenario verkn\"upfte Ziele gegeben sein, um klar hervorzuheben, in welchem Kontext das Szenario zu sehen ist.  
+\paragraph{Anwendungsfalldiagramm}
+Das Anwendungsfalldiagramm zeigt eine \"Ubersicht \"uber die Anwendungsf\"alle eines Systems oder einer Systemkomponente. Es stellt zudem die Akteure des Systems (der Komponente) und deren Beteiligung an den Anwendungsf\"allen grafisch dar (Silkora Zitat S.34). \\
+Anwendungsf\"alle k\"onnen als Oberbegriff f\"ur Szenarien betrachtet werden, da ein Szenario sich aus einem Anwendungsfall generieren l\"asst. Dies bedeutet ein Anwendungsfall kann Grundlage für eine Vielzahl von Szenarien sein. \\
+
+--TODO-- Anwendungsfalldiagramm beispielabbildung mit Notationselementen\\
+
+Zu den Notationselementen eines Anwendungsfalldiagramms z\"ahlen:
+\begin{itemize}
+\item Akteur: Als Akteur l\"asst sich eine Person oder Entit\"at bezeichnen, die mit dem zu konzipierenden System in Beziehung steht. Diese k\"onnen zum Beispiel Nutzer sein, die \"uber eine Eingabemaske Daten eintragen sollen.
+\item Systemgrenze: Systemgrenzen umschlie\ss{}en das geplante System. Akteure, die mit dem System interagieren befinden sich au\ss{}erhalb der Systemgrenze, w\"ahrend die dem System zugeordneten Anwendungsf\"alle sich innerhalb der Systemgrenze befinden.
+\item Anwendungsfall: Ein Anwendungsfall beschreibt eine Funktionalit\"at des geplanten Systems. In Kombination mit dem Akteur, der in Relation zu einem Anwendungsfall steht, wird dargestellt, was das System machen soll.
+\item Erweiterung eines Anwendungsfalls: Ein Anwendungsfall kann mittels Include- oder Extend-Beziehung erweitert werden. Dies soll es erm\"oglichen komplexere Anwendungsf\"alle abzubilden und gleichzeitig die Anzahl der Redundanzen m\"oglichst gering halten. Eine Include-Beziehung bedeutet hierbei, dass ein Anwendungsfall einen weiteren Anwendungsfall beinhaltet. Die Extend-Beziehung bedeutet, dass es zu einem Anwendungsfall eine Erweiterung unter einer Bedingung gibt. Die Bedingung gibt an welche Konditionen erfüllt sein müssen dass die Erweiterung greift.
+\end{itemize}
+Anwendungsfalldiagramme stellen Akteure und Anwendungsfälle dar. Dadurch wird veranschaulicht welche Akteure mit welchen Anwendungsfällen in Beziehung stehen und ob es wichtige Beziehungen zwischen verschiedenen Anwendungsfällen gibt. Grundsätzlich ist es möglich Anwendungsfalldiagramme auf verschiedenen Abstraktionsstufen abzubilden um so sowohl für das Gesamtsystem, als auch für die Teilsysteme die Beziehungen zu betrachten. Um jedoch Szenarien präzise zu spezifizieren reichen Anwendungsfalldiagramme nicht aus.
+\paragraph{Message-Sequence-Charts}
+Mithilfe von Message-Sequence-Charts ist es möglich eine präzise Spezifikation der verschiedenen Szenarien eines Anwendungsfalls zu generieren (Silkora Zitat S.37). Bei der Betrachtung der Zusammenarbeit zwischen Software-Architekt und Requirements-Engineer ist zunächst nur eine Teilmenge der Notationselemente der Message-Sequence-Charts relevant. Wichtigster Aspekt der Message-Sequence-Charts ist, dass diese vor allem die Akteure und ihre Interaktionen mit dem System hervorheben.\\
+Grundsätzlich werde in einem Message-Sequence-Chart Nachrichten und Instanzen abgebildet. Eine Instanz kann hierbei z.B. ein System oder ein Akteur sein. Als Nachricht wird im Kontext der Message-Sequence-Charts der Austausch einer Information bezeichnet. Dies können z.B. Signale oder Daten sein, die zwischen den Instanzen versendet werden (Silkora Referenz S.38). \\
+
+--TODO-- Abbildung zu MSC und Beschreibung\\
+
+Neben den einfachen Message-Sequence-Charts gibt es High-Level-Message-Sequence-Charts, die es ermöglichen eine Komposition mehrerer Message-Sequence-Charts zu bilden und so komplexere Zusammenhänge darzustellen. 
+-> Zeitliche Abfolge möglich
+-> komposition von msc
+-> etc.
+\subsubsection{Kombination der Ans\"atze}
+Wenn die wesentlichen Ziele der Stakeholder bekannt sind, besteht die M\"oglichkeit, diejenige Architekturalternative auszuw\"ahlen, mit der die Ziele am besten erf\"ullt werden k\"onnen (Silkora Referenz S.18).
 \subsubsection{Bewertung}
