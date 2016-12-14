@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.8)  12 DEC 2016 13:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.8)  14 DEC 2016 18:02
 entering extended mode
 **./SeminarArbeitWS1617conf.tex
 (SeminarArbeitWS1617conf.tex
@@ -700,120 +700,266 @@ Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 
-Underfull \hbox (badness 2111) in paragraph at lines 23--24
+Underfull \hbox (badness 2111) in paragraph at lines 24--25
 \OT1/ptm/m/n/10 sichergestellt wer-den, dass die berge-ord-nete Ziel-stel-lung
  []
 
 
-Underfull \hbox (badness 5022) in paragraph at lines 23--24
+Underfull \hbox (badness 5022) in paragraph at lines 24--25
 \OT1/ptm/m/n/10 fr die da-rauf-fol-gen-den Design-Aktivitten fest-gelegt ist.
  []
 
-) (probing.tex) (twinpeaks.tex) (goal.tex [3]
-Underfull \hbox (badness 2401) in paragraph at lines 5--7
-\OT1/ptm/m/n/10 Ein gutes Beispiel f[]ur ein Modell-basierten Ansatz ist
+) (probing.tex) (twinpeaks.tex) (goal.tex
+Underfull \hbox (badness 2753) in paragraph at lines 3--4
+\OT1/ptm/m/n/10 Kom-bi-na-tion aus Ziel-basierten Ans[]atzen und Szenario-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--13
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+[3]
+Underfull \hbox (badness 4168) in paragraph at lines 6--7
+ \OT1/ptm/m/it/10 2) Ziel-basierte Ans[]atze: [][] \OT1/ptm/m/n/10 Ziel-basiert
+e Ans[]atze zie-len
+ []
+
+
+Underfull \hbox (badness 4569) in paragraph at lines 6--7
+\OT1/ptm/m/n/10 vor-rangig da-rauf ab, ein um-fassendes Verst[]andnis der
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 6--7
+\OT1/ptm/m/n/10 W[]unsche und Ziele der Stake-holder sowie auf die zu
+ []
+
+
+Underfull \hbox (badness 3118) in paragraph at lines 6--7
+\OT1/ptm/m/n/10 erzie-len-den Auswirkun-gen auf die Sys-te-mumge-bung ab
+ []
+
+
+Underfull \hbox (badness 5726) in paragraph at lines 6--7
+\OT1/ptm/m/n/10 welche Vi-sion der Stake-holder von dem Zuk[]unftigen
+ []
+
+
+Underfull \hbox (badness 4181) in paragraph at lines 6--7
+\OT1/ptm/m/n/10 Sys-tem hat. Bei der Er-fas-sung dieser Vi-sion ist ein
+ []
+
+
+Underfull \hbox (badness 2744) in paragraph at lines 6--7
+\OT1/ptm/m/n/10 nat[]urlichsprachlicher Ansatz fehler-be-haftet, da hier sehr
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 1881) in paragraph at lines 8--9
+\OT1/ptm/m/n/10 beson-ders tief re-ichen-des Fach-wis-sen notwendig ist um
+ []
+
+
+Underfull \hbox (badness 4013) in paragraph at lines 8--9
+\OT1/ptm/m/n/10 die Konzep-tion soft-warein-ten-siver einge-bet-teter Sys-teme
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 8--9
+\OT1/ptm/m/n/10 und Ar-chitek-tur []uber mehrere Ab-strak-tion-sstufen hin-weg
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
  \OT1/ptm/m/it/10 a) KAOS: [][] \OT1/ptm/m/n/10 Lam-sweerde (Lam-sweerde Ref-er
 enz)
  []
 
 
-Underfull \hbox (badness 3343) in paragraph at lines 8--13
+Underfull \hbox (badness 3343) in paragraph at lines 11--12
 \OT1/ptm/m/n/10 Methode Ziele in Bahavioral-Goals und Soft-Goals zu
  []
 
 
-Underfull \hbox (badness 1552) in paragraph at lines 8--13
-\OT1/ptm/m/n/10 Die Achive-Goals beschreiben Sys-temver-hal-ten, bei dem
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
  []
 
 
-Underfull \hbox (badness 2875) in paragraph at lines 8--13
-\OT1/ptm/m/n/10 Goals beschreiben Sys-temver-hal-ten, bei dem es da-rauf
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
  []
 
 
-Underfull \hbox (badness 5050) in paragraph at lines 8--13
-\OT1/ptm/m/n/10 Sys-temver-hal-tensweisen. Diese lassen sich zun[]achst in
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+[]\OT1/ptm/m/n/10 Grunds[]atzlich lassen sich Bahavioral-Goals in
  []
 
 
-Underfull \hbox (badness 8094) in paragraph at lines 15--16
+Underfull \hbox (badness 6268) in paragraph at lines 15--16
+\OT1/ptm/m/n/10 zwei Kat-e-gorien aufteilen, die Achive-Goals und die
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+\OT1/ptm/m/n/10 Maintain/Avoid-Goals. Die Achive-Goals beschreiben
+ []
+
+
+Underfull \hbox (badness 5847) in paragraph at lines 15--16
+\OT1/ptm/m/n/10 definierten Zeitraum hin-weg einen definierten Zu-s-tand
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 8094) in paragraph at lines 21--22
 []\OT1/ptm/m/n/10 Stim-response: Funk-tionale Ziele, die sich damit
  []
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 17--19
+Underfull \hbox (badness 1888) in paragraph at lines 23--24
 \OT1/ptm/m/n/10 Mit dem gegebe-nen Ziel die Zusam-me-nar-beit zwis-chen
  []
 
 
-Underfull \hbox (badness 2326) in paragraph at lines 17--19
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 25--26
 \OT1/ptm/m/n/10 Graphen, die in diesem Kon-text Ziel-dia-gramm genannt
  []
 
 
-Underfull \hbox (badness 1694) in paragraph at lines 17--19
+Underfull \hbox (badness 1694) in paragraph at lines 25--26
 \OT1/ptm/m/n/10 charak-ter-isiert. Die Eigen-schaften k[]onnen unter an-derem
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--19
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
 []\OT1/ptm/m/n/10 --TODO-- Erzeu-gung Ab-bil-dung Und-Oder-Graph +
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+
+Underfull \hbox (badness 7116) in paragraph at lines 32--33
+\OT1/ptm/m/n/10 In-ter-ak-tio-nen des Sys-tems mit dessen Umge-bung zu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+
+Underfull \hbox (badness 2961) in paragraph at lines 34--35
+[]\OT1/ptm/m/n/10 Um die op-ti-male Zusam-me-nar-beit zu st[]utzen ist es
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+\OT1/ptm/m/n/10 notwendig, die Szenar-ien in einer Kom-bi-na-tion aus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+\OT1/ptm/m/n/10 An-wen-dungs-fall-dia-gram-men und Mes-sage Se-quence
+ []
+
+
+Underfull \hbox (badness 7030) in paragraph at lines 34--35
+\OT1/ptm/m/n/10 Charts graphisch zu mod-el-lieren. Dadurch, kann der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+\OT1/ptm/m/n/10 Zusam-men-hang zwis-chen Szenar-ien aufgezeigt wer-den
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+\OT1/ptm/m/n/10 und al-ter-na-tive Szenar-ien-verl[]aufe abzu-bilden (Silkora
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 34--35
+\OT1/ptm/m/n/10 welche prim[]aren und sekund[]aren Ak-teure gegeben sind.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 
-Underfull \hbox (badness 3930) in paragraph at lines 28--30
-\OT1/ptm/m/n/10 Anwendungsf[]alle k[]onnen als Ober-be-griff f[]ur Szenar-ien
- []
-
-
-Underfull \hbox (badness 8189) in paragraph at lines 28--30
+Underfull \hbox (badness 8189) in paragraph at lines 39--40
 \OT1/ptm/m/n/10 be-tra-chtet wer-den, da ein Szenario sich aus einem
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
 \OT1/ptm/m/n/10 An-wen-dungs-fall gener-ieren l[]asst. Dies be-deutet ein
  []
 
 
-Underfull \hbox (badness 4467) in paragraph at lines 28--30
+Underfull \hbox (badness 4467) in paragraph at lines 39--40
 \OT1/ptm/m/n/10 An-wen-dungs-fall kann Grund-lage fr eine Vielzahl von
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
-[4]
-Underfull \hbox (badness 3895) in paragraph at lines 33--35
+
+Underfull \hbox (badness 3895) in paragraph at lines 43--45
 []\OT1/ptm/m/n/10 Zu den No-ta-tion-se-le-menten eines An-wen-dungs-fall-dia-
  []
 
 
-Underfull \hbox (badness 1953) in paragraph at lines 36--37
+Underfull \hbox (badness 1953) in paragraph at lines 46--47
 \OT1/ptm/m/n/10 Sys-tem. Ak-teure, die mit dem Sys-tem in-ter-agieren
  []
 
@@ -837,44 +983,84 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¶ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¶ in font ptmr7t!
 
-Underfull \hbox (badness 1394) in paragraph at lines 42--44
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+\OT1/ptm/m/n/10 Anwendungsfalldiagramme stellen Ak-teure und
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+\OT1/ptm/m/n/10 Ak-teure mit welchen An-wen-dungs-fllen in Beziehung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+\OT1/ptm/m/n/10 ste-hen und ob es wichtige Beziehun-gen zwis-chen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+\OT1/ptm/m/n/10 ver-schiede-nen An-wen-dungs-fllen gibt. Grund-st-zlich ist
+ []
+
+
+Underfull \hbox (badness 4328) in paragraph at lines 50--51
+\OT1/ptm/m/n/10 es mglich An-wen-dungs-fall-dia-gramme auf ver-schiede-nen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+\OT1/ptm/m/n/10 Ab-strak-tion-sstufen abzu-bilden um so sowohl fr das
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+
+Underfull \hbox (badness 1394) in paragraph at lines 53--54
  \OT1/ptm/m/it/10 b) Message-Sequence-Charts: [][] \OT1/ptm/m/n/10 Mithilfe von
  Message-
  []
 
 
-Underfull \hbox (badness 5592) in paragraph at lines 42--44
+Underfull \hbox (badness 5592) in paragraph at lines 53--54
 \OT1/ptm/m/n/10 zwis-chen Software-Architekt und Requirements-Engineer
  []
 
 
-Underfull \hbox (badness 2884) in paragraph at lines 42--44
+Underfull \hbox (badness 2884) in paragraph at lines 53--54
 \OT1/ptm/m/n/10 Message-Sequence-Charts ist, dass diese vor allem die
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--44
-\OT1/ptm/m/n/10 Grundstzlich werde in einem Message-Sequence-Chart
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--44
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
+Underfull \hbox (badness 2478) in paragraph at lines 55--56
+[]\OT1/ptm/m/n/10 Grundstzlich werde in einem Message-Sequence-Chart
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
 
@@ -887,47 +1073,187 @@ Missing character: There is no ¤ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¤ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
 \OT1/ptm/m/n/10 High-Level-Message-Sequence-Charts (HLMSC), die es
  []
 
 
-Underfull \hbox (badness 6316) in paragraph at lines 47--48
+Underfull \hbox (badness 6316) in paragraph at lines 59--60
 \OT1/ptm/m/n/10 Charts zu bilden und so kom-plexere Zusam-menhnge
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
 \OT1/ptm/m/n/10 di-enen hi-er-bei der Be-gren-zung des An-wen-dungs-falls.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
 \OT1/ptm/m/n/10 Die Ver-weisknoten sind als Ver-weise zu ein-fachen
  []
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 47--48
+Underfull \hbox (badness 2189) in paragraph at lines 59--60
 \OT1/ptm/m/n/10 und mithilfe von gerichteten Kan-ten lsst sich It-er-a-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
 
-Underfull \hbox (badness 2653) in paragraph at lines 54--55
+Underfull \hbox (badness 2653) in paragraph at lines 66--67
  \OT1/ptm/m/it/10 4) Kom-bi-na-tion der Ans[]atze: [][] \OT1/ptm/m/n/10 Wenn di
 e wesentlichen
  []
 
-)) (auswertung.tex) (fazit.tex) (ausblick.tex)
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+
+Underfull \hbox (badness 5431) in paragraph at lines 68--69
+\OT1/ptm/m/n/10 Anstze sind alle-in-ste-hend nicht aus-re-ichend, um eine
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+[5]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+
+Underfull \hbox (badness 5189) in paragraph at lines 82--83
+[]\OT1/ptm/m/n/10 Im Rah-men der Er-stel-lung der Software-Architektur
+ []
+
+
+Underfull \hbox (badness 4673) in paragraph at lines 82--83
+\OT1/ptm/m/n/10 die System-Architektur als auch Ziele, Szenar-ien und
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+
+Underfull \hbox (badness 5077) in paragraph at lines 87--88
+\OT1/ptm/m/n/10 wird deut-lich, dass diese allein nicht aus-re-ichen um
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+\OT1/ptm/m/n/10 weitre-ichende Ar-chitek-turentschei-dun-gen zu tr-e-f-fen.
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 87--88
+\OT1/ptm/m/n/10 Haupt-prob-lem ist hier, dass mithilfe der Ziele lediglich
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+
+Underfull \hbox (badness 2443) in paragraph at lines 89--90
+\OT1/ptm/m/n/10 alle-in-ste-hende Szenar-ien ohne Zusam-men-hang am Ende
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+)) (auswertung.tex
+Underfull \hbox (badness 6825) in paragraph at lines 91--1
+[]\OT1/ptm/m/n/10 Gemeinsame Anstze wie der COSMOD-RE Ansatz
+ []
+
+) (fazit.tex) (ausblick.tex)
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 474.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -944,7 +1270,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[5] (SeminarArbeitWS1617conf.aux) ) 
+[6] (SeminarArbeitWS1617conf.aux) ) 
 Here is how much of TeX's memory you used:
  1100 strings out of 493334
  20018 string characters out of 3136672
@@ -959,9 +1285,9 @@ sfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/ut
 mb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on SeminarArbeitWS1617conf.pdf (5 pages, 89699 bytes).
+Output written on SeminarArbeitWS1617conf.pdf (6 pages, 93316 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
+ 42 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
