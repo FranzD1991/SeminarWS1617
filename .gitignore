@@ -57,3 +57,8 @@ IEEEtran/SeminarArbeitWS1617conf.pdf
 *.log
 *.aux
 *.pdf
+*.gz
+IEEEtran/SeminarArbeitWS1617conf.pdf
+*.log
+IEEEtran/SeminarArbeitWS1617conf.aux
+*.log
