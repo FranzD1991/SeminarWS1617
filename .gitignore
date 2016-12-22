@@ -54,3 +54,6 @@ Temporary Items
 *.log
 IEEEtran/SeminarArbeitWS1617conf.pdf
 *.pdf
+*.log
+*.aux
+*.pdf
