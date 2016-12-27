@@ -1,5 +1,6 @@
 \subsection{sCenario and gOal based SysteM develOpment methoD (COSMOD) (FDD)}\label{scgo}
-COSMOD-Requirements Engineering (COSMOD-RE) beschreibt ein iteratives Vorgehen zum gleichzeitigen Design von Anforderungen und Software-Architektur. Kerngedanke bei COSMOD-RE ist eine Aufteilung in vier Hierarchiestufen, wo sowohl Architektur als auch Anforderungen definiert werden. In diesen vier Hierarchiestufen wird einerseits aus der Anforderungssicht und andererseits aus der Architektursicht betrachtet, welche Anforderungen und Komponenten dem System zuzuordnen sind.
+COSMOD-Requirements Engineering (COSMOD-RE) beschreibt ein iteratives Vorgehen zum gleichzeitigen Design von Anforderungen und Software-Architektur. Kerngedanke bei COSMOD-RE ist eine Aufteilung in vier Hierarchiestufen, wo sowohl Architektur als auch Anforderungen definiert werden. In diesen vier Hierarchiestufen wird einerseits aus der Anforderungssicht und andererseits aus der Architektursicht betrachtet, welche Anforderungen und Komponenten dem System zuzuordnen sind.\\
+
 \subsubsection{Ziele der Methode}
 Kernziel von COSMOD-RE ist es die Entwicklung von Anforderungs- und Architekturartefakten für softwareintensive eingebettete Systeme zu unterstützen. Ein Ziel- und Szenario-basierter Ansatz wie COSMOD-RE, der das Co-Design von Architekturartefakten und Anforderungen ermöglicht muss jedoch einige Anforderungen erfüllen um einen Nutzen zu haben. Die Anforderungen an eine solchen Methodik sind \cite{pohl}\\
  
@@ -12,6 +13,14 @@ Werden Anforderungen und Architekturartefakte parallel entwickelt kann es passie
 Ohne technisches Wissen fällt es Stakeholdern schwer notwendige Details für die Erhebung architekturrelevanter Anforderungen zu liefern. Daher sollte es COSMOD-RE ermöglichen die detaillierten Anforderungen erst nach der initialen Definition von Architekturartefakten zu liefern \cite{pohl}. 
 \item Nutzung einer Abstraktionshierarchie \\
 Da bei einem Co-Design Vorgehen eine große Komplexität bestehen kann ist es notwendig eine Abstraktionshierarchie einzuführen um diese entsprechend zu behandeln \cite{pohl}.\\
+\end{itemize}
+
+Ferner basieren die in der Methode genutzten Prozesse auf folgenden Ideen: \cite{Pohl} \\
+
+\begin{itemize}
+\item Initiale Unterteilung in die Architektursicht und die Systemnutzungs-Sicht
+\item Szenario- und Ziel-basierte Integration der Sichtweisen
+\item Definition von Systemanforderungen basierend auf einer festgelegten Systemnutzungs- und Architektur-Sicht \\
 \end{itemize}
 
 \subsubsection{Funktionsweise der Methode}
@@ -27,6 +36,8 @@ Es gibt keine Richtlinien bezüglich der Definition der Abstraktionshierarchie. 
 Da im Rahmen von COSMOD-RE Anforderungsartefakte und Architekturartefakte parallel entwickelt werden ist es notwendig diese miteinander zu verknüpfen um sie in den Kontext des Ziels der Software zu bringen. Für diese Verknüpfung ist die Anwendung von Methodenfragmenten notwendig \cite{sikora}.
 \item Definition von Konsistenzbedingungen \\
 Für die Definition von Konsistenzbedingungen gibt es keinen allgemeingültigen Ansatz. Daher ist es notwendig in jedem Projekt neu zu definieren, ob Konsistenz gegeben ist oder nicht \cite{sikora}.\\
+\item Definition der System-Vision. \\
+Es muss eine System-Vision vorhanden sein um COSMOD-RE einsetzen zu können, da die Methode diese zu Anforderungen verfeinert \cite{pohl}.\\
 \end{itemize}
 
 Sind diese Randbedingungen geklärt ist es möglich COSMOD-RE anzuwenden.\\
@@ -35,7 +46,43 @@ Sind diese Randbedingungen geklärt ist es möglich COSMOD-RE anzuwenden.\\
 Als Eingabe benötigt COSMOD-RE eine System-Vision. Dies bedeutet in initialen Gesprächen mit Stakeholdern muss bereits festgehalten sein, welche Vision von dem zu konzipierenden System gegeben ist.\\
 
 \paragraph{Vorgehensmodell}
----TODO--- Vorgehensmodell beschreiben
+Das grundsätzliche Vorgehen von COSMOD-RE ist, dass eine Systemvision unter der Verwendung von Szenarien und Zielen zu einer Menge von Systemartefakten verfeinert wird \cite{Pohl}. Hierfür nutzt die Methode fünf Subprozesse. \\
+
+In Abbildung \ref{fig:pro5} nach \cite{pohl} sind diese zu sehen. 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.65]{COSMODRE5prozesse.jpg} 
+	\caption{Die fünf Subprozesse der COSMOD-RE Methode}\label{fig:pro5}
+\end{figure}
+
+Im Rahmen der fünf Subprozesse werden folgende Artefakte generiert:\\
+
+\begin{itemize}
+\item Kontextmodell:\\
+Das Kontextmodell dokumentiert die beabsichtigte Einbettung des Systems in seine Systemumgebung. Es werden externe Akteure definiert, die mit dem System interagieren. Ein Akteur kann hierbei ein Mensch oder ein System sein. Ferner wird modelliert, wie Akteure mit dem System interagieren.
+\item Systemnutzungs-Ziele:\\
+
+\item Systeminteraktions-Szenarien:
+\item Architektur-Szenarien:
+\item Grobe System-Architektur:
+\item Systemanforderungen:
+\end{itemize}
+
+\paragraph{Entwicklung der Systemnutzungs-Sicht}
+text\\
+
+\paragraph{Entwicklung der Architektursicht}
+text\\
+
+\paragraph{Vergleich zwischen Systemnutzungs-Sicht und Architektursicht}
+text\\
+
+\paragraph{Entwicklung der Systemanforderungen}
+text\\
+
+---TODO--- Vorgehensmodell beschreiben\\
+
 \begin{itemize}
 \item[1] System: Die Systemebene beschreibt die oberste Ebene, bei der in der Anforderungssicht das System als ganzes betrachtet wird. Im Fokus stehen dabei die Interaktionen mit dem System. Weiter werden funktionale Anforderungen und Qualitätsanforderungen erstellt, die sich auf das Gesamtsystem beziehen. Die Architektursicht konzentriert sich hier auf die Definition von externen Systemschnittstellen. Hier definierte Artefakte sollen primär die Kommunikation mit Stakeholdern unterstützen.
 \item[2] Komponenten: Die Komponentenebene bezeichnet die Aufteilung des Systems in einzelne Komponenten aus denen sich dieses zusammensetzen soll. Für jede Komponente werden funktionale Anforderungen und Qualitätsanforderungen formuliert. Da in dieser Ebene die Basis für die Systemarchtitektur gelegt wird, hat die Kommunikation zwischen dem Software-Architekten und dem Requirements Engineer von besonderer Bedeutung. 
@@ -47,7 +94,11 @@ Da die Zusammenarbeit zwischen Software-Architekt und Requirements Engineer vor 
 Im Rahmen der Erstellung der Software-Architektur und der Anforderungen gibt es drei Co-Design Prozesse die sich wiederum in fünf Sub-Prozesse unterteilen lassen. Bei Ausführung der Prozesse werden als Artefakte sowohl die System-Architektur als auch Ziele, Szenarien und Anforderungen erzeugt. \\
 
 \paragraph{Ausgabe}
+Ausgabe der Methode ist eine kompakte Menge von System-Nutzung-Zielen, System-Interaktions-Szenarien und grobe Architekturartefakte. Ferner wird eine detaillierte System-Anforderungsspezifikation generiert.\\
 
+
+\subsection{Alter Teil}
+Bla\\
 
 \subsubsection{Beschreibung}
 In der Anforderungserhebung soll es m\"oglich sein Anforderungen in einer Form zu erheben, die es Software Architekten einfacher macht, den Architekturentwurf zu konzipieren. Um dies zu realisieren bietet sich eine Kombination aus Ziel-basierten Ans\"atzen und Szenario-basierten Ans\"atzen an. Die Kombination ist deswegen von Relevanz, weil ein Ansatz allein nicht ausreichen kann um die Anforderungen in angemessener Weise zu erheben.\\
