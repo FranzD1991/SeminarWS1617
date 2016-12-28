@@ -9,46 +9,76 @@ Eine Eigenschaft, die bei ADD besonders hervorsticht ist, dass es innerhalb der 
 \subsubsection{Funktionsweise der Methode}
 Insgesamt umfasst ADD sieben Schritte die innerhalb einer Design-Round auszuführen sind.\\
 
+In der Abbildung \ref{add3} ist schematisch dargestellt wie eine Design-Round aufgebaut ist und welche Schritte auszuführen sind.
+
 \begin{figure}[h]
 	\centering
 	\includegraphics[scale=0.45]{add3.jpg} 
-	\caption{Die Artefakte der COSMOD-RE Methode}\label{add3}
+	\caption{Attribute Drive Design 3.0}\label{add3}
 \end{figure}
-
-Diese sind:
-\begin{itemize}
-\item[1:] Review Inputs
-\item[2:] Establish Iteration goal by selecting drivers
-\item[3:] Choose one or more elements of the system to refine
-\item[4:] Choose one or more desing concepts that satisfy the selected drivers
-\item[5:] Instantiate architectural elements, allocate responsiblities and define interfaces
-\item[6:] Sketch views and record design decisions
-\item[7:] Perform analysis of current design and review iteration goal and achievement of desing purpose\\
-\end{itemize}
 
 \paragraph{Randbedingungen}
 Die Voraussetzung für die Nutzung von ADD 3.0 ist, dass bereits primäre funktionale Anforderungen und Szenarien erhoben sind. Dies bedeutet ADD findet nicht direkt in der Anforderungsgewinnung Anwendung, sondern erst danach. \\
 
 \paragraph{Eingabe}
-Um bei ADD eine Design-Round durchführen zu können sind jedoch zunächst einige Eingaben für den Prozess vorzubereiten.\\
+ADD wird von sogenannten Projekttreibern gesteuert. Projekttreiber sind die Eingaben, die vor einer Design-Round vorbereitet werden müssen. Die vorzubereitenden Eingaben sind:\\
 
-Diese sind:
 \begin{itemize}
-\item Übergeordnete Zielstellung
-\item Primäre funktionale Anforderungen
-\item Szenarien
-\item Einschränkungen//
+\item \emph{Design Grund} \\
+Es kann vielfältige Gründe für den Entwurf einer Software Architektur geben. So kann es beispielsweise im Rahmen eines Projektes sein, oder als Vorbereitung auf kommende Projekte. Vor dem Beginn muss jedoch geklärt werden aus welchem Grund das Design benötigt wird \cite{add3}.
+\item \emph{Qualitätsattribute} \\
+Unter Qualitätsattributen sind in dem Kontext von ADD 3.0 Eigenschaften eines Systems zu sehen, die entweder testbar oder messbar sind. Aus diesem Grund haben Qualitätsattribute den größten Einfluss auf die zu konzipierende Software-Architektur. Da die Qualitätsattribute besonders wichtig sind, hat ihre Erhebung eine besondere Bedeutung \cite{add3}.
+\item \emph{Primäre Funktionalität} \\
+Unter der primären Funktionalität ist zu verstehen, dass ein System die Aufgaben erfüllt die es erfüllen soll. Während Qualitätsattribute vor allem das "wie" prüfen, prüft die primäre Funktionalität das "was". Relevant ist hierbei, dass es in den Anforderungen vorkommen kann, dass die primäre Funktionalität direkt mit Qualitätsattributen verknüpft ist \cite{add3}. 
+\item \emph{Einschränkungen} \\
+Bei dem Entwurf einer Software Architektur gibt es immer Einschränkungen, die berücksichtigt werden müssen. obwohl es möglich sein kann diese zu lockern sind sie dennoch konstante Faktoren die bei dem Design zu berücksichtigen sind \cite{add3}.
+\item \emph{Architekturelle Bedenken} Es gibt einige architekturelle Bedenken, die eine Rolle spielen können:
+\begin{itemize}
+\item Unter \emph{grundsätzlichen Bedenken} sind Bedenken zu verstehen, die mit dem gesamten Design-Prozess in Bezug stehen. Diese können beispielsweise die Zuteilung von Arbeitspaketen an Projektteams, Organisation des Programmcodes, Deployment oder Updates beinhalten \cite{add3}.
+\item \emph{Spezielle Bedenken} formulieren bedenken, die sich auf detailliertere System interne Aspekte beziehen. Diese können beispielsweise Aspekte wie Exception Management, die Verwaltung von Abhängigkeiten, Logging oder Authentifikation beinhalten \cite{add3}.
+\item Unter \emph{internen Anforderungen} sind Anforderungen zu verstehen, die häufig nicht in den Anforderungsdokumenten genannt werden. Diese Anforderungen betreffen beispielsweise Entwicklung, Einsatz oder Wartung des Systems \cite{add3}.  
+\item \emph{Probleme} sind in der Regel nicht bei der initialen Design-Round von Bedeutung. Nach der Ausführung einer Design-Round kann es jedoch sein, dass mit dem aktuellen Software Design Risiken verbunden sind, die behoben werden müssen. Diese sind in diesem Zusammenhang Probleme \cite{add3}.\\
+\end{itemize}
 \end{itemize}
 
 \paragraph{Vorgehensmodell}
+Grundsätzlich entspricht ein Durchlauf von ADD 3.0 in einem iterativen Entwicklungsvorgang einer Iteration. Wird das Wasserfall-Modell genutzt entspricht ein Durchlauf einer Menge von Architektur-Entwurf-Aktivitäten \cite{add3}.\\
 
-\paragraph{Step 1 - Überprüfung der Eingaben}
-Zunächst muss sichergestellt werden, dass die übergeordnete Zielstellung für die darauffolgenden Design-Aktivitäten festgelegt ist. Diese kann beispielsweise die erstmalige Erstellung eines Design-Entwurfes oder die Verbesserung eines vorhandenen Architektur-Designs sein. Danach wird überprüft, ob die für die Design-Round relevanten Anforderungen und Szenarien korrekt sind. Hier ist unter anderem zu prüfen ob alle relevanten Stakeholder berücksichtigt werden und ob die erhobenen Anforderungen richtig priorisiert sind. Zuletzt muss noch geprüft werden, ob es Einschränkungen bezüglich der Software-Architektur gibt, die in der Design-Round zu berücksichtigen sind.\\
+Vor der erstmaligen Ausführung von ADD 3.0 sollte überprüft werden ob alle notwendigen Eingaben vorhanden sind.\\
 
-\paragraph{Step 2 - Festlegung des Ziels der Iteration durch Auswahl von Artefakten}
-Eine Design-Runde 
+\paragraph{Erhebung von Qualitätsattributen}
+Da von den Eingaben die Qualitätsattribute besonders wichtig sind, ist es wichtig, dass sie angemessen erhoben wurden \cite{add3}. Im Rahmen von ADD 3.0 sind Qualitätsattribute als Szenarien zu formulieren. Szenarien bieten hier den Vorteil, dass mithilfe von Szenarien präziser formuliert werden kann, was genau ein Attribut aussagen soll und wie genau es messbar oder testbar sein kann. Die Erhebung solcher Szenarien kann beispielsweise mithilfe eines Qualitäts-Attribut-Workshops (QAW) realisiert werden, der den folgenden Aufbau hat \cite{add3}\\
 
+\begin{enumerate}
+\item QAW Präsentation und Vorstellung
+\item Geschäftsziel Vorstellung
+\item Architekturplan Vorstellung
+\item Identifikation der architekturellen Treiber
+\item Szenario Brainstorming
+\item Szenario Konsolidierung
+\item Szenario Priorisierung
+\item Szenario Verfeinerung \\
+\end{enumerate}
+
+Nachdem alle Eingaben gegeben sind, sind die sieben Schritte von ADD 3.0 auszuführen.\\
+
+\paragraph{Schritt 1 - Eingaben prüfen}
+Zunächst muss sichergestellt werden, dass die übergeordnete Zielstellung für die darauffolgenden Design-Aktivitäten festgelegt ist. Dies bedeutet zunächst muss der Design Grund validiert werden. Diese kann beispielsweise die erstmalige Erstellung eines Design-Entwurfes oder die Verbesserung eines vorhandenen Architektur-Designs sein. Danach wird überprüft, ob die für die Design-Round relevanten Anforderungen und Szenarien korrekt sind. Hier ist unter anderem zu prüfen ob alle relevanten Stakeholder berücksichtigt werden und ob die erhobenen Anforderungen richtig priorisiert sind. Zuletzt muss noch geprüft werden, ob es Einschränkungen bezüglich der Software-Architektur gibt, die in der Design-Round zu berücksichtigen sind.\\
+
+\paragraph{Schritt 2 - Ziel der Iteration festlegen durch Wahl der Treiber}
+ADD 3.0 wird in der Regel in mehreren Iterationen ausgeführt wobei jede Design-Round ein Ziel verfolgt. Durch die Auswahl von Design Gründen, Qualitätsattributen und primären Funktionalitäten wird festgelegt welche Ziele in einer Design-Round verfolgt werden \cite{add3}.\\
+
+\paragraph{Schritt 3 - Wähle mindestens ein Systemelement für eine Verfeinerung aus}
+Um die Treiber zu bedienen ist es notwendig mindestens eine architekturelle Struktur zu konzipieren. Ansonsten ist es beispielsweise unmöglich die Qualitätsattribute vollständig zu erfüllen. In der ersten Iteration könnte eine solche Struktur beispielsweise das System als ganzes sein, welches in mehreren Iterationen in mehrere Teilsysteme aufgeteilt wird, die miteinander in Beziehung stehen können oder voneinander abhängig sein können \cite{add3}.\\
+
+\paragraph{Schritt 4 - Wähle mindestens ein Design Konzept, welches sich auf die Treiber anwenden lässt}
+Abhängig von den ausgewählten Treibern gibt es eine Vielzahl von Design Konzepten, die sich anwenden lassen. In diesem Schritt sind die Alternativen abzuwägen und die Kosten der Implementierung einzuschätzen um zu entscheiden, welche Design Konzepte anzuwenden sind. So gibt es beispielsweise viele gut dokumentierte Design Konzepte, die eine hohe Verfügbarkeit erzielen und gleichzeitig den Single-Point-of-Failure vermeiden \cite{add3}.\\
+
+\paragraph{Schritt 5 - Instanziere Architekturelemente, weise Verantwortlichkeiten zu und definiere Schnittstellen}
+---TODO---\\
+\paragraph{Schritt 6 - Skizziere Sichten und dokumentiere Design Entscheidungen}
+---TODO---\\
+\paragraph{Schritt 7 - Analyisiere das aktuelle Design und prüfe ob das Ziel der Iteration erreicht ist}
+---TODO---\\
 \paragraph{Ausgabe}
 Nach der Ausführung der sieben Schritte sollte ein verfeinerter Architekturentwurf erzeugt sein.
-
-\subsubsection{Beschreibung}
