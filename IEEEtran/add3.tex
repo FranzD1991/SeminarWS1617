@@ -75,10 +75,13 @@ Um die Treiber zu bedienen ist es notwendig mindestens eine architekturelle Stru
 Abhängig von den ausgewählten Treibern gibt es eine Vielzahl von Design Konzepten, die sich anwenden lassen. In diesem Schritt sind die Alternativen abzuwägen und die Kosten der Implementierung einzuschätzen um zu entscheiden, welche Design Konzepte anzuwenden sind. So gibt es beispielsweise viele gut dokumentierte Design Konzepte, die eine hohe Verfügbarkeit erzielen und gleichzeitig den Single-Point-of-Failure vermeiden \cite{add3}.\\
 
 \paragraph{Schritt 5 - Instanziere Architekturelemente, weise Verantwortlichkeiten zu und definiere Schnittstellen}
----TODO---\\
+Nach der Auswahl der Design Konzepte kann es abhängig von der Auswahl notwendig sein, diese zu konfigurieren. Wird beispielsweise ein Schichten Pattern verwendet muss entschieden werden wie viele Schichten es geben soll. Neben der Instanzierung der Architekturelemente ist es notwendig diese zuzuordnen. Weiter ist es notwendig die instanzierten Architekturelemente miteinander zu verbinden um Kollaborationen zu ermöglichen \cite{add3}.\\
+
 \paragraph{Schritt 6 - Skizziere Sichten und dokumentiere Design Entscheidungen}
----TODO---\\
+Nachdem nun die Architekturentscheidung der Design Round getroffen sind ist es notwendig diese formalisiert festzuhalten und getroffene Design-Entscheidungen zu dokumentieren. Bei der Dokumentation müssen die Architekturentscheidungen weiter verfeinert und überprüft werden \cite{add3}. \\
+
 \paragraph{Schritt 7 - Analyisiere das aktuelle Design und prüfe ob das Ziel der Iteration erreicht ist}
----TODO---\\
+In diesem Schritt gilt es das aktuelle Design zu analysieren und zu überprüfen ob es Fehler oder Inkonsistenzen gibt. Ferner ist zu prüfen ob das in den Treibern vorgegebene Ziel erreicht ist. Ist dies nicht der Fall, ist es notwendig zu iterieren und die Schritte ab Schritt zwei zu wiederholen. Im Gesamtprojekt kann das aktuelle Design als weitere Eingabe für eine weitere Design-Round angesehen werden. 
+
 \paragraph{Ausgabe}
-Nach der Ausführung der sieben Schritte sollte ein verfeinerter Architekturentwurf erzeugt sein.
+Nach der Ausführung der sieben Schritte sollte ein verfeinerter Architekturentwurf erzeugt sein. Dieser kann in frühen Iteration noch über Inkonsistenzen verfügen, daher gilt: Desto mehr Iterationen durchgeführt werden desto solider ist der Architekturentwurf.

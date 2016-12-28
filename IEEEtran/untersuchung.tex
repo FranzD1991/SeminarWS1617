@@ -2,6 +2,14 @@
 
 Da die beiden Bereiche des Requirements-Engineering und der Software-Architektur ein enormes Maß an Wissen und Fähigkeiten erfordern werden diese in der Regel von verschiedenen Teams betreut [8]. Wie bereits genannt, entstehen hier häufig Probleme durch fehlendes technisches Know-How über Software-Architektur spezifische Aspekte bei den Requirements-Engineers. Auch können diese oft nicht zwischen funktionalen Anforderungen (FR) und architekturspezifischen funktionalen Anforderungen (ASFR) unterscheiden [9]. ASFRs sind FRs welche kritisch, sehr risikobehaftet, volatil und bei Änderungen ein aufwendiges oder teures Refactoring mit sich bringen würden oder einen anderweitig großen Impakt auf die zu konzipierende Software-Architektur hätten [8]. Durch das fehlende Know-How entstehen unvollständige Anforderungs-Artefakte, in welchen wesentliche ASFRs für den Software-Architekten fehlen. \\
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.5]{methoden.jpg} 
+	\caption{Überblick über die untersuchten Methoden}\label{methoden}
+\end{figure}
+
+Sei ein vereinfachter Entwicklungsprozess wie in Abbildung \ref{methoden} gegeben. Zu sehen ist ein Kunde der eine System-Vision hat. Mit dieser Vision wendet er sich an einen Requirements Engineer, der einerseits über Gespräche und andererseits über seine Fähigkeiten versucht die System-Vision in Form von Anforderungen festzuhalten. Diese Anforderungen werden an den Software-Architekten weitergegeben, der wiederum versucht aus den Anforderungen einen Architekturentwurf zu generieren. Diesen Architekturentwurf wird er an die Entwickler weitergeben. Die Entwickler entwickeln dann das fertiggestellte System und liefern dies an den Kunden. In der Betrachtung der Zusammenarbeit zwischen Software-Architekt und Requirements Engineer sind vor allem die Punkte von Interesse, die vor der fertiggestellten Software-Architektur stehen. Somit sind als Stakeholder vor allem Kunde, Requirements Engineer und Software-Architekt von Bedeutung. Einfach formuliert soll es das Ziel sein die System-Vsion in einer korrekten Software-Architektur festzuhalten.\\
+
 Im Folgenden sollen vier verschiedene Methoden untersucht werden, welche den Anspruch haben die Kluft in der Zusammenarbeit zwischen Software-Architekt und Requirements Engineer zu überbrücken. Dabei werden zunächst die Ziele der Methode herausgearbeitet und anschließend die Funktionsweise näher erläutert, bevor die vier Methoden im nachfolgenden Kapitel ausgewertet werden. Bei der Funktionsweise wird auf folgende Aspekte genauer eingegangen: \\
 
 \begin{itemize}
@@ -10,7 +18,6 @@ Im Folgenden sollen vier verschiedene Methoden untersucht werden, welche den Ans
 \item \textit{Vorgehensmodell:} Wie wird die Methode durchgeführt?
 \item \textit{Ausgabe:} Was liefert die Methode für ein Ergebnis? \\
 \end{itemize}
-
 
 \input{add3}
 \input{probing}
