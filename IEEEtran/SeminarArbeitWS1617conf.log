@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.8)  22 DEC 2016 19:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.24)  28 DEC 2016 12:15
 entering extended mode
 **./SeminarArbeitWS1617conf.tex
 (SeminarArbeitWS1617conf.tex
 LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
-(C:\Users\Franz\AppData\Roaming\MiKTeX\2.9\tex\latex\ieeetran\IEEEtran.cls
+("C:\Program Files\MiKTeX 2.9\tex\latex\ieeetran\IEEEtran.cls"
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -17,7 +17,7 @@ Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 503.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -129,165 +129,11 @@ LaTeX Font Info:    ... okay on input line 262.
 
 -- Lines per column: 56 (exact).
 (SeminarArbeitWS1617abstract.tex
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¤ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¤ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¼ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¤ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¼ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¤ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¼ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¤ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¤ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¶ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¶ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¼ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¼ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¼ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¶ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¼ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¼ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¼ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¼ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¶ in font ptmb7t!
-
-Underfull \hbox (badness 10000) in paragraph at lines 325--2
-[]\OT1/ptm/b/it/9 Abstract\OT1/ptm/b/n/9 ---Bei der Re-al-isierung eines Soft-w
-a-reen-twick-
- []
-
-
-Underfull \hbox (badness 3250) in paragraph at lines 325--2
-\OT1/ptm/b/n/9 Architekten auf der einen Seite und den Re-quire-ments
- []
-
-
-Underfull \hbox (badness 5302) in paragraph at lines 325--2
-\OT1/ptm/b/n/9 En-gi-neers auf der an-deren Seite. Soft-ware Ar-chitek-ten
- []
-
-
-Underfull \hbox (badness 3078) in paragraph at lines 325--2
-\OT1/ptm/b/n/9 sind zum Beispiel hu-fig mit dem Prob-lem kon-fron-tiert,
- []
-
-
-Underfull \hbox (badness 4242) in paragraph at lines 325--2
-\OT1/ptm/b/n/9 dass An-forderungs-doku-mente nicht aus-re-ichend sind um
- []
-
-
-Underfull \hbox (badness 1430) in paragraph at lines 325--2
-\OT1/ptm/b/n/9 weitre-ichende Ar-chitek-turentschei-dun-gen in Bezug auf den
- []
-
-
-Underfull \hbox (badness 1642) in paragraph at lines 325--2
-\OT1/ptm/b/n/9 dieser ber weit-ere In-ter-views ein przis-eres Bild von der
- []
-
-
-Underfull \hbox (badness 2894) in paragraph at lines 325--2
-\OT1/ptm/b/n/9 Grund-lage der An-forderun-gen fr den Ar-chitek-turen-twurf
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 325--2
 
  []
 
 Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¼ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¼ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¤ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¤ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¤ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¶ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¤ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¼ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¤ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¼ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¶ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¤ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¤ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no Ÿ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¶ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no Ÿ in font ptmb7t!
-Missing character: There is no Ã in font ptmb7t!
-Missing character: There is no ¼ in font ptmb7t!
-
-Underfull \hbox (badness 4391) in paragraph at lines 3--4
-\OT1/ptm/b/n/9 und wie diese gewinnbrin-gend kom-biniert wer-den oder
- []
-
-
-Underfull \hbox (badness 3364) in paragraph at lines 3--4
-\OT1/ptm/b/n/9 sich mit dem Prob-lem kon-fron-tiert, dass sie nicht die
- []
-
-
-Underfull \hbox (badness 1776) in paragraph at lines 3--4
-\OT1/ptm/b/n/9 zu er-mglichen ist es zunchst notwendig zu iden-ti-fizieren,
- []
-
-
-Underfull \hbox (badness 3919) in paragraph at lines 3--4
-\OT1/ptm/b/n/9 warum die An-for-dungs-doku-mente, die der Re-quire-ments
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-\OT1/ptm/b/n/9 Ar-chitek-turen-twurf herzustellen und wie Erken-nt-nisse
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-\OT1/ptm/b/n/9 des Software-Architekten wieder in die Anforderungs-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Missing character: There is no Ã in font ptmb7t!
 Missing character: There is no ¶ in font ptmb7t!
 Missing character: There is no Ã in font ptmb7t!
 Missing character: There is no ¼ in font ptmb7t!
@@ -310,8 +156,27 @@ Missing character: There is no Ÿ in font ptmb7t!
 Missing character: There is no Ã in font ptmb7t!
 Missing character: There is no ¶ in font ptmb7t!
 
-Underfull \hbox (badness 3942) in paragraph at lines 5--6
+Underfull \hbox (badness 3942) in paragraph at lines 3--4
 \OT1/ptm/b/n/9 einer Soft-ware sein kn-nen. Diese Kat-e-gorisierung bi-etet
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ¶ in font ptmb7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ¤ in font ptmb7t!
+
+Underfull \hbox (badness 1354) in paragraph at lines 5--6
+\OT1/ptm/b/n/9 Ar-chitek-ten, Poten-ziale aufgezeigt wer-den auf deren Ba-sis
+ []
+
+
+Underfull \hbox (badness 2818) in paragraph at lines 5--6
+\OT1/ptm/b/n/9 die Zusam-me-nar-beit verbessert wer-den kann. Durch die
  []
 
 
@@ -319,11 +184,228 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ¤ in font ptmb7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ¼ in font ptmb7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ¤ in font ptmb7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ¼ in font ptmb7t!
 Missing character: There is no Ã in font ptmb7t!
 Missing character: There is no ¶ in font ptmb7t!
 Missing character: There is no Ã in font ptmb7t!
 Missing character: There is no ¤ in font ptmb7t!
-) (einfuehrung.tex) (problemstellung.tex
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ¤ in font ptmb7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no Ÿ in font ptmb7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ¶ in font ptmb7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no Ÿ in font ptmb7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ¼ in font ptmb7t!
+) (einfuehrung.tex
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+
+
+LaTeX Warning: Citation `probing' on page 1 undefined on input line 2.
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+
+LaTeX Warning: Citation `probing' on page 1 undefined on input line 2.
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+
+LaTeX Warning: Citation `probing' on page 1 undefined on input line 2.
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+
+Underfull \hbox (badness 3803) in paragraph at lines 2--3
+\OT1/ptm/m/n/10 auf der einen Seite und den Re-quire-ments En-gi-neers
+ []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 2--3
+\OT1/ptm/m/n/10 auf der an-deren Seite. Soft-ware Ar-chitek-ten sind zum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+\OT1/ptm/m/n/10 Beispiel hu-fig mit dem Prob-lem kon-fron-tiert, dass
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+\OT1/ptm/m/n/10 An-forderungs-doku-mente nicht aus-re-ichend sind um
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+\OT1/ptm/m/n/10 weitre-ichende Ar-chitek-turentschei-dun-gen in Bezug auf
+ []
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 2--3
+\OT1/ptm/m/n/10 Soft-ware Ar-chitekt diesen Mehraufwand nicht und trifft
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+
+Underfull \hbox (badness 2913) in paragraph at lines 4--5
+\OT1/ptm/m/n/10 die das Poten-zial haben die Zusam-me-nar-beit zwis-chen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 7.
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 13--14
+[]\OT1/ptm/m/n/10 Diese vier Ver-fahren wer-den nach einem fest-gelegten
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+
+Underfull \hbox (badness 2310) in paragraph at lines 23--25
+\OT1/ptm/m/n/10 In den Randbe-din-gun-gen wird geklrt, welche Ein-
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
+
+ []
+
+
+LaTeX Warning: Reference `vergleich' on page 2 undefined on input line 33.
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+
+Underfull \hbox (badness 4556) in paragraph at lines 33--34
+\OT1/ptm/m/n/10 Meth-o-den zunchst unter den eben genan-nten Punk-ten
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ÿ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+) (problemstellung.tex
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¤ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
@@ -353,10 +435,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-[1{C:/Users/Franz/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-
-]
 Underfull \hbox (badness 1803) in paragraph at lines 5--6
 []\OT1/ptm/m/n/10 Bei der Be-tra-ch-tung der di-rekt durch den Men-schen
  []
@@ -366,10 +445,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 8.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 8.
 
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
@@ -559,6 +634,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
+[2]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
@@ -566,10 +642,11 @@ Missing character: There is no ¶ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 
-LaTeX Warning: Citation `5' on page 2 undefined on input line 24.
+
+LaTeX Warning: Citation `5' on page 3 undefined on input line 24.
 
 
-LaTeX Warning: Citation `7' on page 2 undefined on input line 24.
+LaTeX Warning: Citation `7' on page 3 undefined on input line 24.
 
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
@@ -580,14 +657,14 @@ Missing character: There is no ¶ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
 
-LaTeX Warning: Citation `5' on page 2 undefined on input line 24.
+LaTeX Warning: Citation `5' on page 3 undefined on input line 24.
 
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¤ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
 
-LaTeX Warning: Citation `9' on page 2 undefined on input line 24.
+LaTeX Warning: Citation `9' on page 3 undefined on input line 24.
 
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no Ÿ in font ptmr7t!
@@ -602,7 +679,7 @@ Missing character: There is no ¤ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¤ in font ptmr7t!
 
-LaTeX Warning: Citation `7' on page 2 undefined on input line 24.
+LaTeX Warning: Citation `7' on page 3 undefined on input line 24.
 
 
 Underfull \hbox (badness 3179) in paragraph at lines 24--25
@@ -657,7 +734,7 @@ Missing character: There is no Ÿ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 
-LaTeX Warning: Citation `5' on page 2 undefined on input line 37.
+LaTeX Warning: Citation `5' on page 3 undefined on input line 37.
 
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
@@ -698,10 +775,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--38
  []
 
 
-LaTeX Warning: Citation `6' on page 2 undefined on input line 40.
+LaTeX Warning: Citation `6' on page 3 undefined on input line 40.
 
 
-LaTeX Warning: Citation `8' on page 2 undefined on input line 40.
+LaTeX Warning: Citation `8' on page 3 undefined on input line 40.
 
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¤ in font ptmr7t!
@@ -714,12 +791,12 @@ Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no Ÿ in font ptmr7t!
 
-LaTeX Warning: Citation `5' on page 2 undefined on input line 40.
+LaTeX Warning: Citation `5' on page 3 undefined on input line 40.
 
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¤ in font ptmr7t!
 
-LaTeX Warning: Citation `5' on page 2 undefined on input line 40.
+LaTeX Warning: Citation `5' on page 3 undefined on input line 40.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 40--41
@@ -757,10 +834,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
-[2]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
-
 
 LaTeX Warning: Citation `5' on page 3 undefined on input line 43.
 
@@ -934,6 +1009,115 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--1
 
  []
 
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ÿ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no „ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ÿ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+
+Underfull \hbox (badness 3333) in paragraph at lines 3--4
+\OT1/ptm/m/n/10 ver-schiede-nen Teams be-treut [8]. Wie bere-its genannt,
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 3--4
+\OT1/ptm/m/n/10 Know-How ber Software-Architektur spez-i-fis-che As-pekte
+ []
+
+
+Underfull \hbox (badness 2197) in paragraph at lines 3--4
+\OT1/ptm/m/n/10 bei den Requirements-Engineers. Auch kn-nen diese oft
+ []
+
+
+Underfull \hbox (badness 7595) in paragraph at lines 3--4
+\OT1/ptm/m/n/10 nicht zwis-chen funk-tionalen An-forderun-gen (FR) und
+ []
+
+
+Underfull \hbox (badness 4193) in paragraph at lines 3--4
+\OT1/ptm/m/n/10 Architektur ht-ten [8]. Durch das fehlende Know-How
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ÿ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+[]\OT1/ptm/m/n/10 Im Fol-gen-den sollen vier ver-schiedene Meth-o-den
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+\OT1/ptm/m/n/10 in der Zusam-me-nar-beit zwis-chen Software-Architekt
+ []
+
+
+Underfull \hbox (badness 8019) in paragraph at lines 5--6
+\OT1/ptm/m/n/10 zunchst die Ziele der Meth-ode her-aus-gear-beitet und
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
 (add3.tex
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
@@ -1048,41 +1232,59 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
-[3]) (probing.tex
+) (probing.tex
 Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¼ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+
+Underfull \hbox (badness 1622) in paragraph at lines 5--6
+ \OT1/ptm/m/it/10 1) Ziele der Meth-ode: [][] \OT1/ptm/m/n/10 Das Ziel des Prob
+-ing ist es,
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
 Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no Ÿ in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¤ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no „ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¼ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no Ÿ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¼ in font ptmr7t!
 
-Underfull \hbox (badness 1430) in paragraph at lines 7--8
-\OT1/ptm/m/n/10 hier hu-fig Prob-leme durch fehlen-des tech-nis-ches Know-
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+[]\OT1/ptm/m/n/10 Die Haupt-treiber ar-chitek-tur-rel-e-van-ter Entschei-dun-ge
+n
+ []
+
+
+Underfull \hbox (badness 4341) in paragraph at lines 7--8
+\OT1/ptm/m/n/10 er-stel-lende Ar-chitek-tur. Bei funk-tionalen An-forderun-gen
  []
 
 
@@ -1090,66 +1292,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¶ in font ptmr7t!
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
+Underfull \hbox (badness 4193) in paragraph at lines 34--38
+\OT1/ptm/m/n/10 (6) Prob-ing for Re-quire-ments Knowl-edge to Sim-u-late
  []
 
 
-Underfull \hbox (badness 4193) in paragraph at lines 19--23
-\OT1/ptm/m/n/10 (1) Prob-ing for Re-quire-ments Knowl-edge to Sim-u-late
+Underfull \hbox (badness 6364) in paragraph at lines 34--38
+\OT1/ptm/m/n/10 (8) What you see is what you get: Un-der-stand-ing
  []
 
 
-Underfull \hbox (badness 6364) in paragraph at lines 19--23
-\OT1/ptm/m/n/10 (2) What you see is what you get: Un-der-stand-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--23
-\OT1/ptm/m/n/10 (3) Iden-ti-fy-ing Ar-chi-tec-turally Sig-nif-i-cant Func-tiona
+Underfull \hbox (badness 10000) in paragraph at lines 34--38
+\OT1/ptm/m/n/10 (9) Iden-ti-fy-ing Ar-chi-tec-turally Sig-nif-i-cant Func-tiona
 l
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--23
-
- []
-
-
-Underfull \hbox (badness 2119) in paragraph at lines 26--27
- \OT1/ptm/m/it/10 2) Be-w-er-tung: [][] \OT1/ptm/m/n/10 Be-w-er-tung (Chan-cen 
-/ Gren-zen) (Was
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
+Underfull \hbox (badness 10000) in paragraph at lines 34--38
 
  []
 
 ) (twinpeaks.tex
-Underfull \hbox (badness 10000) in paragraph at lines 30--1
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
@@ -1164,259 +1338,129 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 []\OT1/ptm/m/n/10 COSMOD-Requirements En-gi-neer-ing (COSMOD-RE)
  []
 
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
 
-Underfull \hbox (badness 2753) in paragraph at lines 12--13
-\OT1/ptm/m/n/10 Kom-bi-na-tion aus Ziel-basierten Ans[]atzen und Szenario-
+LaTeX Warning: Citation `pohl' on page 5 undefined on input line 4.
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 4--5
+\OT1/ptm/m/n/10 er-mglicht muss je-doch einige An-forderun-gen er-fllen um
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ÿ in font ptmr7t!
 
-Underfull \hbox (badness 4168) in paragraph at lines 15--16
- \OT1/ptm/m/it/10 4) Ziel-basierte Ans[]atze: [][] \OT1/ptm/m/n/10 Ziel-basiert
-e Ans[]atze zie-len
- []
+LaTeX Warning: Citation `pohl' on page 5 undefined on input line 8.
 
 
-Underfull \hbox (badness 4569) in paragraph at lines 15--16
-\OT1/ptm/m/n/10 vor-rangig da-rauf ab, ein um-fassendes Verst[]andnis der
- []
-
-
-Underfull \hbox (badness 2126) in paragraph at lines 15--16
-\OT1/ptm/m/n/10 W[]unsche und Ziele der Stake-holder sowie auf die zu
- []
-
-
-Underfull \hbox (badness 3118) in paragraph at lines 15--16
-\OT1/ptm/m/n/10 erzie-len-den Auswirkun-gen auf die Sys-te-mumge-bung ab
- []
-
-
-Underfull \hbox (badness 5726) in paragraph at lines 15--16
-\OT1/ptm/m/n/10 welche Vi-sion der Stake-holder von dem Zuk[]unftigen
- []
-
-
-Underfull \hbox (badness 4181) in paragraph at lines 15--16
-\OT1/ptm/m/n/10 Sys-tem hat. Bei der Er-fas-sung dieser Vi-sion ist ein
- []
-
-
-Underfull \hbox (badness 2744) in paragraph at lines 15--16
-\OT1/ptm/m/n/10 nat[]urlichsprachlicher Ansatz fehler-be-haftet, da hier sehr
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-
-Underfull \hbox (badness 1881) in paragraph at lines 17--18
-\OT1/ptm/m/n/10 beson-ders tief re-ichen-des Fach-wis-sen notwendig ist um
- []
-
-
-Underfull \hbox (badness 4013) in paragraph at lines 17--18
-\OT1/ptm/m/n/10 die Konzep-tion soft-warein-ten-siver einge-bet-teter Sys-teme
- []
-
-
-Underfull \hbox (badness 1389) in paragraph at lines 17--18
-\OT1/ptm/m/n/10 und Ar-chitek-tur []uber mehrere Ab-strak-tion-sstufen hin-weg
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
- \OT1/ptm/m/it/10 a) KAOS: [][] \OT1/ptm/m/n/10 Lam-sweerde (Lam-sweerde Ref-er
-enz)
- []
-
-
-Underfull \hbox (badness 3343) in paragraph at lines 20--21
-\OT1/ptm/m/n/10 Methode Ziele in Bahavioral-Goals und Soft-Goals zu
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-[]\OT1/ptm/m/n/10 Grunds[]atzlich lassen sich Bahavioral-Goals in
- []
-
-
-Underfull \hbox (badness 6268) in paragraph at lines 24--25
-\OT1/ptm/m/n/10 zwei Kat-e-gorien aufteilen, die Achive-Goals und die
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-\OT1/ptm/m/n/10 Maintain/Avoid-Goals. Die Achive-Goals beschreiben
- []
-
-
-Underfull \hbox (badness 5847) in paragraph at lines 24--25
-\OT1/ptm/m/n/10 definierten Zeitraum hin-weg einen definierten Zu-s-tand
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-
- []
-
-
-Underfull \hbox (badness 8094) in paragraph at lines 30--31
-[]\OT1/ptm/m/n/10 Stim-response: Funk-tionale Ziele, die sich damit
- []
-
-
-Underfull \hbox (badness 1888) in paragraph at lines 32--33
-\OT1/ptm/m/n/10 Mit dem gegebe-nen Ziel die Zusam-me-nar-beit zwis-chen
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
-
- []
-
-
-Underfull \hbox (badness 2326) in paragraph at lines 34--35
-\OT1/ptm/m/n/10 Graphen, die in diesem Kon-text Ziel-dia-gramm genannt
- []
-
-
-Underfull \hbox (badness 1694) in paragraph at lines 34--35
-\OT1/ptm/m/n/10 charak-ter-isiert. Die Eigen-schaften k[]onnen unter an-derem
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-[]\OT1/ptm/m/n/10 --TODO-- Erzeu-gung Ab-bil-dung Und-Oder-Graph +
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-
- []
-
-
-Underfull \hbox (badness 7116) in paragraph at lines 41--42
-\OT1/ptm/m/n/10 In-ter-ak-tio-nen des Sys-tems mit dessen Umge-bung zu
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
-
- []
-
-
-Underfull \hbox (badness 2961) in paragraph at lines 43--44
-[]\OT1/ptm/m/n/10 Um die op-ti-male Zusam-me-nar-beit zu st[]utzen ist es
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
-\OT1/ptm/m/n/10 notwendig, die Szenar-ien in einer Kom-bi-na-tion aus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
-\OT1/ptm/m/n/10 An-wen-dungs-fall-dia-gram-men und Mes-sage Se-quence
- []
-
-
-Underfull \hbox (badness 7030) in paragraph at lines 43--44
-\OT1/ptm/m/n/10 Charts graphisch zu mod-el-lieren. Dadurch, kann der
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
-\OT1/ptm/m/n/10 Zusam-men-hang zwis-chen Szenar-ien aufgezeigt wer-den
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
-\OT1/ptm/m/n/10 und al-ter-na-tive Szenar-ien-verl[]aufe abzu-bilden (Silkora
- []
-
-
-Underfull \hbox (badness 1360) in paragraph at lines 43--44
-\OT1/ptm/m/n/10 welche prim[]aren und sekund[]aren Ak-teure gegeben sind.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
-
+Underfull \hbox (badness 1565) in paragraph at lines 7--9
+\OT1/ptm/m/n/10 Kern-treiber hin-ter in-no-va-tiven Pro-jek-ten sind ist es
  []
 
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 
-Underfull \hbox (badness 8189) in paragraph at lines 48--49
-\OT1/ptm/m/n/10 be-tra-chtet wer-den, da ein Szenario sich aus einem
+LaTeX Warning: Citation `pohl' on page 5 undefined on input line 10.
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+
+LaTeX Warning: Citation `pohl' on page 5 undefined on input line 12.
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ÿ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+
+LaTeX Warning: Citation `pohl' on page 5 undefined on input line 14.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+\OT1/ptm/m/n/10 Da bei einem Co-Design Vorge-hen eine groe
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
-\OT1/ptm/m/n/10 An-wen-dungs-fall gener-ieren l[]asst. Dies be-deutet ein
+Underfull \hbox (badness 5741) in paragraph at lines 13--15
+\OT1/ptm/m/n/10 Kom-plexitt beste-hen kann ist es notwendig eine
  []
 
 
-Underfull \hbox (badness 4467) in paragraph at lines 48--49
-\OT1/ptm/m/n/10 An-wen-dungs-fall kann Grund-lage fr eine Vielzahl von
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
 
  []
 
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no œ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
-
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+\OT1/ptm/m/n/10 von COSMOD-RE ist die Ab-strak-tion-shier-ar-chie. ber
  []
 
 
-Underfull \hbox (badness 3895) in paragraph at lines 52--54
-[]\OT1/ptm/m/n/10 Zu den No-ta-tion-se-le-menten eines An-wen-dungs-fall-dia-
+Underfull \hbox (badness 1442) in paragraph at lines 18--19
+\OT1/ptm/m/n/10 Hi-er-bei ist je-doch zu beachten, dass bei COSMOD-RE
  []
 
 
-Underfull \hbox (badness 1953) in paragraph at lines 55--56
-\OT1/ptm/m/n/10 Sys-tem. Ak-teure, die mit dem Sys-tem in-ter-agieren
+Underfull \hbox (badness 1527) in paragraph at lines 18--19
+\OT1/ptm/m/n/10 nicht unbe-d-ingt ein Top-Down-Ansatz zu whlen ist, da
  []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 18--19
+\OT1/ptm/m/n/10 An-forderungsarte-fakte und Ar-chitek-tu-rarte-fakte auf allen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+ \OT1/ptm/m/it/10 a) Randbe-din-gun-gen: [][] \OT1/ptm/m/n/10 Bei der An-wen-du
+ng von
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+
+LaTeX Warning: Citation `sikora' on page 5 undefined on input line 25.
 
 [5]
 Missing character: There is no Ã in font ptmr7t!
@@ -1424,158 +1468,237 @@ Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+
+
+LaTeX Warning: Citation `sikora' on page 6 undefined on input line 27.
+
 Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+
+LaTeX Warning: Citation `sikora' on page 6 undefined on input line 29.
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 28--30
+\OT1/ptm/m/n/10 in je-dem Pro-jekt neu zu definieren, ob Kon-sis-tenz
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
+
+ []
+
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¤ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+[]\OT1/ptm/m/n/10 Sind diese Randbe-din-gun-gen geklrt ist es mglich
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--40
+ \OT1/ptm/m/it/10 c) Vorge-hens-mod-ell: [][] \OT1/ptm/m/n/10 ---TODO--- Vorge-
+hens-mod-ell
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¤ in font ptmr7t!
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
-\OT1/ptm/m/n/10 Anwendungsfalldiagramme stellen Ak-teure und
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
-\OT1/ptm/m/n/10 Ak-teure mit welchen An-wen-dungs-fllen in Beziehung
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
-\OT1/ptm/m/n/10 ste-hen und ob es wichtige Beziehun-gen zwis-chen
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
-\OT1/ptm/m/n/10 ver-schiede-nen An-wen-dungs-fllen gibt. Grund-st-zlich ist
- []
-
-
-Underfull \hbox (badness 4328) in paragraph at lines 59--60
-\OT1/ptm/m/n/10 es mglich An-wen-dungs-fall-dia-gramme auf ver-schiede-nen
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
-\OT1/ptm/m/n/10 Ab-strak-tion-sstufen abzu-bilden um so sowohl fr das
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
-
- []
-
 Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¶ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¤ in font ptmr7t!
 
-Underfull \hbox (badness 1394) in paragraph at lines 62--63
- \OT1/ptm/m/it/10 b) Message-Sequence-Charts: [][] \OT1/ptm/m/n/10 Mithilfe von
- Message-
- []
-
-
-Underfull \hbox (badness 5592) in paragraph at lines 62--63
-\OT1/ptm/m/n/10 zwis-chen Software-Architekt und Requirements-Engineer
- []
-
-
-Underfull \hbox (badness 2884) in paragraph at lines 62--63
-\OT1/ptm/m/n/10 Message-Sequence-Charts ist, dass diese vor allem die
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
 Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
 
-Underfull \hbox (badness 2478) in paragraph at lines 64--65
-[]\OT1/ptm/m/n/10 Grundstzlich werde in einem Message-Sequence-Chart
+Underfull \hbox (badness 5189) in paragraph at lines 47--48
+[]\OT1/ptm/m/n/10 Im Rah-men der Er-stel-lung der Software-Architektur
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
-
+Underfull \hbox (badness 4673) in paragraph at lines 47--48
+\OT1/ptm/m/n/10 die System-Architektur als auch Ziele, Szenar-ien und
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
-
- []
-
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¶ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
-\OT1/ptm/m/n/10 High-Level-Message-Sequence-Charts (HLMSC), die es
- []
-
-
-Underfull \hbox (badness 6316) in paragraph at lines 68--69
-\OT1/ptm/m/n/10 Charts zu bilden und so kom-plexere Zusam-menhnge
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
-\OT1/ptm/m/n/10 di-enen hi-er-bei der Be-gren-zung des An-wen-dungs-falls.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
-\OT1/ptm/m/n/10 Die Ver-weisknoten sind als Ver-weise zu ein-fachen
- []
-
-
-Underfull \hbox (badness 2189) in paragraph at lines 68--69
-\OT1/ptm/m/n/10 und mithilfe von gerichteten Kan-ten lsst sich It-er-a-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-
+Underfull \hbox (badness 2753) in paragraph at lines 53--54
+\OT1/ptm/m/n/10 Kom-bi-na-tion aus Ziel-basierten Ans[]atzen und Szenario-
  []
 
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
 
-Underfull \hbox (badness 2653) in paragraph at lines 75--76
- \OT1/ptm/m/it/10 6) Kom-bi-na-tion der Ans[]atze: [][] \OT1/ptm/m/n/10 Wenn di
-e wesentlichen
+Underfull \hbox (badness 4168) in paragraph at lines 56--57
+ \OT1/ptm/m/it/10 4) Ziel-basierte Ans[]atze: [][] \OT1/ptm/m/n/10 Ziel-basiert
+e Ans[]atze zie-len
+ []
+
+
+Underfull \hbox (badness 4569) in paragraph at lines 56--57
+\OT1/ptm/m/n/10 vor-rangig da-rauf ab, ein um-fassendes Verst[]andnis der
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 56--57
+\OT1/ptm/m/n/10 W[]unsche und Ziele der Stake-holder sowie auf die zu
+ []
+
+
+Underfull \hbox (badness 3118) in paragraph at lines 56--57
+\OT1/ptm/m/n/10 erzie-len-den Auswirkun-gen auf die Sys-te-mumge-bung ab
+ []
+
+
+Underfull \hbox (badness 5726) in paragraph at lines 56--57
+\OT1/ptm/m/n/10 welche Vi-sion der Stake-holder von dem Zuk[]unftigen
+ []
+
+
+Underfull \hbox (badness 4181) in paragraph at lines 56--57
+\OT1/ptm/m/n/10 Sys-tem hat. Bei der Er-fas-sung dieser Vi-sion ist ein
+ []
+
+
+Underfull \hbox (badness 2744) in paragraph at lines 56--57
+\OT1/ptm/m/n/10 nat[]urlichsprachlicher Ansatz fehler-be-haftet, da hier sehr
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+
+ []
+
+
+Underfull \hbox (badness 1881) in paragraph at lines 58--59
+\OT1/ptm/m/n/10 beson-ders tief re-ichen-des Fach-wis-sen notwendig ist um
+ []
+
+
+Underfull \hbox (badness 4013) in paragraph at lines 58--59
+\OT1/ptm/m/n/10 die Konzep-tion soft-warein-ten-siver einge-bet-teter Sys-teme
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 58--59
+\OT1/ptm/m/n/10 und Ar-chitek-tur []uber mehrere Ab-strak-tion-sstufen hin-weg
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+ \OT1/ptm/m/it/10 a) KAOS: [][] \OT1/ptm/m/n/10 Lam-sweerde (Lam-sweerde Ref-er
+enz)
+ []
+
+
+Underfull \hbox (badness 3343) in paragraph at lines 61--62
+\OT1/ptm/m/n/10 Methode Ziele in Bahavioral-Goals und Soft-Goals zu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+[]\OT1/ptm/m/n/10 Grunds[]atzlich lassen sich Bahavioral-Goals in
+ []
+
+
+Underfull \hbox (badness 6268) in paragraph at lines 65--66
+\OT1/ptm/m/n/10 zwei Kat-e-gorien aufteilen, die Achive-Goals und die
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+\OT1/ptm/m/n/10 Maintain/Avoid-Goals. Die Achive-Goals beschreiben
+ []
+
+
+Underfull \hbox (badness 5847) in paragraph at lines 65--66
+\OT1/ptm/m/n/10 definierten Zeitraum hin-weg einen definierten Zu-s-tand
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+
+ []
+
+
+Underfull \hbox (badness 8094) in paragraph at lines 71--72
+[]\OT1/ptm/m/n/10 Stim-response: Funk-tionale Ziele, die sich damit
+ []
+
+
+Underfull \hbox (badness 1888) in paragraph at lines 73--74
+\OT1/ptm/m/n/10 Mit dem gegebe-nen Ziel die Zusam-me-nar-beit zwis-chen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+
+ []
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 75--76
+\OT1/ptm/m/n/10 Graphen, die in diesem Kon-text Ziel-dia-gramm genannt
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 75--76
+\OT1/ptm/m/n/10 charak-ter-isiert. Die Eigen-schaften k[]onnen unter an-derem
  []
 
 
@@ -1583,19 +1706,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¼ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¼ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
 
-Underfull \hbox (badness 5431) in paragraph at lines 77--78
-\OT1/ptm/m/n/10 Anstze sind alle-in-ste-hend nicht aus-re-ichend, um eine
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+[]\OT1/ptm/m/n/10 --TODO-- Erzeu-gung Ab-bil-dung Und-Oder-Graph +
  []
 
 
@@ -1603,45 +1716,86 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¼ in font ptmr7t!
 
 Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
+
+Underfull \hbox (badness 7116) in paragraph at lines 82--83
+\OT1/ptm/m/n/10 In-ter-ak-tio-nen des Sys-tems mit dessen Umge-bung zu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+
+Underfull \hbox (badness 2961) in paragraph at lines 84--85
+[]\OT1/ptm/m/n/10 Um die op-ti-male Zusam-me-nar-beit zu st[]utzen ist es
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+\OT1/ptm/m/n/10 notwendig, die Szenar-ien in einer Kom-bi-na-tion aus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+\OT1/ptm/m/n/10 An-wen-dungs-fall-dia-gram-men und Mes-sage Se-quence
+ []
+
+
+Underfull \hbox (badness 7030) in paragraph at lines 84--85
+\OT1/ptm/m/n/10 Charts graphisch zu mod-el-lieren. Dadurch, kann der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+\OT1/ptm/m/n/10 Zusam-men-hang zwis-chen Szenar-ien aufgezeigt wer-den
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+\OT1/ptm/m/n/10 und al-ter-na-tive Szenar-ien-verl[]aufe abzu-bilden (Silkora
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 84--85
+\OT1/ptm/m/n/10 welche prim[]aren und sekund[]aren Ak-teure gegeben sind.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+
+ []
+
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¼ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¼ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
+
+Underfull \hbox (badness 8189) in paragraph at lines 89--90
+\OT1/ptm/m/n/10 be-tra-chtet wer-den, da ein Szenario sich aus einem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+\OT1/ptm/m/n/10 An-wen-dungs-fall gener-ieren l[]asst. Dies be-deutet ein
+ []
+
+
+Underfull \hbox (badness 4467) in paragraph at lines 89--90
+\OT1/ptm/m/n/10 An-wen-dungs-fall kann Grund-lage fr eine Vielzahl von
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
- []
-
-[6]
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¼ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¼ in font ptmr7t!
-
-Underfull \hbox (badness 5189) in paragraph at lines 91--92
-[]\OT1/ptm/m/n/10 Im Rah-men der Er-stel-lung der Software-Architektur
- []
-
-
-Underfull \hbox (badness 4673) in paragraph at lines 91--92
-\OT1/ptm/m/n/10 die System-Architektur als auch Ziele, Szenar-ien und
  []
 
 
@@ -1650,29 +1804,231 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--92
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+Underfull \hbox (badness 3895) in paragraph at lines 93--95
+[]\OT1/ptm/m/n/10 Zu den No-ta-tion-se-le-menten eines An-wen-dungs-fall-dia-
+ []
+
+
+Underfull \hbox (badness 1953) in paragraph at lines 96--97
+\OT1/ptm/m/n/10 Sys-tem. Ak-teure, die mit dem Sys-tem in-ter-agieren
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+\OT1/ptm/m/n/10 Anwendungsfalldiagramme stellen Ak-teure und
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+\OT1/ptm/m/n/10 Ak-teure mit welchen An-wen-dungs-fllen in Beziehung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+\OT1/ptm/m/n/10 ste-hen und ob es wichtige Beziehun-gen zwis-chen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+\OT1/ptm/m/n/10 ver-schiede-nen An-wen-dungs-fllen gibt. Grund-st-zlich ist
+ []
+
+
+Underfull \hbox (badness 4328) in paragraph at lines 100--101
+\OT1/ptm/m/n/10 es mglich An-wen-dungs-fall-dia-gramme auf ver-schiede-nen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+\OT1/ptm/m/n/10 Ab-strak-tion-sstufen abzu-bilden um so sowohl fr das
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+
+ []
+
+[7]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+
+Underfull \hbox (badness 1394) in paragraph at lines 103--104
+ \OT1/ptm/m/it/10 b) Message-Sequence-Charts: [][] \OT1/ptm/m/n/10 Mithilfe von
+ Message-
+ []
+
+
+Underfull \hbox (badness 5592) in paragraph at lines 103--104
+\OT1/ptm/m/n/10 zwis-chen Software-Architekt und Requirements-Engineer
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 103--104
+\OT1/ptm/m/n/10 Message-Sequence-Charts ist, dass diese vor allem die
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+
+Underfull \hbox (badness 2478) in paragraph at lines 105--106
+[]\OT1/ptm/m/n/10 Grundstzlich werde in einem Message-Sequence-Chart
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+\OT1/ptm/m/n/10 High-Level-Message-Sequence-Charts (HLMSC), die es
+ []
+
+
+Underfull \hbox (badness 6316) in paragraph at lines 109--110
+\OT1/ptm/m/n/10 Charts zu bilden und so kom-plexere Zusam-menhnge
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+\OT1/ptm/m/n/10 di-enen hi-er-bei der Be-gren-zung des An-wen-dungs-falls.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+\OT1/ptm/m/n/10 Die Ver-weisknoten sind als Ver-weise zu ein-fachen
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 109--110
+\OT1/ptm/m/n/10 und mithilfe von gerichteten Kan-ten lsst sich It-er-a-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+
+ []
+
+
+Underfull \hbox (badness 2653) in paragraph at lines 116--117
+ \OT1/ptm/m/it/10 6) Kom-bi-na-tion der Ans[]atze: [][] \OT1/ptm/m/n/10 Wenn di
+e wesentlichen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+
+Underfull \hbox (badness 5431) in paragraph at lines 118--119
+\OT1/ptm/m/n/10 Anstze sind alle-in-ste-hend nicht aus-re-ichend, um eine
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
 
  []
 
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¤ in font ptmr7t!
 
-Underfull \hbox (badness 5077) in paragraph at lines 96--97
+Underfull \hbox (badness 5077) in paragraph at lines 129--130
 \OT1/ptm/m/n/10 wird deut-lich, dass diese allein nicht aus-re-ichen um
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
 \OT1/ptm/m/n/10 weitre-ichende Ar-chitek-turentschei-dun-gen zu tr-e-f-fen.
  []
 
 
-Underfull \hbox (badness 1418) in paragraph at lines 96--97
+Underfull \hbox (badness 1418) in paragraph at lines 129--130
 \OT1/ptm/m/n/10 Haupt-prob-lem ist hier, dass mithilfe der Ziele lediglich
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
  []
 
@@ -1683,12 +2039,12 @@ Missing character: There is no ¶ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¤ in font ptmr7t!
 
-Underfull \hbox (badness 2443) in paragraph at lines 98--99
+Underfull \hbox (badness 2443) in paragraph at lines 131--132
 \OT1/ptm/m/n/10 alle-in-ste-hende Szenar-ien ohne Zusam-men-hang am Ende
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
 
@@ -1705,7 +2061,7 @@ Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 )) (auswertung.tex
-Underfull \hbox (badness 6825) in paragraph at lines 100--1
+Underfull \hbox (badness 6825) in paragraph at lines 133--1
 []\OT1/ptm/m/n/10 Gemeinsame Anstze wie der COSMOD-RE Ansatz
  []
 
@@ -1713,7 +2069,95 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
-) (fazit.tex) (ausblick.tex)
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ÿ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ÿ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ÿ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+[8]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ÿ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ÿ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ÿ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ÿ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+) (fazit.tex) (ausblick.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--1
+
+ []
+
+)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -1725,7 +2169,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[7
+[9
 
 ] (SeminarArbeitWS1617conf.aux)
 
@@ -1733,22 +2177,21 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 1095 strings out of 493334
- 19893 string characters out of 3136672
- 81824 words of memory out of 3000000
- 4660 multiletter control sequences out of 15000+200000
+ 1102 strings out of 493334
+ 19890 string characters out of 3139254
+ 82824 words of memory out of 3000000
+ 4667 multiletter control sequences out of 15000+200000
  35250 words of font info for 64 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 26i,7n,19p,1659b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/urw/times/utmri8a.pfb>
-Output written on SeminarArbeitWS1617conf.pdf (7 pages, 97837 bytes).
+ 26i,7n,19p,1703b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/u
+rw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on SeminarArbeitWS1617conf.pdf (9 pages, 104562 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
+ 53 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
