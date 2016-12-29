@@ -2,7 +2,25 @@
 
 \subsection{Vergleich}
 
-"Einführungstabelle" - Vergleich der Hartfacts (zB input, output, Mehrwert, Rollen, Zeit, Projektgröße, Randbedingungen etc. \\
+\begin{table*}[h]
+\caption{Übersicht über die Kernattribute der Methoden}
+\centering
+\begin{tabular}{|p{1,5cm}|p{3,5cm}|p{3,5cm}|p{3,5cm}|p{3,5cm}|}%{|l|l|l|l|l|}
+\hline 
+\rule[-1ex]{0pt}{2.5ex} • & \textbf{Probing} &  \textbf{CBSP} & \textbf{COSMOD-RE} & \textbf{ADD 3.0} \\ 
+\hline 
+\rule[-1ex]{0pt}{2.5ex}  \textbf{Eingabe} &  PQ-Katalog / PQ-Flow & • &  System-Vision & Design Grund / Qualitätsattribute / Primäre Funktionalität / Einschränkungen / Architekturelle Bedenken \\ 
+\hline 
+\rule[-1ex]{0pt}{2.5ex} \textbf{Ausgabe} & Vollständigere Spezifikation (mit benötigten ASFRs) & • &  System-Nutzung-Ziele / System-Interaktions-Szenarien / grobe Architekturartefakte &  Verfeinerte Software Architektur \\ 
+\hline 
+\rule[-1ex]{0pt}{2.5ex}  \textbf{Rand-bedingungen} &  Der REler muss gewillt sein, die PQs zu benutzen & • &  Defininition einer Abstraktionshierarchie / Verknüpfung von Anforderungen und Architekturmodellen / Definition von Konsistenzbedinungen / Definition einer System-Vision &  Eingaben müssen gegeben sein / Anforderungserhebung muss abgeschlossen sein / Qualitätsattribute müssen erhoben sein \\ 
+\hline 
+\rule[-1ex]{0pt}{2.5ex}  \textbf{Ziele} &  Den REler mit PQs ausstatten / Erhebung der ASFRs erleichtern / verbessern & • &  Entwicklung von Anforderungen und Architekturartefakten / Unterstützung der Anordnung von Anforderungen und Architekturartefakten / Definition detaillierter Anforderungen auf der basis von Architekturartefakten &  Konkreter Ansatz zum entwurf einer Software-Architektur / Design einer Software-Architektur \\ 
+\hline 
+\end{tabular} 
+\label{tab:method_rating}
+\end{table*}
+
 
 \subsubsection{Eignung der Methoden zur Lösung der Probleme}
 
@@ -11,24 +29,24 @@
 \centering
 \begin{tabular}{|c|c|c|c|c|}
 \hline 
-\rule[-1ex]{0pt}{2.5ex} • & Probing & CBSP & COSMOD-RE & ADD 3.0 \\ 
+\rule[-1ex]{0pt}{2.5ex} • & \textbf{Probing} & \textbf{CBSP} & \textbf{COSMOD-RE} & \textbf{ADD 3.0} \\ 
 \hline 
-\rule[-1ex]{0pt}{2.5ex} P1 & 3 & 2 & 3 & 1 \\ 
+\rule[-1ex]{0pt}{2.5ex} \textbf{P1} & 2 & 3 & 3 & 1 \\ 
 \hline 
-\rule[-1ex]{0pt}{2.5ex}  P2 & • & • & • & • \\ 
+\rule[-1ex]{0pt}{2.5ex} \textbf{P2} & 2 & ? - 3 & 2 & 1 \\ 
 \hline 
-\rule[-1ex]{0pt}{2.5ex} P3 & • & • & • & • \\ 
+\rule[-1ex]{0pt}{2.5ex} \textbf{P3} & 2 & ? & 2 & 1 \\ 
 \hline 
-\rule[-1ex]{0pt}{2.5ex} P4 & • & • & • & • \\ 
+\rule[-1ex]{0pt}{2.5ex} \textbf{P4} & 1 & ? - 3 & 1 & 3 \\ 
 \hline 
-\rule[-1ex]{0pt}{2.5ex} P5 & • & • & • & • \\ 
+\rule[-1ex]{0pt}{2.5ex} \textbf{P5} & 3 & ? - 3 & 3 & 3 \\ 
 \hline 
-\rule[-1ex]{0pt}{2.5ex} P6 & • & • & • & • \\ 
+\rule[-1ex]{0pt}{2.5ex} \textbf{P6} & 3 & ? - 3 & 1 & 1 \\ 
 \hline 
-\rule[-1ex]{0pt}{2.5ex} P7 & • & • & • & • \\ 
+\rule[-1ex]{0pt}{2.5ex} \textbf{P7} & 1 & 3 & 3 & 1 \\ 
 \hline 
 \end{tabular} 
-\label{tab:eignung_der_methoden}
+\label{tab:method_rating}
 \end{table}
 
 
