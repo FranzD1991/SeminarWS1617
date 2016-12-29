@@ -30,17 +30,19 @@ TODO: PQ Kategorien und Typen aus (8). \\
 
 TODO: NUR DIE ERSTEN BEIDEN SPALTEN ÜBERNEHMEN
 
-\begin{table*}[h] %h, t, b, p : here = genau an dieser Stelle, wenn möglich, top = für den Seitenanfang, bottom = für das Seitenende, p = für eine spezielle Seite mit Tabellen und Abbildungen
+\begin{table}[h] %h, t, b, p : here = genau an dieser Stelle, wenn möglich, top = für den Seitenanfang, bottom = für das Seitenende, p = für eine spezielle Seite mit Tabellen und Abbildungen
 \caption{ASFR Kategorien und Beispiele}
-\begin{tabular}{|p{2cm}|p{4cm}|p{4cm}|p{6cm}|}%c, l, r, p{SIZEcm}, | : Zentrierter Text, linksbündiger Text, rechtsbündiger Text, Die Spalte soll SIZE cm breit sein, Das sog. Pipe-Symbol zeichnet einen senkrechten Strich zwischen die beiden Spalten
+\centering
+\begin{tabular}{|p{3cm}|p{5cm}|}
+%\begin{tabular}{|p{2cm}|p{4cm}|p{4cm}|p{6cm}|}%c, l, r, p{SIZEcm}, | : Zentrierter Text, linksbündiger Text, rechtsbündiger Text, Die Spalte soll SIZE cm breit sein, Das sog. Pipe-Symbol zeichnet einen senkrechten Strich zwischen die beiden Spalten
 	\hline
-	\textbf{ASFR Kategorie} & \textbf{Beschreibung} & \textbf{Beispiel ASFR} & \textbf{Beispiel Probing Question(s)} \\
+	\textbf{ASFR Kategorie} & \textbf{Beschreibung} \\ %& \textbf{Beispiel ASFR} & \textbf{Beispiel Probing Question(s)} \\
 	\hline
-  	Audit Trail & Erleichtern der Auditierung der Systemausführung & Das System muss jede Änderung an Kundendatensätzen für Auditzwecke erfassen. & - Müssen vor und nach Snapshots der Datenbank Tabellen gespeichert werden? \newline - Welche Art von Logs müssen geführt werden? \\
+  	Audit Trail & Erleichtern der Auditierung der Systemausführung \\%& Das System muss jede Änderung an Kundendatensätzen für Auditzwecke erfassen. & - Müssen vor und nach Snapshots der Datenbank Tabellen gespeichert werden? \newline - Welche Art von Logs müssen geführt werden? \\
 	\hline
 \end{tabular}
 \label{tab:asfr_category_table}
-\end{table*}
+\end{table}
 
 
 TODO: PQ-Flow aus (6). \\
