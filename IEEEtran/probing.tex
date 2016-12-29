@@ -1,20 +1,19 @@
 \subsection{Probing (JEM)}
 
-\subsubsection{Ziele der Methode}
-
 Das Ziel des Probing ist es, Requirements Engineers mit Fragen auszustatten die eine Erhebung architekturrelevanter Anforderungen, den ASFRs, ermöglichen. Diese Fragen werden Probing Questions (PQ) genannt. \\
+
+\subsubsection{Ziele der Methode}
 
 Die Haupttreiber architekturrelevanter Entscheidungen sind nicht-funktionale (NFR) bzw. qualitative Anforderungen [9]. Diese haben eine explizite Auswirkung auf die zu erstellende Architektur. Bei funktionalen Anforderungen bzw. ASFRs sind diese Auswirkungen meist implizit und müssen zunächst durch weitere Interviews mit dem Kunden herausgearbeitet werden. Auch sind hier die für einen Software-Architekten erforderlichen Informationen nicht immer klar in der Anforderung aufgeführt [9]. Dies kann zu falschen architektonischen Entscheidungen führen. Um dieses Problem anzugehen beschäftigen sich die Probing Questions mit den ASFRs. Requirements Engineers sollen mit Probing Questions ausgestattet werden um zusätzliche relevante Fragen stellen zu können. Dadurch soll während der Anforderungserhebung eine vollständigere Anforderungsspezifikation erstellt werden, in welcher die ASFRs aussagekräftiger sind [9]. Auch helfen diese den Requirements Engineers ein genaueres Verständnis für den Software-Architekten aufzubauen, welche Informationen er für die Konzeption und Implementierung der Software-Architektur benötigt. \\
 
 \subsubsection{Funktionsweise der Methode}
 
-Funktionsweise der Methode
-
+Da das Probing eine Art Interview-Leitfaden bestehend aus PQs für die ausführlichere Extraktion von ASFRs und keinen methodischen Leitfaden für die Anwendung dieser zur Verfügung stellt, wird in den folgenden Paragraphen auf den Aufbau der PQs und nicht auf die Durchführung eines Interviews mit diesen eingegangen. \\
 
 \paragraph{Randbedingungen}
 
 Randbedingungen
-
+Der REler muss gewillt sein, die PQs zu stellen...\\
 
 \paragraph{Eingabe}
 
@@ -28,6 +27,22 @@ Vorgehensmodell
 
 TODO: PQ Kategorien und Typen aus (8). \\
 
+
+TODO: NUR DIE ERSTEN BEIDEN SPALTEN ÜBERNEHMEN
+
+\begin{table*}[h] %h, t, b, p : here = genau an dieser Stelle, wenn möglich, top = für den Seitenanfang, bottom = für das Seitenende, p = für eine spezielle Seite mit Tabellen und Abbildungen
+\caption{ASFR Kategorien und Beispiele}
+\begin{tabular}{|p{2cm}|p{4cm}|p{4cm}|p{6cm}|}%c, l, r, p{SIZEcm}, | : Zentrierter Text, linksbündiger Text, rechtsbündiger Text, Die Spalte soll SIZE cm breit sein, Das sog. Pipe-Symbol zeichnet einen senkrechten Strich zwischen die beiden Spalten
+	\hline
+	\textbf{ASFR Kategorie} & \textbf{Beschreibung} & \textbf{Beispiel ASFR} & \textbf{Beispiel Probing Question(s)} \\
+	\hline
+  	Audit Trail & Erleichtern der Auditierung der Systemausführung & Das System muss jede Änderung an Kundendatensätzen für Auditzwecke erfassen. & - Müssen vor und nach Snapshots der Datenbank Tabellen gespeichert werden? \newline - Welche Art von Logs müssen geführt werden? \\
+	\hline
+\end{tabular}
+\label{tab:asfr_category_table}
+\end{table*}
+
+
 TODO: PQ-Flow aus (6). \\
 
 
@@ -35,7 +50,6 @@ TODO: PQ-Flow aus (6). \\
 (6) Probing for Requirements Knowledge to Simulate Architectural Thinking \\
 (8) What you see is what you get: Understanding Architecturally Significant Functional Requirements \\
 (9) Identifying Architecturally Significant Functional Requirements \\
-
 
 
 \paragraph{Ausgabe}
