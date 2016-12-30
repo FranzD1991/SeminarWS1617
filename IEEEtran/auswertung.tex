@@ -1,8 +1,12 @@
 \section{Auswertung der Methoden}\label{auswertung}
+In den vorhergehenden Kapiteln sind verschiedene Methoden vorgestellt worden die das Potenzial haben das Zusammenwirken von Requirements Engineer und Software Architekt zu verbessern und dadurch eine verbesserte Software Architektur zu generieren. Nun gilt es jedoch zu prüfen in wie weit dieses Potenzial zutrifft. Eignet sich eine Methode besser als die anderen? Wie sieht es aus wenn die Methoden miteinander verglichen werden? Ergänzen sich die Methoden womöglich? Diese Fragen gilt es in der Auswertung zu beantworten.\\
+
+Hierfür werden zunächst in tabellarischer Form die Kernattribute der besprochenen Methoden dargestellt. Danach werden die Methoden in Bezug zu den Problemen P1-P7 gebracht und es wird mittels eines Ratings überprüft wie geeignet die Methode ist, um das Problem zu bewältigen. Danach werden die Methoden gegenübergestellt, wodurch überprüft werden soll, wo sich die Methoden potenziell ergänzen, bzw. an welchen Stellen die eine Methode besser geeignet ist als die andere.\\ 
 
 \subsection{Vergleich}
+In der Tabelle \ref{tab:method_intro} sind die Kernattribute der Methoden dargestellt.\\
 
-\begin{table*}[h]
+\begin{table*}[t]
 \caption{Übersicht über die Kernattribute der Methoden}
 \centering
 \begin{tabular}{|p{1,5cm}|p{3,5cm}|p{3,5cm}|p{3,5cm}|p{3,5cm}|}%{|l|l|l|l|l|}
@@ -23,8 +27,11 @@
 
 
 \subsubsection{Eignung der Methoden zur Lösung der Probleme}
+In der Tabelle \ref{tab:method_rating} sind die Methoden und ihr Rating in Bezug zu den Problemen dargestellt.\\
 
-\begin{table}[h] %h, t, b, p : here = genau an dieser Stelle, wenn möglich, top = für den Seitenanfang, bottom = für das Seitenende, p = für eine spezielle Seite mit Tabellen und Abbildungen
+Eine 1 steht hierbei dafür, dass eine Methode nicht geeignet ist, das Problem zu lösen. Die 2 steht dafür, dass eine teilweise dafür geeignet sein kann, das Problem zu lösen und eine 3 steht dafür, dass eine Methode gut dafür geeignet ist, das Problem zu lösen.\\
+
+\begin{figure}[h] %h, t, b, p : here = genau an dieser Stelle, wenn möglich, top = für den Seitenanfang, bottom = für das Seitenende, p = für eine spezielle Seite mit Tabellen und Abbildungen
 \caption{Rating der Methoden}
 \centering
 \begin{tabular}{|c|c|c|c|c|}
@@ -33,7 +40,7 @@
 \hline 
 \rule[-1ex]{0pt}{2.5ex} \textbf{P1} & 2 & 3 & 3 & 1 \\ 
 \hline 
-\rule[-1ex]{0pt}{2.5ex} \textbf{P2} & 2 & ? - 3 & 2 & 1 \\ 
+\rule[-1ex]{0pt}{2.5ex} \textbf{P2} & 2 & ? - 3 & 3 & 1 \\ 
 \hline 
 \rule[-1ex]{0pt}{2.5ex} \textbf{P3} & 2 & ? & 2 & 1 \\ 
 \hline 
@@ -47,7 +54,7 @@
 \hline 
 \end{tabular} 
 \label{tab:method_rating}
-\end{table}
+\end{figure}
 
 
 \input{Rating_JEM}
