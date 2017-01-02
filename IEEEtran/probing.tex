@@ -4,56 +4,113 @@ Das Ziel des Probing ist es, Requirements Engineers mit Fragen auszustatten die 
 
 \subsubsection{Ziele der Methode}
 
-Die Haupttreiber architekturrelevanter Entscheidungen sind nicht-funktionale (NFR) bzw. qualitative Anforderungen [9]. Diese haben eine explizite Auswirkung auf die zu erstellende Architektur. Bei funktionalen Anforderungen bzw. ASFRs sind diese Auswirkungen meist implizit und müssen zunächst durch weitere Interviews mit dem Kunden herausgearbeitet werden. Auch sind hier die für einen Software-Architekten erforderlichen Informationen nicht immer klar in der Anforderung aufgeführt [9]. Dies kann zu falschen architektonischen Entscheidungen führen. Um dieses Problem anzugehen beschäftigen sich die Probing Questions mit den ASFRs. Requirements Engineers sollen mit Probing Questions ausgestattet werden um zusätzliche relevante Fragen stellen zu können. Dadurch soll während der Anforderungserhebung eine vollständigere Anforderungsspezifikation erstellt werden, in welcher die ASFRs aussagekräftiger sind [9]. Auch helfen diese den Requirements Engineers ein genaueres Verständnis für den Software-Architekten aufzubauen, welche Informationen er für die Konzeption und Implementierung der Software-Architektur benötigt. \\
+Die Haupttreiber architekturrelevanter Entscheidungen sind nicht-funktionale (NFR) bzw. qualitative Anforderungen \cite{Ros09}. Diese haben eine explizite Auswirkung auf die zu erstellende Architektur. Bei funktionalen Anforderungen bzw. ASFRs sind diese Auswirkungen meist implizit und müssen zunächst durch weitere Interviews mit dem Kunden herausgearbeitet werden. Auch sind hier die für einen Software-Architekten erforderlichen Informationen nicht immer klar in der Anforderung aufgeführt \cite{Ros03}. Dies kann zu falschen architektonischen Entscheidungen führen. Um dieses Problem anzugehen beschäftigen sich die Probing Questions mit den ASFRs. Requirements Engineers sollen mit Probing Questions ausgestattet werden um zusätzliche relevante Fragen stellen zu können. Dadurch soll während der Anforderungserhebung eine vollständigere Anforderungsspezifikation erstellt werden, in welcher die ASFRs aussagekräftiger sind \cite{Ros03}. Auch helfen diese den Requirements Engineers ein genaueres Verständnis für den Software-Architekten aufzubauen, welche Informationen er für die Konzeption und Implementierung der Software-Architektur benötigt. \\
 
 \subsubsection{Funktionsweise der Methode}
 
-Da das Probing eine Art Interview-Leitfaden bestehend aus PQs für die ausführlichere Extraktion von ASFRs und keinen methodischen Leitfaden für die Anwendung dieser zur Verfügung stellt, wird in den folgenden Paragraphen auf den Aufbau der PQs und nicht auf die Durchführung eines Interviews mit diesen eingegangen. \\
+Da das Probing eine Art Interview-Leitfaden bestehend aus PQs für die ausführlichere Extraktion von ASFRs und keinen methodischen Leitfaden für die Anwendung dieser zur Verfügung stellt, wird in den folgenden Paragraphen auf die PQs und deren Kategorisierung und nicht auf die Durchführung eines Interviews mit diesen eingegangen. \\
 
 \paragraph{Randbedingungen}
 
-Randbedingungen
-Der REler muss gewillt sein, die PQs zu stellen...\\
+Das Probing benötigt, außer den mitgebrachten PQs, keine weiteren Artefakte. Allerdings müssen zwei offensichtliche Bedingungen erfüllt sein, damit das Probing den Nutzen bringt den es verspricht. Zum einen müssen die PQs oder sogar die PQ-Flows dem Requirements Engineer zur Verfügung gestellt werden. Zum anderen muss dieser auch bereit sein, diese bei der Anforderungsgewinnung zu nutzen. \\
+
+Damit die PQs und PQ-Flows genauer auf ein Projekt zugeschnitten sind und besser auf einen konkreten Anwendungsfall angewandt werden können, müssen diese von einem erfahrenen Software-Architekten ausgewählt, angepasst oder ergänzt werden. Dafür benötigt dieser allerdings ausreichend Wissen und Erfahrung in der Domäne und über den Kunden \cite{Ros02}. Mehr dazu unter \ref{probing_model}. \\
 
 \paragraph{Eingabe}
 
-Eingabe
-
-
-\paragraph{Vorgehensmodell}
-
-Vorgehensmodell
-
-
-TODO: PQ Kategorien und Typen aus (8). \\
-
-
-TODO: NUR DIE ERSTEN BEIDEN SPALTEN ÜBERNEHMEN
+Für die Anwendung stellt das Probing sowohl einen Katalog aus PQs als auch zugehörige PQ-Flows bereit. Damit die PQs möglichst alle Bereiche der ASFRs abdecken wurden letztere, wie in Tabelle \ref{tab:asfr_category_table} zu sehen, in 15 Kategorien unterteilt. Die Kategorien wurden durch die Analyse von 450 FRs aus 30 Anforderungsspezifikationen und durch mehrere Interviews mit erfahrenen Software-Architekten aus verschiedenen Domänen und Ländern aufgestellt  \cite{Ros02} \cite{Ros03}. Sie bilden einen ersten Ansatz für die Strukturierung von PQs und sollen in Zukunft verfeinert werden \cite{Ros03}. \\ 
 
 \begin{table}[h] %h, t, b, p : here = genau an dieser Stelle, wenn möglich, top = für den Seitenanfang, bottom = für das Seitenende, p = für eine spezielle Seite mit Tabellen und Abbildungen
-\caption{ASFR Kategorien und Beispiele}
+\caption{ASFR Kategorien \cite{Ros02}}
 \centering
 \begin{tabular}{|p{3cm}|p{5cm}|}
 %\begin{tabular}{|p{2cm}|p{4cm}|p{4cm}|p{6cm}|}%c, l, r, p{SIZEcm}, | : Zentrierter Text, linksbündiger Text, rechtsbündiger Text, Die Spalte soll SIZE cm breit sein, Das sog. Pipe-Symbol zeichnet einen senkrechten Strich zwischen die beiden Spalten
 	\hline
 	\textbf{ASFR Kategorie} & \textbf{Beschreibung} \\ %& \textbf{Beispiel ASFR} & \textbf{Beispiel Probing Question(s)} \\
 	\hline
-  	Audit Trail & Erleichtern der Auditierung der Systemausführung \\%& Das System muss jede Änderung an Kundendatensätzen für Auditzwecke erfassen. & - Müssen vor und nach Snapshots der Datenbank Tabellen gespeichert werden? \newline - Welche Art von Logs müssen geführt werden? \\
+  	Audit Trail & Auditierung der Systemausführung ermöglichen (?) \\%& Das System muss jede Änderung an Kundendatensätzen für Auditzwecke erfassen. & - Müssen vor und nach Snapshots der Datenbank Tabellen gespeichert werden? \newline - Welche Art von Logs müssen geführt werden? \\
+	\hline
+	Batch-Verarbeitung (Batch Processing) & Batch-Verarbeitung ermöglichen \\
+	\hline
+	Lokalisierung & Unterstützung für mehrere Sprachen anbieten \\
+	\hline
+	Geschäftsprozess "Status" Meldungen (Kommunikation) & Unterstützung für Kommunikation anbieten \\
+	\hline
+	Datenbezogene Dialoge & Unterstützung verschiedener Dateneingabemechanismen \\
+	\hline
+	Bezahlung (Payment) & Finanziellen Transaktionen ermöglichen \\
+	\hline
+	Druck & Unterstützung zum Drucken von Dokumenten anbieten \\
+	\hline
+	Berichte (Report) & Die Generation von Berichten ermöglichen \\
+	\hline
+	Suche & Anbieten von Suchfunktionen \\
+	\hline
+	Drittanbieter Interaktion & Interaktion mit Drittanbieter Komponenten ermöglichen \\
+	\hline
+	Arbeitsfluss (Workflow) & Bereitstellung von Funktionen um Arbeitselemente zu verschieben, Gutachten und Genehmigungen ermöglichen (?)\\
+	\hline
+	Online Hilfe & Online Hilfe ermöglichen \\
+	\hline
+	Lizensierung & Dienste für die Beschaffung, Installation und Beobachtung der Lizenzbenutzung ermöglichen \\
+	\hline
+	Analyse von Benutzerverhalten & Sammeln, Analysieren und Aggregieren von Benutzerverhaltensdaten ermöglichen \\
+	\hline
+	Speichermechanismen & Bereitstellung von automatischen Mechanismen zur Speicherung und Konvertierung von Dokumenten \\
 	\hline
 \end{tabular}
 \label{tab:asfr_category_table}
 \end{table}
 
+Zu jeder Kategorie von ASFRs sind sowohl mehrere PQs als auch beispielhafte ASFRs, für ein besseres Verständnis der Kategorie notiert. Für die vierte Kategorie (Kommunikation) lautet eine Beispiel-ASFR \textit{Ein Arbeitsfluss ist erforderlich, um Benachrichtigungen an die Versicherer zu senden}. Mögliche PQs hier sind \textit{Soll die Kommunikation unidirektional oder bidirektional verlaufen?} oder \textit{Soll die Kommunikation vom Kunden konfigurierbar sein?} \cite{Ros03}. Für die Kategorie Suche wurden PQs wie \textit{Soll die Suche Schlüsselwort- oder Filter-basiert sein?} oder \textit{Ist eine semantische Suche notwendig?} aufgenommen \cite{Ros03}. \\
 
-TODO: PQ-Flow aus (6). \\
+Des weiteren sind die aufgestellten PQs in sechs Typen unterteilt \cite{Ros02}: \\
+
+\begin{itemize}
+\item[1.] \textit{Geschäftsregeln im Unternehmen des Kunden:} Einige PQs beziehen sich auf Einschränkungen, welche durch Unternehmensregeln gegeben sind, so beispielsweise \textit{Wie lange muss ein Audit-Trail gespeichert werden?} oder \textit{Welche Informationen möchte das Unternehmen im Audit-Trail sehen?}\cite{Ros02}.
+\item[2.] \textit{Strategische Technologie Entscheidungen:} PQs von diesem Typ beziehen sich auf die architektonischen Auswirkungen, welche durch Investitionsentscheidungen des Unternehmens des Kunden begründet sind \cite{Ros02}.
+\item[3.] \textit{Nicht-funktionale Aspekte bezogen auf die ASFRs:} Viele PQs behandeln relevante nicht-funktionale Aspekte, die bei einer architekturrelevanten Entscheidung berücksichtigt werden müssen. Zum Beispiel beziehen sich folgende PQs auf Skalierbarkeit und Sicherheit: \textit{Wie groß ist die Menge an Daten?}, \textit{Wie viele Haupttabellen werden für die Auditierung benötogt?} oder \textit{Welches Sicherheitslevel wird bei sensitiven Daten benötigt?} \cite{Ros02}.
+\item[4.] \textit{Einhaltung gesetzlicher Vorschriften:} PQs, welche von gesetzlichen Vorschriften abhängen haben einen großen Einfluss auf architektonische Entscheidungen. Wenn in einem Land beispielsweise bestimmte Inhalte von Gesetzeswegen verboten sind, dann hat diese Einschränkung einen großen Einfluss auf die zu konzipierende Software-Architektur \cite{Ros02}.
+\item[5.] \textit{Projekt Kontext:} Hierzu gehören PQs, die kontextuelle Parameter des Projekts betreffen und Auswirkungen auf die Software-Architektur haben. Diese beinhalten PQs, welche die funktionale [?], einen Geschäftsfall, Kosten, den Zeitrahmen, die zur Verfügung stehenden Technologien, Fähigkeiten auf Kunden- und Verkäuferseite, Unternehmenskultur, Kundenmentalität oder sogar strategische Anforderungen betreffen \cite{Ros02}.
+\item[6.] \textit{Zusammengesetzte Wirkung auf zwei oder mehr ASFRs:} Eine PQ, welche Antworten zu mehr als einer ASFR Kategorie liefert, gehört zu diesem Typ. Eine Beispiel-PQ für die Kategorien Geschäftsprozess "Status" Meldungen und Drittanbieter Interaktion lautet: \textit{Was für eine Bestätigung möchten sie vom Drittanbieter Gateway bei erfolgreicher Zahlung empfangen?} \cite{Ros02}
+\end{itemize}
+
+Diese Typisierung erleichtert das Verständnis und den Umgang mit PQs. Außerdem ist der Grund warum bestimmte PQs gefragt werden sollten dadurch ersichtlicher und Abhängigkeiten zwischen den PQs und den daraus resultierenden ASFRs sind einfacher zu lösen.
+TODO: Kein Beleg...kann das so bleiben?? \\
 
 
-\textbf{Paper so far:} \\
-(6) Probing for Requirements Knowledge to Simulate Architectural Thinking \\
-(8) What you see is what you get: Understanding Architecturally Significant Functional Requirements \\
-(9) Identifying Architecturally Significant Functional Requirements \\
+Zudem wurden für 5 der ASFR Kategorien ganze PQ-Flows erstellt. 
+TODO: PQ-Flow aus (\cite{Ros01}). \\
 
+Quasi "Flussdiagramme aus PQs"
+
+TODO: Grafik zu PQ-Flow Kommunikation \\
+
+
+
+
+"In den PQs ist ist architektonisches Wissen eingebettet \cite{Ros02}. "
+
+
+\paragraph{Vorgehensmodell} \label{probing_model}
+
+Die bereits existierenden PQs und PQ-Flows können ohne weitere Änderungen dem Requirements Engineer an die Hand gegeben werden, da diese bereits in der Praxis erfolgreich getestet wurden und laut \cite{Ros01}, \cite{Ros02} und \cite{Ros03} einen Mehrwert bieten. Allerdings bieten diese einen relativ allgemeinen Ansatz und sind nicht auf ein konkretes Projekt einer bestimmten Domäne zugeschnitten. 
+
+Alternativ können die PQs mit zusätzlichem Wissen des Software-Architekten eines konkreten Projektes angepasst oder ergänzt werden, wenn ihm bestimmte Aspekte für sein Projekt in den PQs nicht ausreichend abgedeckt erscheinen \cite{Ros02}. Hierzu benötigt dieser jedoch Erfahrung und Wissen in folgenden Bereichen \cite{Ros02}: \\
+
+\begin{itemize}
+\item[1.] Detailliertes Domänen Wissen
+\item[2.] Kenntnisse über das Geschäftsfeld des Kunden sowie über den Projektzyklus im Unternehmen des Software-Architekten
+\item[3.] Wissen über das Unternehmen des Kunden
+\end{itemize}
+
+Für diese Anpassungen gilt allerding: "Erfahrung spielt eine signifikante Rolle" \cite{Ros02}. \\
 
 \paragraph{Ausgabe}
 
-Ausgabe
+Nachdem die PQs vom Requirements Engineer bei der Anforderungserhebung benutzt wurden erhält dieser daraufhin eine vollständige Spezifikation, mit allen, vom Software-Architekten, benötigten ASFRs.
+
+\textbf{Paper Cites:} \\
+(\cite{Ros01}) Probing for Requirements Knowledge to Simulate Architectural Thinking \\
+(\cite{Ros02}) What you see is what you get: Understanding Architecturally Significant Functional Requirements \\
+(\cite{Ros03}) Identifying Architecturally Significant Functional Requirements \\
