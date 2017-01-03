@@ -75,22 +75,17 @@ Des weiteren sind die aufgestellten PQs in sechs Typen unterteilt \cite{Ros02}: 
 \item[6.] \textit{Zusammengesetzte Wirkung auf zwei oder mehr ASFRs:} Eine PQ, welche Antworten zu mehr als einer ASFR Kategorie liefert, gehört zu diesem Typ. Eine Beispiel-PQ für die Kategorien Geschäftsprozess "Status" Meldungen und Drittanbieter Interaktion lautet: \textit{Was für eine Bestätigung möchten sie vom Drittanbieter Gateway bei erfolgreicher Zahlung empfangen?} \cite{Ros02}
 \end{itemize}
 
-Diese Typisierung erleichtert das Verständnis und den Umgang mit PQs. Außerdem ist der Grund warum bestimmte PQs gefragt werden sollten dadurch ersichtlicher und Abhängigkeiten zwischen den PQs und den daraus resultierenden ASFRs sind einfacher zu lösen.
-TODO: Kein Beleg...kann das so bleiben?? \\
+Diese Typisierung zeigt die Abhängigkeiten von ASFRs mit anderen ASFRs, NFRs oder anderen Strukturen im Projekt oder Unternehmen auf \cite{Ros02}. Dies ermöglicht auf diese zu reagieren und daraus resultierenden Problemen rechtzeitig vorzubeugen. \\
 
+Zudem wurden für fünf der 15 ASFR Kategorien bereits ganze PQ-Flows erstellt. Die fünf Kategorien sind \textit{Audit Trail}, \textit{Batch-Verarbeitung}, \textit{Geschäftsprozess "Status" Meldungen (Kommunikation)}, \textit{Berichte} und \textit{Arbeitsfluss}. Die Idee hier ist, das architektonische Wissen, welches den PQs innewohnt \cite{Ros02}, in einer Wissensdatenbank aus PQ-Flows zu sammeln, ähnlich wie die Design Patterns nach Gamma et al. \cite{Ros03} um eine verbesserte und vollständigere Spezifikation zu erhalten. \\
 
-Zudem wurden für 5 der ASFR Kategorien ganze PQ-Flows erstellt. 
-TODO: PQ-Flow aus (\cite{Ros01}). \\
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.45]{pqflow_communication.png} 
+	\caption{PQ-Flow für Geschäftsprozess "Status" Meldungen (Kommunikation) \cite{Ros01}}\label{fig_pqflow_communication}
+\end{figure}
 
-Quasi "Flussdiagramme aus PQs"
-
-TODO: Grafik zu PQ-Flow Kommunikation \\
-
-
-
-
-"In den PQs ist ist architektonisches Wissen eingebettet \cite{Ros02}. "
-
+Ein PQ-Flow ist eine Art Fluss- oder Ablaufdiagramm aus PQs. Hier sind mehrere PQs so angeordnet, dass die Reihenfolge in welcher sie im Interview benutzt werden eine Rolle spielt. Dadurch soll dem Requirements Engineer eine bessere Hilfestellung geben werden, da hier einige Fragen abhängig von den Antworten vorher gegangener Fragen irrelevant werden können. So ist es logisch sinnvoll die PQ \textit{Welche Rollen (Stakeholder) dürfen das Privileg erhalten diese Warnungen zu konfigurieren? (PQ 4)} aus Figur \ref{fig_pqflow_communication} nur zu stellen, wenn die vorherige PQ (PQ 3) mit einem Ja beantwortet wurde. \\
 
 \paragraph{Vorgehensmodell} \label{probing_model}
 
@@ -110,7 +105,7 @@ Für diese Anpassungen gilt allerding: "Erfahrung spielt eine signifikante Rolle
 
 Nachdem die PQs vom Requirements Engineer bei der Anforderungserhebung benutzt wurden erhält dieser daraufhin eine vollständige Spezifikation, mit allen, vom Software-Architekten, benötigten ASFRs.
 
-\textbf{Paper Cites:} \\
-(\cite{Ros01}) Probing for Requirements Knowledge to Simulate Architectural Thinking \\
-(\cite{Ros02}) What you see is what you get: Understanding Architecturally Significant Functional Requirements \\
-(\cite{Ros03}) Identifying Architecturally Significant Functional Requirements \\
+%\textbf{Paper Cites:} \\
+%(\cite{Ros01}) Probing for Requirements Knowledge to Simulate Architectural Thinking \\
+%(\cite{Ros02}) What you see is what you get: Understanding Architecturally Significant Functional Requirements \\
+%(\cite{Ros03}) Identifying Architecturally Significant Functional Requirements \\
