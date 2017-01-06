@@ -1,5 +1,4 @@
-\section{Untersuchung gegebener Methoden}
-
+\section{Untersuchung gegebener Methoden}\label{unters}
 Da die beiden Bereiche des Requirements-Engineering und der Software-Architektur ein enormes Ma\ss{} an Wissen und F\"ahigkeiten erfordern werden diese in der Regel von verschiedenen Teams betreut \cite{Ros02}. Wie bereits genannt, entstehen hier h\"aufig Probleme durch fehlendes technisches Know-How \"uber Software-Architektur spezifische Aspekte bei den Requirements-Engineers. Auch k\"onnen diese oft nicht zwischen funktionalen Anforderungen (FR) und architekturspezifischen funktionalen Anforderungen (ASFR) unterscheiden \cite{Ros03}. ASFRs sind FRs welche kritisch, sehr risikobehaftet, volatil und bei \"Anderungen ein aufwendiges oder teures Refactoring mit sich bringen w\"urden oder einen anderweitig gro\ss{}en \textit{signifikanten} Impakt auf die zu konzipierende Software-Architektur h\"atten \cite{Ros02}. Durch das fehlende Know-How entstehen unvollst\"andige Anforderungs-Artefakte, in welchen wesentliche ASFRs f\"ur den Software-Architekten fehlen. \\
 
 \begin{figure}[h]
@@ -8,20 +7,18 @@ Da die beiden Bereiche des Requirements-Engineering und der Software-Architektur
 	\caption{\"Uberblick \"uber die untersuchten Methoden}\label{methoden}
 \end{figure}
 
-Sei ein vereinfachter Entwicklungsprozess wie in Abbildung \ref{methoden} gegeben. Zu sehen ist ein Kunde der eine System-Vision hat. Mit dieser Vision wendet er sich an einen Requirements Engineer, der einerseits \"uber Gespr\"ache und andererseits \"uber seine F\"ahigkeiten versucht die System-Vision in Form von Anforderungen festzuhalten. Diese Anforderungen werden an den Software-Architekten weitergegeben, der wiederum versucht aus den Anforderungen einen Architekturentwurf zu generieren. Diesen Architekturentwurf wird er an die Entwickler weitergeben. Die Entwickler entwickeln dann das fertiggestellte System und liefern dies an den Kunden. In der Betrachtung der Zusammenarbeit zwischen Software-Architekt und Requirements Engineer sind vor allem die Punkte von Interesse, die vor der fertiggestellten Software-Architektur stehen. Somit sind als Stakeholder vor allem Kunde, Requirements Engineer und Software-Architekt von Bedeutung. Einfach formuliert soll es das Ziel sein die System-Vsion in einer korrekten Software-Architektur festzuhalten.\\
+Sei ein vereinfachter Entwicklungsprozess wie in Abbildung \ref{methoden} gegeben. Zu sehen ist ein Kunde der eine System-Vision hat. Mit dieser Vision wendet er sich an einen Requirements Engineer, der einerseits \"uber Gespr\"ache und andererseits \"uber seine F\"ahigkeiten versucht die System-Vision in Form von Anforderungen festzuhalten. Diese Anforderungen werden an den Software-Architekten weitergegeben, der wiederum versucht aus den Anforderungen einen Architekturentwurf zu generieren. Diesen Architekturentwurf wird er an die Entwickler weitergeben. Diese entwickeln dann das konzipierte System und liefern es als fertiggestelltes System an den Kunden. In der Betrachtung der Zusammenarbeit zwischen Software-Architekt und Requirements Engineer sind vor allem die Punkte von Interesse, die vor der fertiggestellten Software-Architektur stehen. Somit sind als Stakeholder vor allem Kunde, Requirements Engineer und Software-Architekt von Bedeutung. Einfach formuliert soll es das Ziel sein die System-Vision in einer korrekten Software-Architektur festzuhalten, die die Anforderungen erfüllt.\\
 
-TODO: Beschriftete Pfeile müssen näher erklärt werden! ->Die Pfeile beschreiben bei welchen "Informationsfluss"(?) diese annotierten Methoden den kompletten Prozess unterstützen...  \\
+Die Pfeile in der Abbildung sind als Informationsflüsse zu sehen, die methodisch unterstützt werden. So stellt der Pfeil von Kunde zu Requirements Engineer dar, wie Anforderungen oder System-Vision des Kunden beispielsweise über ein Interview an den Requirements Engineer weitergegeben und in Form von Anforderungen formalisiert festgehalten wird. Im Fall von COSMOD-RE wird die System-Vision formalisiert in den Anforderungen festgehalten und an den Software-Architekten weitergegeben. Dieser Entwirft eine entsprechende Software-Architektur die dann zu einem weiteren Abgleich wieder an den Requirements Engineer überreicht wird. \\
 
 Im Folgenden sollen vier verschiedene Methoden untersucht werden, welche den Anspruch haben die Kluft in der Zusammenarbeit zwischen Software-Architekt und Requirements Engineer zu \"uberbr\"ucken. Dabei werden zun\"achst die Ziele der Methode herausgearbeitet und anschlie\ss{}end die Funktionsweise n\"aher erl\"autert, bevor die vier Methoden im nachfolgenden Kapitel ausgewertet werden. Bei der Funktionsweise wird auf folgende Aspekte genauer eingegangen: \\
 
 \begin{itemize}
-\item \textit{Randbedingungen:} Gibt es Einschr\"ankungen oder Vorbedingungen f\"ur die Ausf\"uhrung der Methode?
-\item \textit{Eingabe:} Welche Artefakte werden f\"ur die Ausf\"uhrung der Methode ben\"otigt?
-\item \textit{Vorgehensmodell:} Wie wird die Methode durchgef\"uhrt?
-\item \textit{Ausgabe:} Was liefert die Methode f\"ur ein Ergebnis? \\
+\item \textit{Randbedingungen:} In den Randbedingungen wird gekl\"art, welche Einschr\"ankungen die Methode hat und welche Voraussetzungen gekl\"art sein m\"ussen um die Methodik anzuwenden.
+\item \textit{Eingabe:} Die Eingabe beschreibt welche Artefakte f\"ur die Ausf\"uhrung der Methode ben\"otigt werden.
+\item \textit{Vorgehensmodell:} Mit dem Vorgehensmodell wird beschrieben wie die Methode anzuwenden ist.
+\item \textit{Ausgabe:} Die Ausgabe beschreibt, was am Ende das Resultat der Methode ist und welchen Mehrwert dieses haben k\"onnte.\\
 \end{itemize}
-
----TODO--- Redundante Textstelle - Einleitung oder Untersuchung\\
 
 \input{probing}
 \input{twinpeaks}
