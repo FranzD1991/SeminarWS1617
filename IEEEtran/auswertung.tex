@@ -31,7 +31,7 @@ In der Tabelle \ref{tab:method_rating} sind die Methoden und ihr Rating in Bezug
 
 Eine 1 steht hierbei dafür, dass eine Methode nicht geeignet ist, das Problem zu lösen. Die 2 steht dafür, dass eine Methode teilweise dafür geeignet sein kann, das Problem zu lösen und eine 3 steht dafür, dass eine Methode gut dafür geeignet ist, das Problem zu lösen.\\
 
-\begin{figure}[h] %h, t, b, p : here = genau an dieser Stelle, wenn möglich, top = für den Seitenanfang, bottom = für das Seitenende, p = für eine spezielle Seite mit Tabellen und Abbildungen
+\begin{table}[h] %h, t, b, p : here = genau an dieser Stelle, wenn möglich, top = für den Seitenanfang, bottom = für das Seitenende, p = für eine spezielle Seite mit Tabellen und Abbildungen
 \caption{Rating der Methoden}
 \centering
 \begin{tabular}{|l|c|c|c|c|}
@@ -57,7 +57,7 @@ Eine 1 steht hierbei dafür, dass eine Methode nicht geeignet ist, das Problem z
 \hline 
 \end{tabular} 
 \label{tab:method_rating}
-\end{figure}
+\end{table}
 
 TODO: Rating mit in die Tabelle??? \\
 
@@ -72,7 +72,6 @@ TODO: Rating mit in die Tabelle??? \\
 \input{gegen_FDD}
 
 \subsection{Bewertung}
+Unter der Berücksichtigung der genannten Probleme haben einige Methoden ein höheres Rating erzielt als andere. Insgesamt betrachtet hat CBSP mit 20 Punkten das höchste Rating, wenn als Grundlage die Menge der behandelten Probleme gegeben ist. COSMOD-RE hat mit 16 Punkten das zweithöchste Rating, Probing mit 14 das dritthöchste und ADD 3.0 mit 11 Punkten das niedrigste Rating. Dies bedeutet, CBSP und COSMOD-RE liefern bessere Lösungsansätze für die meisten Probleme. Hierbei ist allerdings zu beachten, dass CBSP und COSMOD-RE einen sehr großen Bereich des in Abbildung \ref{methoden} skizzierten Prozesses abdecken, während Probing und ADD 3.0 nur einen Teil davon behandeln. Zudem bieten sowohl Probing als auch ADD 3.0 hauptsächlich nur für einen Teil der unter \ref{problem} aufgestellten Probleme einen Lösungsansatz an. \\
 
-
-
-PQ-Flows nur für 5 Kategorien. \\
+Bei der Betrachtung der Kompabilität der Methoden fällt auf, dass sowohl CBSP als auch COSMOD-RE um Probing erweiterbar sind. In Kombination mit Probing würde CBSP ein Rating von 21 erzielen. Bei COSMOD-RE würde sich das Rating bei der Kombination mit Probing und ADD 3.0 auf 20 erhöhen, womit alle Probleme außer dem fehlenden Know-How gut zu lösen wären. Eine Kombination aus Probing und ADD 3.0 würde lediglich ein Rating von 16 erzeugen, was bei der Kombination von Methoden das schwächste Ergebnis liefert. Andere Kombinationen wie beispielsweise CBSP und COSMOD-RE oder CBSP und ADD 3.0 sind aufgrund von Konflikten in der methodischen Ausführung nicht möglich. \\

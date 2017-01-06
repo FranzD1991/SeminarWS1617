@@ -92,28 +92,35 @@ Als Eingabe benötigt das CBSP eine erste Anforderungsspezifikation. Diese muss 
 \paragraph{Vorgehensmodell} 
 Jede Iteration von CBSP besteht aus fünf Schritten, welche im folgenden vorgestellt werden. \\
 
+TODO: statt Fett mit emph !!! \\
+
 \textbf{Schritt 1:} Auswahl der Anforderungen für die nächste Iteration \\
 Um die Komplexität zu reduzieren werden hier, wie bereits angesprochen, durch ein Team von Architekten nur Anforderungen für die Iteration ausgewählt, welche mittels zweier Kriterien durch die Stakeholder als wichtig oder durchführbar bewertet wurden: (1) die \textit{Bedeutung} zeigt die Relevanz und den Wert für den Projekterfolg, (2) während die \textit{Durchführbarkeit} technische, ökonomische und politische Bedingungen berücksichtigt \cite{Gru01}. Diese Anforderungen können formell, informell oder semi-formell notiert sein. \\
 
 \textbf{Schritt 2:} Architektonische Klassifizierung der Anforderungen \\
 In Schritt zwei klassifizieren die Software-Architekten die selektierten Anforderungen mit Hilfe der CBSP Taxonomie. Desweiteren werden alle so klassifizierten Anforderungen in einer Tabelle anhand ihrer Relevanz zu den sechs CBSP Dimensionen bewertet. Die Bewertung erfolgt über eine Ordinalskala (nicht=0; partiell=1; weitgehend=2; voll=3) und beschreibt die Auswirkung, welche die Anforderung auf eine oder mehrere der jeweiligen CBSP Elemente hat \cite{Gru01}. Eine Beispielhafte Bewertung ist Tabelle \ref{tab:relevance_profiles} zu entnehmen. 
 
-\begin{figure}[h] %h, t, b, p : here = genau an dieser Stelle, wenn möglich, top = für den Seitenanfang, bottom = für das Seitenende, p = für eine spezielle Seite mit Tabellen und Abbildungen
+\begin{table}[h] %h, t, b, p : here = genau an dieser Stelle, wenn möglich, top = für den Seitenanfang, bottom = für das Seitenende, p = für eine spezielle Seite mit Tabellen und Abbildungen
 \caption{Beispiel Relevanzprofile nach \cite{Gru01}}
 \centering
-\begin{tabular}{|p{2.5cm}|c|c|c|c|c|c|}
+\begin{tabular}{|l|c|c|c|c|c|c|}
 \hline 
 \rule[-1ex]{0pt}{2.5ex} \textbf{Anforderungen} & \textbf{C} & \textbf{B} & \textbf{S} & \textbf{CP} & \textbf{BP} & \textbf{SP} \\ 
 \hline 
-\rule[-1ex]{0pt}{2.5ex} R01 Unterschiedliche Ladungstypen unterstützen & 1,33 & 0,33 & \cellcolor{Gray} 1,67 & 1,00 & 0,33 & 0,33 \\ 
+\rule[-1ex]{0pt}{2.5ex} R01 & 1,33 & 0,33 & \cellcolor{Gray} 1,67 & 1,00 & 0,33 & 0,33 \\ 
 \hline 
-\rule[-1ex]{0pt}{2.5ex} R02 Verschiedene Fahrzeuge unterstützen & \cellcolor{Gray} 2,00 & 0,00 & 1,00 & 1,33 & 0,00 & 0,00 \\ 
+\rule[-1ex]{0pt}{2.5ex} R02 & \cellcolor{Gray} 2,00 & 0,00 & 1,00 & 1,33 & 0,00 & 0,00 \\ 
 \hline 
-\rule[-1ex]{0pt}{2.5ex} R09 Schätzung der Frachtankunft und Fahrzeugverfügbarkeit unterstützen & \cellcolor{Gray} 2,67 & 1,33 & 2,00 & 0,33 & 0,00 & 0,00 \\ 
+\rule[-1ex]{0pt}{2.5ex} R09 & \cellcolor{Gray} 2,67 & 1,33 & 2,00 & 0,33 & 0,00 & 0,00 \\ 
 \hline 
 \end{tabular} 
 \label{tab:relevance_profiles}
-\end{figure}
+\end{table}
+
+TODO: 
+R01 Unterschiedliche Ladungstypen unterstützen \\
+R02 Verschiedene Fahrzeuge unterstützen \\
+R09 Schätzung der Frachtankunft und Fahrzeugverfügbarkeit unterstützen \\
 
 \textbf{Schritt 3:} Identifizierung und Auflösung von falschen Zuordnungen bei der Klassifizierung \\
 Da mehrere Software-Architekten diese Klassifizierung unabhängig voneinander vornehmen, müssen im dritten Schritt mögliche Abweichungen aufgedeckt, diskutiert und behoben werden. Dies ist wichtig um Missverständnisse, mehrdeutige Anforderungen, implizites Wissen, und widersprüchliche Auffassungen zu identifizieren und Risiken bei der Verfeinerung der Anforderungen zu reduzieren \cite{Gru01}. Bei der Diskussion können auch der Kunde und andere Stakeholder involviert sein. Der erarbeitete Konsens sorgt für ein einheitliches Verständnis der Anforderungen und die Relevanz dieser für die Software-Architektur. Wenn keine Unstimmigkeiten mehr vorliegen werden die Anforderungen weiter ausgedünnt indem alle Anforderungen, welche eine geringere Relevanz haben als ein vorher definierter Wert der Ordinalskala, wie beispielsweise "weitgehend", vorerst verworfen werden. Dabei wird auf Abhängigkeiten zwischen den Anforderungen geachtet um kritische nicht zu verwerfen. Alle akzeptierten Anforderungen werden inklusive gesammelter Probleme und Unklarheiten in den nächsten Schritt übernommen. \\
