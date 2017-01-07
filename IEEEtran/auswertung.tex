@@ -1,77 +1,55 @@
 \section{Auswertung der Methoden}\label{auswertung}
-In den vorhergehenden Kapiteln sind verschiedene Methoden vorgestellt worden die das Potenzial haben das Zusammenwirken von Requirements Engineer und Software Architekt zu verbessern und dadurch eine verbesserte Software Architektur zu generieren. Nun gilt es jedoch zu prüfen in wie weit dieses Potenzial zutrifft. Eignet sich eine Methode besser als die anderen? Wie sieht es aus wenn die Methoden miteinander verglichen werden? Ergänzen sich die Methoden womöglich? Diese Fragen gilt es in der Auswertung zu beantworten.\\
+In den vorhergehenden Kapiteln sind verschiedene Methoden vorgestellt worden die das Potenzial haben das Zusammenwirken von Requirements Engineer und Software Architekt zu verbessern und dadurch eine verbesserte Software Architektur zu generieren. Nun gilt es jedoch zu pr\"ufen in wie weit dieses Potenzial zutrifft. Eignet sich eine Methode besser als die anderen? Wie sieht es aus wenn die Methoden miteinander verglichen werden? Erg\"anzen sich die Methoden wom\"oglich? Diese Fragen gilt es in der Auswertung zu beantworten.\\
 
-Hierfür werden zunächst in tabellarischer Form die Kernattribute der besprochenen Methoden dargestellt. Danach werden die Methoden in Bezug zu den Problemen P1-P7 gebracht und es wird mittels eines Ratings überprüft wie geeignet die Methode ist, um das Problem zu bewältigen. Danach werden die Methoden gegenübergestellt, wodurch überprüft werden soll, wo sich die Methoden potenziell ergänzen, bzw. an welchen Stellen die eine Methode besser geeignet ist als die andere.\\ 
+Hierf\"ur werden zun\"achst in tabellarischer Form die Kernattribute der besprochenen Methoden dargestellt. Danach werden die Methoden in Bezug zu den Problemen P1-P7 gebracht und es wird mittels eines Ratings \"uberpr\"uft wie geeignet die Methode ist, um das Problem zu bew\"altigen. Danach werden die Methoden gegen\"ubergestellt, wodurch \"uberpr\"uft werden soll, wo sich die Methoden potenziell erg\"anzen, bzw. an welchen Stellen die eine Methode besser geeignet ist als die andere.\\ 
 
 \subsection{Vergleich}
 In der Tabelle \ref{tab:method_intro} sind die Kernattribute der Methoden dargestellt.\\
 
-\begin{table*}[t]
-\caption{Übersicht über die Kernattribute der Methoden}
-\centering
-\begin{tabular}{|p{1,5cm}|p{3,5cm}|p{3,5cm}|p{3,5cm}|p{3,5cm}|}%{|l|l|l|l|l|}
-\hline 
-\rule[-1ex]{0pt}{2.5ex} • & \textbf{Probing} &  \textbf{CBSP} & \textbf{COSMOD-RE} & \textbf{ADD 3.0} \\ 
-\hline 
-\rule[-1ex]{0pt}{2.5ex}  \textbf{Eingabe} &  PQ-Katalog / PQ-Flow & • &  System-Vision & Design Grund / Qualitätsattribute / Primäre Funktionalität / Einschränkungen / Architekturelle Bedenken \\ 
-\hline 
-\rule[-1ex]{0pt}{2.5ex} \textbf{Ausgabe} & Vollständigere Spezifikation (mit benötigten ASFRs) & • &  System-Nutzung-Ziele / System-Interaktions-Szenarien / grobe Architekturartefakte &  Verfeinerte Software Architektur \\ 
-\hline 
-\rule[-1ex]{0pt}{2.5ex}  \textbf{Rand-bedingungen} &  Der REler muss gewillt sein, die PQs zu benutzen & • &  Defininition einer Abstraktionshierarchie / Verknüpfung von Anforderungen und Architekturmodellen / Definition von Konsistenzbedinungen / Definition einer System-Vision &  Eingaben müssen gegeben sein / Anforderungserhebung muss abgeschlossen sein / Qualitätsattribute müssen erhoben sein \\ 
-\hline 
-\rule[-1ex]{0pt}{2.5ex}  \textbf{Ziele} &  Den REler mit PQs ausstatten / Erhebung der ASFRs erleichtern / verbessern & • &  Entwicklung von Anforderungen und Architekturartefakten / Unterstützung der Anordnung von Anforderungen und Architekturartefakten / Definition detaillierter Anforderungen auf der basis von Architekturartefakten &  Konkreter Ansatz zum entwurf einer Software-Architektur / Design einer Software-Architektur \\ 
-\hline 
-\end{tabular} 
-\label{tab:method_intro}
-\end{table*}
-
-
-\subsubsection{Eignung der Methoden zur Lösung der Probleme}
+\subsubsection{Eignung der Methoden zur L\"osung der Probleme}
 In der Tabelle \ref{tab:method_rating} sind die Methoden und ihr Rating in Bezug zu den Problemen dargestellt.\\
 
-Eine 1 steht hierbei dafür, dass eine Methode nicht geeignet ist, das Problem zu lösen. Die 2 steht dafür, dass eine Methode teilweise dafür geeignet sein kann, das Problem zu lösen und eine 3 steht dafür, dass eine Methode gut dafür geeignet ist, das Problem zu lösen.\\
-
-\begin{table}[h] %h, t, b, p : here = genau an dieser Stelle, wenn möglich, top = für den Seitenanfang, bottom = für das Seitenende, p = für eine spezielle Seite mit Tabellen und Abbildungen
+\begin{table}[h] %h, t, b, p : here = genau an dieser Stelle, wenn m\"oglich, top = f\"ur den Seitenanfang, bottom = f\"ur das Seitenende, p = f\"ur eine spezielle Seite mit Tabellen und Abbildungen
 \caption{Rating der Methoden}
 \centering
 \begin{tabular}{|l|c|c|c|c|}
 \hline 
-\rule[-1ex]{0pt}{2.5ex} • & \textbf{Probing} & \textbf{CBSP} & \textbf{COSMOD-RE} & \textbf{ADD 3.0} \\ 
+• & \textbf{Probing} & \textbf{CBSP} & \textbf{COSMOD-RE} & \textbf{ADD 3.0} \\ 
 \hline 
-\rule[-1ex]{0pt}{2.5ex} \textbf{P1} & 2 & 3 & 3 & 1 \\ 
+\textbf{P1} & 2 & 3 & 3 & 1 \\ 
 \hline 
-\rule[-1ex]{0pt}{2.5ex} \textbf{P2} & 2 & 3 & 3 & 1 \\ 
+\textbf{P2} & 2 & 3 & 3 & 1 \\ 
 \hline 
-\rule[-1ex]{0pt}{2.5ex} \textbf{P3} & 2 & 3 & 2 & 1 \\ 
+\textbf{P3} & 2 & 3 & 2 & 1 \\ 
 \hline 
-\rule[-1ex]{0pt}{2.5ex} \textbf{P4} & 1 & 3 & 1 & 3 \\ 
+\textbf{P4} & 1 & 3 & 1 & 3 \\ 
 \hline 
-\rule[-1ex]{0pt}{2.5ex} \textbf{P5} & 3 & 2 & 3 & 2 \\ 
+\textbf{P5} & 3 & 2 & 3 & 2 \\ 
 \hline 
-\rule[-1ex]{0pt}{2.5ex} \textbf{P6} & 3 & 3 & 1 & 2 \\ 
+\textbf{P6} & 3 & 3 & 1 & 2 \\ 
 \hline 
-\rule[-1ex]{0pt}{2.5ex} \textbf{P7} & 1 & 3 & 3 & 1 \\ 
+\textbf{P7} & 1 & 3 & 3 & 1 \\ 
 \hline 
 \hline 
-\rule[-1ex]{0pt}{2.5ex} Rating & 14 & 20 & 16 & 11 \\ 
+Rating & 14 & 20 & 16 & 11 \\ 
 \hline 
 \end{tabular} 
 \label{tab:method_rating}
 \end{table}
 
-TODO: Rating mit in die Tabelle??? \\
+Eine 1 steht hierbei daf\"ur, dass eine Methode nicht geeignet ist, das Problem zu l\"osen. Die 2 steht daf\"ur, dass eine Methode teilweise daf\"ur geeignet sein kann, das Problem zu l\"osen und eine 3 steht daf\"ur, dass eine Methode gut daf\"ur geeignet ist, das Problem zu l\"osen.\\
 
 \input{Rating_JEM}
 
 \input{Rating_FDD}
 
-\subsubsection{Gegenüberstellung der Methoden}
+\subsubsection{Gegen\"uberstellung der Methoden}
 
 \input{gegen_JEM}
 
 \input{gegen_FDD}
 
 \subsection{Bewertung}
-Unter der Berücksichtigung der genannten Probleme haben einige Methoden ein höheres Rating erzielt als andere. Insgesamt betrachtet hat CBSP mit 20 Punkten das höchste Rating, wenn als Grundlage die Menge der behandelten Probleme gegeben ist. COSMOD-RE hat mit 16 Punkten das zweithöchste Rating, Probing mit 14 das dritthöchste und ADD 3.0 mit 11 Punkten das niedrigste Rating. Dies bedeutet, CBSP und COSMOD-RE liefern bessere Lösungsansätze für die meisten Probleme. Hierbei ist allerdings zu beachten, dass CBSP und COSMOD-RE einen sehr großen Bereich des in Abbildung \ref{methoden} skizzierten Prozesses abdecken, während Probing und ADD 3.0 nur einen Teil davon behandeln. Zudem bieten sowohl Probing als auch ADD 3.0 hauptsächlich nur für einen Teil der unter \ref{problem} aufgestellten Probleme einen Lösungsansatz an. \\
+Unter der Ber\"ucksichtigung der genannten Probleme haben einige Methoden ein h\"oheres Rating erzielt als andere. Insgesamt betrachtet hat CBSP mit 20 Punkten das h\"ochste Rating, wenn als Grundlage die Menge der behandelten Probleme gegeben ist. COSMOD-RE hat mit 16 Punkten das zweith\"ochste Rating, Probing mit 14 das dritth\"ochste und ADD 3.0 mit 11 Punkten das niedrigste Rating. Dies bedeutet, CBSP und COSMOD-RE liefern bessere L\"osungsans\"atze f\"ur die meisten Probleme. Hierbei ist allerdings zu beachten, dass CBSP und COSMOD-RE einen sehr gro\ss{}en Bereich des in Abbildung \ref{methoden} skizzierten Prozesses abdecken, w\"ahrend Probing und ADD 3.0 nur einen Teil davon behandeln. Zudem bieten sowohl Probing als auch ADD 3.0 haupts\"achlich nur f\"ur einen Teil der unter \ref{problem} aufgestellten Probleme einen L\"osungsansatz an. \\
 
-Bei der Betrachtung der Kompabilität der Methoden fällt auf, dass sowohl CBSP als auch COSMOD-RE um Probing erweiterbar sind. In Kombination mit Probing würde CBSP ein Rating von 21 erzielen. Bei COSMOD-RE würde sich das Rating bei der Kombination mit Probing und ADD 3.0 auf 20 erhöhen, womit alle Probleme außer dem fehlenden Know-How gut zu lösen wären. Eine Kombination aus Probing und ADD 3.0 würde lediglich ein Rating von 16 erzeugen, was bei der Kombination von Methoden das schwächste Ergebnis liefert. Andere Kombinationen wie beispielsweise CBSP und COSMOD-RE oder CBSP und ADD 3.0 sind aufgrund von Konflikten in der methodischen Ausführung nicht möglich. \\
+Bei der Betrachtung der Kompabilit\"at der Methoden f\"allt auf, dass sowohl CBSP als auch COSMOD-RE um Probing erweiterbar sind. In Kombination mit Probing w\"urde CBSP ein Rating von 21 erzielen. Bei COSMOD-RE w\"urde sich das Rating bei der Kombination mit Probing und ADD 3.0 auf 20 erh\"ohen, womit alle Probleme au\ss{}er dem fehlenden Know-How gut zu l\"osen w\"aren. Eine Kombination aus Probing und ADD 3.0 w\"urde lediglich ein Rating von 16 erzeugen, was bei der Kombination von Methoden das schw\"achste Ergebnis liefert. Andere Kombinationen wie beispielsweise CBSP und COSMOD-RE oder CBSP und ADD 3.0 sind aufgrund von Konflikten in der methodischen Ausf\"uhrung nicht m\"oglich. \\

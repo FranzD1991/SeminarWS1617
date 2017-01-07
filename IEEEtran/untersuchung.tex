@@ -3,7 +3,7 @@ Da die beiden Bereiche des Requirements-Engineering und der Software-Architektur
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[scale=0.5]{methoden.jpg} 
+	\includegraphics[scale=0.5]{methoden.png} 
 	\caption{\"Uberblick \"uber die untersuchten Methoden}\label{methoden}
 \end{figure}
 
@@ -26,3 +26,22 @@ Im Folgenden sollen vier verschiedene Methoden untersucht werden, welche den Ans
 \input{twinpeaks}
 \input{goal}
 \input{add3}
+
+\begin{table*}[h]
+\caption{\"ubersicht \"uber die Kernattribute der Methoden}
+\centering
+\begin{tabular}{|p{1,5cm}|p{3,5cm}|p{3,5cm}|p{3,5cm}|p{3,5cm}|}%{|l|l|l|l|l|}
+\hline 
+• & \textbf{Probing} &  \textbf{CBSP} & \textbf{COSMOD-RE} & \textbf{ADD 3.0} \\ 
+\hline 
+ \textbf{Eingabe} &  PQ-Katalog / PQ-Flow & Erste Anforderungsspezifikation &  System-Vision & Design Grund / Qualit\"atsattribute / Prim\"are Funktionalit\"at / Einschr\"ankungen / Architekturelle Bedenken \\ 
+\hline 
+\textbf{Ausgabe} & Vollst\"andigere Spezifikation (mit ben\"otigten ASFRs) & Architektur-Prototyp &  System-Nutzung-Ziele / System-Interaktions-Szenarien / grobe Architekturartefakte &  Verfeinerte Software Architektur \\ 
+\hline 
+ \textbf{Rand-bedingungen} &  Der REler muss gewillt sein, die PQs zu benutzen & Alle Stakeholder m\"ussen bei Unklarheiten zur Verf\"ugung stehen / Software-Architekten brauchen ein Mindestma\ss{} an Erfahrung und Wissen &  Defininition einer Abstraktionshierarchie / Verkn\"upfung von Anforderungen und Architekturmodellen / Definition von Konsistenzbedinungen / Definition einer System-Vision &  Eingaben m\"ussen gegeben sein / Anforderungserhebung muss abgeschlossen sein / Qualit\"atsattribute m\"ussen erhoben sein \\ 
+\hline 
+ \textbf{Ziele} &  Den REler mit PQs ausstatten / Erhebung der ASFRs erleichtern / verbessern & Leichtgewichtigen Ansatz zur Generierung von Architekturartefakten, welche die Anforderungen erf\"ullen, bereitstellen / Komplexit\"at Behandeln / Konsistenz gew\"ahrleisten / Abh\"angigkeiten zwischen Anforderungen aufl\"osen / wichtige Stakeholder involvieren / Mechanismen um Konflikte zu l\"osen &  Entwicklung von Anforderungen und Architekturartefakten / Unterst\"utzung der Anordnung von Anforderungen und Architekturartefakten / Definition detaillierter Anforderungen auf der basis von Architekturartefakten &  Konkreter Ansatz zum entwurf einer Software-Architektur / Design einer Software-Architektur \\ 
+\hline 
+\end{tabular} 
+\label{tab:method_intro}
+\end{table*}
