@@ -2,7 +2,7 @@
 COSMOD-Requirements Engineering (COSMOD-RE) beschreibt ein iteratives Vorgehen zum gleichzeitigen Design von Anforderungen und Software-Architektur. Kerngedanke bei COSMOD-RE ist eine Aufteilung in vier Hierarchiestufen, wo sowohl Architektur als auch Anforderungen definiert werden. In diesen vier Hierarchiestufen wird einerseits aus der Anforderungssicht und andererseits aus der Architektursicht betrachtet, welche Anforderungen und Komponenten dem System zuzuordnen sind.\\
 
 \subsubsection{Ziele der Methode}
-Kernziel von COSMOD-RE ist es die Entwicklung von Anforderungs- und Architekturartefakten f\"ur softwareintensive eingebettete Systeme zu unterst\"utzen. Ein Ziel- und Szenario-basierter Ansatz wie COSMOD-RE, der das Co-Design von Architekturartefakten und Anforderungen erm\"oglicht muss jedoch einige Anforderungen erf\"ullen um einen Nutzen zu haben. Die Anforderungen an eine solchen Methodik sind \cite{Poh02}\\
+Kernziel von COSMOD-RE ist es die Entwicklung von Anforderungs- und Architekturartefakten f\"ur softwareintensive eingebettete Systeme zu unterst\"utzen. Ein Ziel- und Szenario-basierter Ansatz wie COSMOD-RE, der das Co-Design von Architekturartefakten und Anforderungen erm\"oglicht muss jedoch einige Anforderungen erf\"ullen um einen Nutzen zu bringen. Die Anforderungen an eine solche Methodik sind: \cite{Poh02}\\
  
 \begin{itemize}
 \item \emph{Entwicklung von Anforderungen und Architekturartefakten.} \\
@@ -62,11 +62,11 @@ Die vier in Abbildung \ref{cosmodreow} dargestellten Hierarchieebenen sind:\\
 \item[1.] \emph{System:} Die Systemebene beschreibt die oberste Ebene, bei der in der Anforderungssicht das System als ganzes betrachtet wird. Im Fokus stehen dabei die Interaktionen mit dem System. Weiter werden funktionale Anforderungen und Qualit\"atsanforderungen erstellt, die sich auf das Gesamtsystem beziehen. Die Architektursicht konzentriert sich hier auf die Definition von externen Systemschnittstellen. Hier definierte Artefakte sollen prim\"ar die Kommunikation mit Stakeholdern unterst\"utzen.
 \item[2.] \emph{Komponenten:} Die Komponentenebene bezeichnet die Aufteilung des Systems in einzelne Komponenten aus denen sich dieses zusammensetzen soll. F\"ur jede Komponente werden funktionale Anforderungen und Qualit\"atsanforderungen formuliert. Da in dieser Ebene die Basis f\"ur die Systemarchtitektur gelegt wird, hat die Kommunikation zwischen dem Software-Architekten und dem Requirements Engineer von besonderer Bedeutung. 
 \item[3.] \emph{Hard-/Software Komponenten:} Auf dieser Ebene werden die zuvor erstellten Komponenten in Hard- und Software Komponenten aufgeteilt und weiter verfeinert. Anforderungen auf dieser Ebene sind somit speziell auf die Komponentenart bezogen. 
-\item[4.] \emph{Deployment:} Auf dieser Ebene werden Softwarekomponenten programmierbaren Hardwarekomponeten zugeordnet. Anforderungen auf dieser Ebene beziehen sich auf das Deployment der Softwarekomponenten und ihrem Einfluss auf vorher definierte Anforderungen. 
+\item[4.] \emph{Deployment:} Auf dieser Ebene werden Softwarekomponenten programmierbaren Hardwarekomponeten zugeordnet. Anforderungen auf dieser Ebene beziehen sich auf das Deployment der Softwarekomponenten und ihrem Einfluss auf vorher definierte Anforderungen. \\
 \end{itemize}
 Da die Zusammenarbeit zwischen Software-Architekt und Requirements Engineer vor allem in den obersten beiden Ebenen von Relevanz ist, sind die unteren beiden Ebenen in diesem Kontext zu vernachl\"assigen.\\
 
-Ein Vorteil von COSMOD-RE ist unter anderem, dass Beziehung die sich \"uber mehrere Hierarchieebenen erstrecken, nicht vernachl\"assigt werden. Dies ist durch die CO-Design Prozesse m\"oglich. Diese geben an, dass bei der Ausf\"uhrung der Subprozesse mehrere Hierarchieebenen zu ber\"ucksichtigen sind. So wird beim System-Co-Design sowohl die Systemebene als auch die Komponentenebene betrachtet. Bei dem Komponenten Co-Design wird die Komponentenebene und diie Hard-/Software Komponentenebene betrachtet. Im Hard-/Software Co-Design wird die Hard-/Software Komponentenebene und die Deployment ebene ber\"ucksichtigt \cite{Poh02}. Jeder dieser drei CO-Design Prozesse f\"uhrt dann die f\"unf Subprozesse aus.\\ 
+Ein Vorteil von COSMOD-RE ist unter anderem, dass Beziehung die sich \"uber mehrere Hierarchieebenen erstrecken, nicht vernachl\"assigt werden. Dies ist durch die CO-Design Prozesse m\"oglich. Diese geben an, dass bei der Ausf\"uhrung der Subprozesse mehrere Hierarchieebenen zu ber\"ucksichtigen sind. So wird beim System-Co-Design sowohl die Systemebene als auch die Komponentenebene betrachtet. Bei dem Komponenten Co-Design wird die Komponentenebene und die Hard-/Software Komponentenebene betrachtet. Im Hard-/Software Co-Design wird die Hard-/Software Komponentenebene und die Deploymentebene ber\"ucksichtigt \cite{Poh02}. Jeder dieser drei CO-Design Prozesse f\"uhrt dann die f\"unf Subprozesse aus.\\ 
 
 Das grunds\"atzliche Vorgehen von COSMOD-RE ist, dass eine Systemvision unter der Verwendung von Szenarien und Zielen zu einer Menge von Systemartefakten verfeinert wird \cite{Poh01}. Hierf\"ur nutzt die Methode f\"unf Subprozesse. \\
 
@@ -88,7 +88,7 @@ In diesem Subprozess werden vier Kernaktivit\"aten ausgef\"uhrt:\\
 
 \begin{itemize}
 \item \emph{Analyse der Systemziele und Nutzungs-Szenarien:} Ziel dieser Aktivit\"at ist die Identifikation architekturrelevanter Aussagen in den Systemnutzungs-Zielen und Systemnutzungs-Szenarien. Diese k\"onnen zum Beispiel hinweise auf spezielle Komponenten sein. 
-\item \emph{Kreative Entwicklung neuer Architekturl\"osungen:} Ziel dieser Aktivit\"at ist es innovative L\"osungen f\"ur das System zu erarbeiten. Auch wenn die in SP1 erzeugten Ausgaben von Bedeutung sind, ist hier vor allem das Know-How der Software-Architekten von Relevanz. Das technisches Hintergrundwissen und der Einfallsreichtum sind von zentraler Bedeutung.
+\item \emph{Kreative Entwicklung neuer Architekturl\"osungen:} Ziel dieser Aktivit\"at ist es innovative L\"osungen f\"ur das System zu erarbeiten. Auch wenn die in SP1 erzeugten Ausgaben von Bedeutung sind, ist hier vor allem das Know-How der Software-Architekten von Relevanz. Das technische Hintergrundwissen und der Einfallsreichtum sind von zentraler Bedeutung.
 \item \emph{Bewertung der entwickelten Architekturl\"osungen:} Ziel dieser Aktivit\"at ist die Auswertung der entwickelten L\"osungsans\"atze um so die besten auszuw\"ahlen. 
 \item \emph{Definition einer vorl\"aufigen groben Architektur:} Ziel dieser Aktivit\"at ist die Erzeugung einer (partiellen) L\"osung basierend auf der zuvor ausgef\"uhrten Bewertung \cite{Poh01}.\\
 \end{itemize} 
@@ -107,13 +107,13 @@ Die \"Uberpr\"ufung l\"asst sich auch betrachten als Vergleich der Ergebnisse vo
 \emph{SP4: Festlegung der Systemnutzungs-Sicht und Architektursicht -}
 Wie auch in SP3 gibt es hier zwei zentrale Ziele. Einerseits sollen die in SP1 erzeugten Systemnutzungs-Ziele und -Szenarien mithilfe der Erkenntnisse aus SP3 verbessert und angepasst werden und andererseits soll die in SP2 gebildete grobe Architektur mithilfe der Erkenntnisse aus SP3 verbessert und angepasst werden \cite{Poh01}.\\
 
-Hierf\"ur muss zun\"achst bei den Ausgaben von SP3 \"uberpr\"uft werden, ob sie zur Verbesserung der Ergebnisse von SP1 und SP2 geeignet sind. Hierf\"ur ist es angemessen ein System zur Kategorisierung einzuf\"uhren, \"uber das entschieden werden kann ob eine Verbesserung notwendig oder nicht notwendig ist. Danach werden die Ergebnisse von SP3 priorisiert. Hier wird \"uberpr\"uft welche Verbesserung zuerst umgesetzt werden sollte und welche nicht direkt notwendig sind. Zuletzt werden die Verbesserungen umgesetzt. Hier ist jedoch zu beachten, dass Verbesserungen neue Ideen hervorrufen k\"onnten oder Inkonsistenzen erzeugen k\"onnten. Daher kann es notwendig sein SP3 zu wiederholen. Diese Iteration ist solange durchzuf\"uhren, bis die Ergebnisse angemessen angeordnet und stabil sind \cite{Poh01}.\\
+Hierf\"ur muss zun\"achst bei den Ausgaben von SP3 \"uberpr\"uft werden, ob sie zur Verbesserung der Ergebnisse von SP1 und SP2 geeignet sind. Hierf\"ur ist es angemessen ein System zur Kategorisierung einzuf\"uhren, \"uber das entschieden werden kann ob eine Verbesserung notwendig oder nicht notwendig ist. Danach werden die Ergebnisse von SP3 priorisiert. Hier wird \"uberpr\"uft welche Verbesserungen zuerst umgesetzt werden sollten und welche nicht direkt notwendig sind. Zuletzt werden die Verbesserungen umgesetzt. Hier ist jedoch zu beachten, dass Verbesserungen neue Ideen hervorrufen oder Inkonsistenzen erzeugen k\"onnten. Daher kann es notwendig sein SP3 zu wiederholen. Diese Iteration ist solange durchzuf\"uhren, bis die Ergebnisse angemessen angeordnet und stabil sind \cite{Poh01}.\\
 
 \emph{SP5: Entwicklung der Systemanforderungen -}
 Hauptziel dieses Subprozesses ist die Spezifikation detaillierter Systemanforderungen. Grundlage f\"ur die Spezifikation sind die Systemnutzungs-Sicht und die Architektursicht. Mithilfe von Zielen, Szenarien und dem groben Architekturentwurf ist es m\"oglich detaillierte Anforderungen zu formulieren und in der Spezifikation aufzuf\"uhren.\\
 
 \paragraph{Ausgabe}
-Ausgabe der Methode ist eine kompakte Menge von System-Nutzung-Zielen, System-Interaktions-Szenarien und grobe Architekturartefakte. Ferner wird eine detaillierte System-Anforderungsspezifikation generiert.\\
+Ausgabe der Methode ist eine kompakte Menge von System-Nutzungs-Zielen, System-Interaktions-Szenarien und grobe Architekturartefakte. Ferner wird eine detaillierte System-Anforderungsspezifikation generiert.\\
 
 Vor allem im Rahmen der f\"unf Subprozesse werden folgende Artefakte generiert:\\
 
@@ -127,9 +127,9 @@ Vor allem im Rahmen der f\"unf Subprozesse werden folgende Artefakte generiert:\
 \item \emph{Kontextmodell:}
 Das Kontextmodell dokumentiert die beabsichtigte Einbettung des Systems in seine Systemumgebung. Es werden externe Akteure definiert, die mit dem System interagieren. Ein Akteur kann hierbei ein Mensch oder ein System sein. Ferner wird modelliert, wie Akteure mit dem System interagieren \cite{Poh01}.
 \item \emph{Systemnutzungs-Ziele:}
-Systemnutzungs-Ziele verfeiner die Systemvision. Ein Systemnutzungs-Ziel dokumentiert eine Eigenschaft des Systems in Bezug zu externen Akteuren, die das System nutzen. Ein Ziel kann hierbei in Unterziele unterteilt werden wodurch eine Hierarchie von Zielen m\"oglich ist \cite{Poh01}.  
+Systemnutzungs-Ziele verfeinern die Systemvision. Ein Systemnutzungs-Ziel dokumentiert eine Eigenschaft des Systems in Bezug zu externen Akteuren, die das System nutzen. Ein Ziel kann hierbei in Unterziele unterteilt werden wodurch eine Hierarchie von Zielen m\"oglich ist \cite{Poh01}.  
 \item \emph{Systeminteraktions-Szenarien:}
-Mit diesen Szenarien werden Interaktionen von Akteuuren mit dem System dokumentiert. F\"ur die Dokumentation solcher Szenarien bieten sich modellbasierte Ans\"atze an \cite{Poh01}.
+Mit diesen Szenarien werden Interaktionen von Akteuren mit dem System dokumentiert. F\"ur die Dokumentation solcher Szenarien bieten sich modellbasierte Ans\"atze an \cite{Poh01}.
 \item \emph{Architektur-Szenarien:}
 Mithilfe dieser Szenarien werden Interaktionen innerhalb des Systems dokumentiert. Hiermit sind vor allem Interaktionen zwischen Systemkomponenten gemeint \cite{Poh01}. 
 \item \emph{Grobe System-Architektur:}
@@ -138,4 +138,4 @@ Hier wird eine Zerlegung der System-Architektur in eine Menge funktionaler Kompo
 Als Systemanforderungen werden hier funktionale, strukturelle oder verhaltensbezogene Anforderungen gemeint. Weiter werden Qualit\"atsanforderungen die sich beispielsweise auf Performance oder Sicherheit beziehen spezifiziert \cite{Poh01}.\\
 \end{itemize}
 
-Durch die iterative Verbesserung der Anforderungen und Systemarchitektur ist es abh\"angig von der Anzahl der Iterationen m\"oglich ein Abbild der System-Vision zu erzeugen, sofern diese zu Beginn korrekt definiert wurde.
+Durch die iterativen Verbesserungen von Anforderungen und Systemarchitektur ist es abh\"angig von der Anzahl der Iterationen m\"oglich ein Abbild der System-Vision zu erzeugen, sofern diese zu Beginn korrekt definiert wurde.

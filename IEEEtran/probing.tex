@@ -4,7 +4,7 @@ Das Ziel des Probing ist es, Requirements Engineers mit Fragen auszustatten die 
 
 \subsubsection{Ziele der Methode}
 
-Die Haupttreiber architekturrelevanter Entscheidungen sind nicht-funktionale (NFR) bzw. qualitative Anforderungen \cite{Ros03}. Diese haben eine explizite Auswirkung auf die zu erstellende Architektur. Bei funktionalen Anforderungen bzw. ASFRs sind diese Auswirkungen meist implizit und m\"ussen zun\"achst durch weitere Interviews mit dem Kunden herausgearbeitet werden. Auch sind hier die f\"ur einen Software-Architekten erforderlichen Informationen nicht immer klar in der Anforderung aufgef\"uhrt \cite{Ros03}. Dies kann zu falschen architektonischen Entscheidungen f\"uhren. Um dieses Problem anzugehen besch\"aftigen sich die Probing Questions mit den ASFRs. Requirements Engineers sollen mit Probing Questions ausgestattet werden um zus\"atzliche relevante Fragen stellen zu k\"onnen. Dadurch soll w\"ahrend der Anforderungserhebung eine vollst\"andigere Anforderungsspezifikation erstellt werden, in welcher die ASFRs aussagekr\"aftiger sind \cite{Ros03}. Auch helfen diese den Requirements Engineers ein genaueres Verst\"andnis f\"ur den Software-Architekten aufzubauen, welche Informationen er f\"ur die Konzeption und Implementierung der Software-Architektur ben\"otigt. \\
+Die Haupttreiber architekturrelevanter Entscheidungen sind nicht-funktionale (NFR) bzw. qualitative Anforderungen \cite{Ros03}. Diese haben eine explizite Auswirkung auf die zu erstellende Architektur. Bei funktionalen Anforderungen bzw. ASFRs sind diese Auswirkungen meist implizit und m\"ussen zun\"achst durch weitere Interviews mit dem Kunden herausgearbeitet werden. Auch sind hier die f\"ur einen Software-Architekten erforderlichen Informationen nicht immer klar in der Anforderung aufgef\"uhrt \cite{Ros03}. Dies kann zu falschen architektonischen Entscheidungen f\"uhren. Um dieses Problem, der nicht klar hervorgehobenen architekturrelevanten Anforderungen, anzugehen besch\"aftigen sich die Probing Questions mit den ASFRs. Requirements Engineers sollen mit Probing Questions ausgestattet werden um zus\"atzliche relevante Fragen stellen zu k\"onnen. Dadurch soll w\"ahrend der Anforderungserhebung eine vollst\"andigere Anforderungsspezifikation erstellt werden, in welcher die ASFRs aussagekr\"aftiger sind \cite{Ros03}. Auch helfen diese den Requirements Engineers ein genaueres Verst\"andnis f\"ur den Software-Architekten aufzubauen, welche Informationen er f\"ur die Konzeption und Implementierung der Software-Architektur ben\"otigt. \\
 
 \subsubsection{Funktionsweise der Methode}
 
@@ -21,14 +21,14 @@ Damit die PQs und PQ-Flows genauer auf ein Projekt zugeschnitten sind und besser
 F\"ur die Anwendung stellt das Probing sowohl einen Katalog aus PQs als auch zugeh\"orige PQ-Flows bereit. Damit die PQs m\"oglichst alle Bereiche der ASFRs abdecken wurden letztere, wie in Tabelle \ref{tab:asfr_category_table} zu sehen, in 15 Kategorien unterteilt. Die Kategorien wurden durch die Analyse von 450 FRs aus 30 Anforderungsspezifikationen und durch mehrere Interviews mit erfahrenen Software-Architekten aus verschiedenen Dom\"anen und L\"andern aufgestellt  \cite{Ros02} \cite{Ros03}. Sie bilden einen ersten Ansatz f\"ur die Strukturierung von PQs und sollen in Zukunft verfeinert werden \cite{Ros03}. \\ 
 
 \begin{table}[h] %h, t, b, p : here = genau an dieser Stelle, wenn m\"oglich, top = f\"ur den Seitenanfang, bottom = f\"ur das Seitenende, p = f\"ur eine spezielle Seite mit Tabellen und Abbildungen
-\caption{ASFR Kategorien \cite{Ros02}}
+\caption{ASFR Kategorien nach \cite{Ros02}}
 \centering
 \begin{tabular}{|p{3cm}|p{5cm}|}
 %\begin{tabular}{|p{2cm}|p{4cm}|p{4cm}|p{6cm}|}%c, l, r, p{SIZEcm}, | : Zentrierter Text, linksb\"undiger Text, rechtsb\"undiger Text, Die Spalte soll SIZE cm breit sein, Das sog. Pipe-Symbol zeichnet einen senkrechten Strich zwischen die beiden Spalten
 	\hline
 	\textbf{ASFR Kategorie} & \textbf{Beschreibung} \\ %& \textbf{Beispiel ASFR} & \textbf{Beispiel Probing Question(s)} \\
 	\hline
-  	Audit Trail & Auditierung der Systemausf\"uhrung erm\"oglichen (?) \\%& Das System muss jede \"anderung an Kundendatens\"atzen f\"ur Auditzwecke erfassen. & - M\"ussen vor und nach Snapshots der Datenbank Tabellen gespeichert werden? \newline - Welche Art von Logs m\"ussen gef\"uhrt werden? \\
+  	Audit Trail & Auditierung der Systemausf\"uhrung erm\"oglichen \\%& Das System muss jede \"anderung an Kundendatens\"atzen f\"ur Auditzwecke erfassen. & - M\"ussen vor und nach Snapshots der Datenbank Tabellen gespeichert werden? \newline - Welche Art von Logs m\"ussen gef\"uhrt werden? \\
 	\hline
 	Batch-Verarbeitung (Batch Processing) & Batch-Verarbeitung erm\"oglichen \\
 	\hline
@@ -48,7 +48,7 @@ F\"ur die Anwendung stellt das Probing sowohl einen Katalog aus PQs als auch zug
 	\hline
 	Drittanbieter Interaktion & Interaktion mit Drittanbieter Komponenten erm\"oglichen \\
 	\hline
-	Arbeitsfluss (Workflow) & Bereitstellung von Funktionen um Arbeitselemente zu verschieben, Gutachten und Genehmigungen erm\"oglichen (?)\\
+	Arbeitsfluss (Workflow) & Bereitstellung von Funktionen um Arbeitselemente zu verschieben, Gutachten und Genehmigungen erm\"oglichen\\
 	\hline
 	Online Hilfe & Online Hilfe erm\"oglichen \\
 	\hline
@@ -71,7 +71,7 @@ Des weiteren sind die aufgestellten PQs in sechs Typen unterteilt \cite{Ros02}: 
 \item[2.] \textit{Strategische Technologie Entscheidungen:} PQs von diesem Typ beziehen sich auf die architektonischen Auswirkungen, welche durch Investitionsentscheidungen des Unternehmens des Kunden begr\"undet sind \cite{Ros02}.
 \item[3.] \textit{Nicht-funktionale Aspekte bezogen auf die ASFRs:} Viele PQs behandeln relevante nicht-funktionale Aspekte, die bei einer architekturrelevanten Entscheidung ber\"ucksichtigt werden m\"ussen. Zum Beispiel beziehen sich folgende PQs auf Skalierbarkeit und Sicherheit: \textit{Wie gro\ss{} ist die Menge an Daten?}, \textit{Wie viele Haupttabellen werden f\"ur die Auditierung ben\"otogt?} oder \textit{Welches Sicherheitslevel wird bei sensitiven Daten ben\"otigt?} \cite{Ros02}.
 \item[4.] \textit{Einhaltung gesetzlicher Vorschriften:} PQs, welche von gesetzlichen Vorschriften abh\"angen haben einen gro\ss{}en Einfluss auf architektonische Entscheidungen. Wenn in einem Land beispielsweise bestimmte Inhalte von Gesetzeswegen verboten sind, dann hat diese Einschr\"ankung einen gro\ss{}en Einfluss auf die zu konzipierende Software-Architektur \cite{Ros02}.
-\item[5.] \textit{Projekt Kontext:} Hierzu geh\"oren PQs, die kontextuelle Parameter des Projekts betreffen und Auswirkungen auf die Software-Architektur haben. Diese beinhalten PQs, welche die funktionale [?], einen Gesch\"aftsfall, Kosten, den Zeitrahmen, die zur Verf\"ugung stehenden Technologien, F\"ahigkeiten auf Kunden- und Verk\"auferseite, Unternehmenskultur, Kundenmentalit\"at oder sogar strategische Anforderungen betreffen \cite{Ros02}.
+\item[5.] \textit{Projekt Kontext:} Hierzu geh\"oren PQs, die kontextuelle Parameter des Projekts betreffen und Auswirkungen auf die Software-Architektur haben. Diese beinhalten PQs, welche die funktionale Passform, einen Gesch\"aftsfall, Kosten, den Zeitrahmen, die zur Verf\"ugung stehenden Technologien, F\"ahigkeiten auf Kunden- und Verk\"auferseite, Unternehmenskultur, Kundenmentalit\"at oder sogar strategische Anforderungen betreffen \cite{Ros02}.
 \item[6.] \textit{Zusammengesetzte Wirkung auf zwei oder mehr ASFRs:} Eine PQ, welche Antworten zu mehr als einer ASFR Kategorie liefert, geh\"ort zu diesem Typ. Eine Beispiel-PQ f\"ur die Kategorien Gesch\"aftsprozess  ``Status'' Meldungen und Drittanbieter Interaktion lautet: \textit{Was f\"ur eine Best\"atigung m\"ochten sie vom Drittanbieter Gateway bei erfolgreicher Zahlung empfangen?} \cite{Ros02} \\
 \end{itemize}
 
