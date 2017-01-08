@@ -4,7 +4,7 @@ Das Ziel des Probing ist es, Requirements Engineers mit Fragen auszustatten die 
 
 \subsubsection{Ziele der Methode}
 
-Die Haupttreiber architekturrelevanter Entscheidungen sind nicht-funktionale (NFR) bzw. qualitative Anforderungen \cite{Ros09}. Diese haben eine explizite Auswirkung auf die zu erstellende Architektur. Bei funktionalen Anforderungen bzw. ASFRs sind diese Auswirkungen meist implizit und m\"ussen zun\"achst durch weitere Interviews mit dem Kunden herausgearbeitet werden. Auch sind hier die f\"ur einen Software-Architekten erforderlichen Informationen nicht immer klar in der Anforderung aufgef\"uhrt \cite{Ros03}. Dies kann zu falschen architektonischen Entscheidungen f\"uhren. Um dieses Problem anzugehen besch\"aftigen sich die Probing Questions mit den ASFRs. Requirements Engineers sollen mit Probing Questions ausgestattet werden um zus\"atzliche relevante Fragen stellen zu k\"onnen. Dadurch soll w\"ahrend der Anforderungserhebung eine vollst\"andigere Anforderungsspezifikation erstellt werden, in welcher die ASFRs aussagekr\"aftiger sind \cite{Ros03}. Auch helfen diese den Requirements Engineers ein genaueres Verst\"andnis f\"ur den Software-Architekten aufzubauen, welche Informationen er f\"ur die Konzeption und Implementierung der Software-Architektur ben\"otigt. \\
+Die Haupttreiber architekturrelevanter Entscheidungen sind nicht-funktionale (NFR) bzw. qualitative Anforderungen \cite{Ros03}. Diese haben eine explizite Auswirkung auf die zu erstellende Architektur. Bei funktionalen Anforderungen bzw. ASFRs sind diese Auswirkungen meist implizit und m\"ussen zun\"achst durch weitere Interviews mit dem Kunden herausgearbeitet werden. Auch sind hier die f\"ur einen Software-Architekten erforderlichen Informationen nicht immer klar in der Anforderung aufgef\"uhrt \cite{Ros03}. Dies kann zu falschen architektonischen Entscheidungen f\"uhren. Um dieses Problem anzugehen besch\"aftigen sich die Probing Questions mit den ASFRs. Requirements Engineers sollen mit Probing Questions ausgestattet werden um zus\"atzliche relevante Fragen stellen zu k\"onnen. Dadurch soll w\"ahrend der Anforderungserhebung eine vollst\"andigere Anforderungsspezifikation erstellt werden, in welcher die ASFRs aussagekr\"aftiger sind \cite{Ros03}. Auch helfen diese den Requirements Engineers ein genaueres Verst\"andnis f\"ur den Software-Architekten aufzubauen, welche Informationen er f\"ur die Konzeption und Implementierung der Software-Architektur ben\"otigt. \\
 
 \subsubsection{Funktionsweise der Methode}
 
@@ -72,24 +72,24 @@ Des weiteren sind die aufgestellten PQs in sechs Typen unterteilt \cite{Ros02}: 
 \item[3.] \textit{Nicht-funktionale Aspekte bezogen auf die ASFRs:} Viele PQs behandeln relevante nicht-funktionale Aspekte, die bei einer architekturrelevanten Entscheidung ber\"ucksichtigt werden m\"ussen. Zum Beispiel beziehen sich folgende PQs auf Skalierbarkeit und Sicherheit: \textit{Wie gro\ss{} ist die Menge an Daten?}, \textit{Wie viele Haupttabellen werden f\"ur die Auditierung ben\"otogt?} oder \textit{Welches Sicherheitslevel wird bei sensitiven Daten ben\"otigt?} \cite{Ros02}.
 \item[4.] \textit{Einhaltung gesetzlicher Vorschriften:} PQs, welche von gesetzlichen Vorschriften abh\"angen haben einen gro\ss{}en Einfluss auf architektonische Entscheidungen. Wenn in einem Land beispielsweise bestimmte Inhalte von Gesetzeswegen verboten sind, dann hat diese Einschr\"ankung einen gro\ss{}en Einfluss auf die zu konzipierende Software-Architektur \cite{Ros02}.
 \item[5.] \textit{Projekt Kontext:} Hierzu geh\"oren PQs, die kontextuelle Parameter des Projekts betreffen und Auswirkungen auf die Software-Architektur haben. Diese beinhalten PQs, welche die funktionale [?], einen Gesch\"aftsfall, Kosten, den Zeitrahmen, die zur Verf\"ugung stehenden Technologien, F\"ahigkeiten auf Kunden- und Verk\"auferseite, Unternehmenskultur, Kundenmentalit\"at oder sogar strategische Anforderungen betreffen \cite{Ros02}.
-\item[6.] \textit{Zusammengesetzte Wirkung auf zwei oder mehr ASFRs:} Eine PQ, welche Antworten zu mehr als einer ASFR Kategorie liefert, geh\"ort zu diesem Typ. Eine Beispiel-PQ f\"ur die Kategorien Gesch\"aftsprozess "Status" Meldungen und Drittanbieter Interaktion lautet: \textit{Was f\"ur eine Best\"atigung m\"ochten sie vom Drittanbieter Gateway bei erfolgreicher Zahlung empfangen?} \cite{Ros02} \\
+\item[6.] \textit{Zusammengesetzte Wirkung auf zwei oder mehr ASFRs:} Eine PQ, welche Antworten zu mehr als einer ASFR Kategorie liefert, geh\"ort zu diesem Typ. Eine Beispiel-PQ f\"ur die Kategorien Gesch\"aftsprozess  ``Status'' Meldungen und Drittanbieter Interaktion lautet: \textit{Was f\"ur eine Best\"atigung m\"ochten sie vom Drittanbieter Gateway bei erfolgreicher Zahlung empfangen?} \cite{Ros02} \\
 \end{itemize}
 
 Diese Typisierung zeigt die Abh\"angigkeiten von ASFRs mit anderen ASFRs, NFRs oder anderen Strukturen im Projekt oder Unternehmen auf \cite{Ros02}. Dies erm\"oglicht auf diese zu reagieren und daraus resultierenden Problemen rechtzeitig vorzubeugen. \\
 
-Zudem wurden f\"ur f\"unf der 15 ASFR Kategorien ganze PQ-Flows erstellt. Die f\"unf Kategorien sind \textit{Audit Trail}, \textit{Batch-Verarbeitung}, \textit{Gesch\"aftsprozess "Status" Meldungen (Kommunikation)}, \textit{Berichte} und \textit{Arbeitsfluss}. Die Idee hier ist, das architektonische Wissen, welches den PQs innewohnt \cite{Ros02}, in einer Wissensdatenbank aus PQ-Flows zu sammeln, \"ahnlich wie die Design Patterns nach Gamma et al. \cite{Ros03} um eine verbesserte und vollst\"andigere Spezifikation zu erhalten. \\
+Zudem wurden f\"ur f\"unf der 15 ASFR Kategorien ganze PQ-Flows erstellt. Die f\"unf Kategorien sind \textit{Audit Trail}, \textit{Batch-Verarbeitung}, \textit{Gesch\"aftsprozess ``Status'' Meldungen (Kommunikation)}, \textit{Berichte} und \textit{Arbeitsfluss}. Die Idee hier ist, das architektonische Wissen, welches den PQs innewohnt \cite{Ros02}, in einer Wissensdatenbank aus PQ-Flows zu sammeln, \"ahnlich wie die Design Patterns nach Gamma et al. \cite{Ros03} um eine verbesserte und vollst\"andigere Spezifikation zu erhalten. \\
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[scale=0.45]{pqflow_communication.jpg} 
-	\caption{PQ-Flow f\"ur Gesch\"aftsprozess "Status" Meldungen (Kommunikation) \cite{Ros01}}\label{fig_pqflow_communication}
+	\caption{PQ-Flow f\"ur Gesch\"aftsprozess ``Status'' Meldungen (Kommunikation) \cite{Ros01}}\label{fig_pqflow_communication}
 \end{figure}
 
 Ein PQ-Flow ist eine Art Fluss- oder Ablaufdiagramm aus PQs. Hier sind mehrere PQs so angeordnet, dass die Reihenfolge in welcher sie im Interview benutzt werden eine Rolle spielt. Dadurch soll dem Requirements Engineer eine bessere Hilfestellung geben werden, da hier einige Fragen abh\"angig von den Antworten vorher gegangener Fragen irrelevant werden k\"onnen. So ist es logisch sinnvoll die PQ \textit{Welche Rollen (Stakeholder) d\"urfen das Privileg erhalten diese Warnungen zu konfigurieren? (PQ 4)} aus Abbildung \ref{fig_pqflow_communication} nur zu stellen, wenn die vorherige PQ (PQ 3) mit einem Ja beantwortet wurde. \\
 
 \paragraph{Vorgehensmodell} \label{probing_model}
 
-Die bereits existierenden PQs und PQ-Flows k\"onnen ohne weitere \"anderungen dem Requirements Engineer an die Hand gegeben werden, da diese bereits in der Praxis erfolgreich getestet wurden und laut \cite{Ros01}, \cite{Ros02} und \cite{Ros03} einen Mehrwert bieten. Allerdings bieten diese einen relativ allgemeinen Ansatz und sind nicht auf ein konkretes Projekt einer bestimmten Dom\"ane zugeschnitten. 
+Die bereits existierenden PQs und PQ-Flows k\"onnen ohne weitere \"Anderungen dem Requirements Engineer an die Hand gegeben werden, da diese bereits in der Praxis erfolgreich getestet wurden und laut \cite{Ros01}, \cite{Ros02} und \cite{Ros03} einen Mehrwert bieten. Allerdings bieten diese einen relativ allgemeinen Ansatz und sind nicht auf ein konkretes Projekt einer bestimmten Dom\"ane zugeschnitten. 
 
 Alternativ k\"onnen die PQs mit zus\"atzlichem Wissen des Software-Architekten eines konkreten Projektes angepasst oder erg\"anzt werden, wenn ihm bestimmte Aspekte f\"ur sein Projekt in den PQs nicht ausreichend abgedeckt erscheinen \cite{Ros02}. Hierzu ben\"otigt dieser jedoch Erfahrung und Wissen in folgenden Bereichen \cite{Ros02}: \\
 
@@ -99,11 +99,11 @@ Alternativ k\"onnen die PQs mit zus\"atzlichem Wissen des Software-Architekten e
 \item[3.] Wissen \"uber das Unternehmen des Kunden
 \end{itemize}
 
-F\"ur diese Anpassungen gilt allerding: "Erfahrung spielt eine signifikante Rolle" \cite{Ros02}. \\
+F\"ur diese Anpassungen gilt allerding: ``Erfahrung spielt eine signifikante Rolle'' \cite{Ros02}. \\
 
 \paragraph{Ausgabe}
 
-Nachdem die PQs vom Requirements Engineer bei der Anforderungserhebung benutzt wurden erh\"alt dieser daraufhin eine vollst\"andige Spezifikation, mit allen, vom Software-Architekten, ben\"otigten ASFRs. \\
+Nachdem die PQs vom Requirements Engineer bei der Anforderungserhebung benutzt wurden, erh\"alt dieser daraufhin eine vollst\"andige Spezifikation, mit allen, vom Software-Architekten, ben\"otigten ASFRs. \\
 
 %\textbf{Paper Cites:} \\
 %(\cite{Ros01}) Probing for Requirements Knowledge to Simulate Architectural Thinking \\

@@ -1,5 +1,5 @@
 \subsection{Component-Bus-System-Property (CBSP) (JEM)}\label{cbsp}
-Component-Bus-System-Property, kurz CBSP, ist ein leichtgewichtiger Ansatz um Anforderungen und Architektur mit Hilfe von Zwischenmodellen in \"ubereinstimmung zu bringen \cite{Gru01}. Dazu wird iterativ aus den Anforderungen ein CBSP Modell gebildet, welches Anforderungs- und Architektur-Modellelemente miteinander verkn\"upft. \\
+Component-Bus-System-Property, kurz CBSP, ist ein leichtgewichtiger Ansatz, um Anforderungen und Architektur mit Hilfe von Zwischenmodellen in \"ubereinstimmung zu bringen \cite{Gru01}. Dazu wird iterativ aus den Anforderungen ein CBSP Modell gebildet, welches Anforderungs- und Architektur-Modellelemente miteinander verkn\"upft. \\
 
 \subsubsection{Ziele der Methode}
 
@@ -11,7 +11,7 @@ Der CBSP Ansatz hilft Software-Architekten dabei Architekturelemente wie Kompone
 \item \textit{Aufrechterhaltung evolution\"arer Konsistenz}: Aufrechterhaltung von Konsistenz und Nachverfolgbarkeit ist ein schwieriges Unterfangen, da eine einzelne Anforderung mehrere architektonische Anliegen betreffen kann und ein einzelnes Architekturelement typischerweise mehrere Beziehungen zu verschiedenen Anforderungen hat \cite{Gru01}. Diese Schwierigkeiten werden vom CBSP Zwischenmodell behoben.
 \item \textit{Unvollst\"andige Modelle und iterative Entwicklung}: Das CBSP Zwischenmodell ben\"otigt auf Grund seines iterativen Vorgehensmodells keine von Beginn an vollst\"andige Anforderungsspezifikation. Desweiteren k\"onnen bestimmte Anforderungen erst vollst\"andig verstanden werden, wenn die Software-Architektur modelliert oder sogar partiell implementiert wurde \cite{Gru01}.
 \item \textit{Gr\"o\ss{}e und Komplexit\"at Behandeln}: Gro\ss{}systeme m\"ussen meist hunderte bis tausende von Anforderungen erf\"ullen. Da CBSP sich in jeder Iteration nur mit einem Teil der architektonisch relevanten Anforderungen besch\"aftigt kann es diese Komplexit\"at beherschen und den Fokus erh\"ohen. Jede Aktivit\"at von CBSP befasst sich mit der Filterung von Anforderungen oder dem Zusammenfassen mehrerer Anforderungen in eine \cite{Gru01}.
-\item \textit{Verschiedene Stakeholder mit unterschiedlichen Interessen}: Anforderungen und Architektur in Einklang zu bringen ist auch ein Prozess in welchem heterogene Stakeholder mit widerspr\"uchlichen Zielen, Erwartungen und Terminologien involviert sind. CBSP versucht hier die richtige Balance zwischen diesen abweichenden Interessen zu finden indem es wichtige Stakeholder involviert \cite{Gru01}. \\
+\item \textit{Verschiedene Stakeholder mit unterschiedlichen Interessen}: Anforderungen und Architektur in Einklang zu bringen ist auch ein Prozess, in welchem heterogene Stakeholder mit widerspr\"uchlichen Zielen, Erwartungen und Terminologien involviert sind. CBSP versucht hier die richtige Balance zwischen diesen abweichenden Interessen zu finden indem es wichtige Stakeholder involviert \cite{Gru01}. \\
 \end{itemize}
 
 Um bei der Bew\"altigung dieser Herausforderungen zu unterst\"utzen bietet das CBSP: \\
@@ -85,7 +85,7 @@ Desweiteren m\"ussen die Software-Architekten \"uber ein gewisses Mindestma\ss{}
 
 \paragraph{Eingabe}
 
-Als Eingabe ben\"otigt das CBSP eine erste Anforderungsspezifikation. Diese muss noch nicht vollst\"andig sein, denn sie kann in jeder Iteration weiter erg\"anzt werden. Da CBSP nicht auf FRs oder NFRs zugeschnitten ist werden alle Anforderungen genutzt, denn beide Anforderungstypen haben sowohl explizit als auch implizit Informationen, welche f\"ur die Software-Architektur relevant sind \cite{Gru01}. \\
+Als Eingabe ben\"otigt das CBSP eine erste Anforderungsspezifikation. Diese muss noch nicht vollst\"andig sein, denn sie kann in jeder Iteration weiter erg\"anzt werden. Da CBSP nicht auf FRs oder NFRs zugeschnitten ist, werden alle Anforderungen genutzt, denn beide Anforderungstypen haben sowohl explizit als auch implizit Informationen, welche f\"ur die Software-Architektur relevant sind \cite{Gru01}. \\
 
 
 \paragraph{Vorgehensmodell} 
@@ -155,11 +155,13 @@ Da mehrere Software-Architekten diese Klassifizierung unabh\"angig voneinander v
 
 \emph{Schritt 4: Architektonische Verfeinerung der Anforderungen} - 
 Im vorletzten Schritt werden die CBSP Elemente umformuliert oder aufgeteilt, welche \"uberlappende CBSP Dimensionen und architektonische Anliegen aufweisen. Wenn ein CBSP Element beispielsweise weitgehend Komponenten-relevant, voll Konnektor-relevant und weitgehend Konnektor-Eigenschafts-relevant ist, erh\"oht es das Verst\"andnis und die Pr\"azision wenn es in mehrere Architekturentscheidungen, verk\"orpert als CBSP Element, aufgesplittet wird. Ein einzelnes CBSP Artefakt kann w\"ahrend diesem Prozess mehrfach als Nebenprodukt bei verschiedenen Anforderungen auftauchen, w\"ahrend diese Redundanzen identifiziert und eliminiert werden \cite{Gru01}. \\
+
 In diesem Schritt gibt es zwei Varianten welche entweder einzeln oder sogar kombiniert ausgef\"uhrt werden k\"onnen. Variante eins betrachtet zun\"achst nur die gro\ss{}en strukturellen Aspekte des Systems (C, B und S Elemente). Dies hat den Vorteil, dass der Architekt klarer das gro\ss{}e Ganze fokussieren kann, da die beiden Aspekte (Struktur und Funktionalit\"at vs. nicht-funktionale Eigenschaften) separat betrachtet werden. Die Eigenschaften der drei Elemente werden in einem gesonderten (Sub-)Prozess identifiziert. Die zweite Variante identifiziert in einem Schritt sowohl die strukturellen Elemente als auch ihre nicht-funktionalen Eigenschaften. Der Vorteil hierbei ist, dass der Software-Architekt sich auf ein kompletten System Aspekt (oder eine kleine Menge von Aspekten) konzentrieren kann. \\
 
 \emph{Schritt 5: Abgleich der Entscheidungen zwischen Architekturelementen und -stilen mit CBSP} - 
 Wenn alle ausgew\"ahlten Anforderungen im CBSP Model modelliert wurden, sodass keine Konflikte zwischen Software-Architekt und Requirements Engineer bestehen und alle CBSP Modellelementen weitgehend relevant zu einer der sechs CBSP Dimensionen sind, kann in Schritt f\"unf ein erster Architektur-Prototyp abgeleitet werden. \\
 Die Bestimmung eines passenden Architekturstiles mit den zu den CBSP Modellelementen passenden Architekturmustern ist nicht immer einfach. Zum einen existiert kein formaler Ansatz f\"ur diesen Prozess, zum anderen k\"onnen mehrere Architekturstile zum generierten CBSP Modell passen. F\"ur diese Aufgabe gibt es verschiedene Verfahren. Hier wird die Selektion eines passenden Architekturstiles mit Hilfe einer Matrix aufgestellt, siehe Tabelle \ref{tab:cbsp_to_style_mapping}. Diese Metrix stellt die CBSP Dimensionen mit geeigneten Eigenschaften potentiellen Architekturmustern gegen\"uber. Allerdings ist diese Tabelle nicht vollst\"andig, denn weitere Eigenschaften f\"ur die CBSP Elemente sind denkbar und es werden auch nicht alle existierenden Architekturstile angeboten. Zum einen ist sie daf\"ur nicht gedacht, sie soll lediglich eine Hilfestellung bei der Wahl eines passenden Architekturstils bieten sobald mehr als einer passend erscheint. Daf\"ur muss sie nur so umfassend wie eben n\"otig sein. Zum anderen w\"urde eine vollst\"andige Tabelle \textit{jedes} Softwaresystem darstellen und nicht auf eine konkrete Dom\"ane zurecht geschnitten sein. Au\ss{}erdem w\"are eine solche unm\"oglich zu erstellen \cite{Gru01}. Die endg\"ultige Wahl liegt allerdings beim Software-Architekten. \\
+
 Anschlie\ss{}end muss der Software-Architekt die CBSP Modellelemente in entsprechende Architekturelemente wie Komponenten, Konnektoren, Konfigurationen, Pakete und Daten mit den gew\"unschten Eigenschaften umwandeln \cite{Gru01}. \\
 
 \paragraph{Ausgabe}
