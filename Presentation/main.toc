@@ -1,0 +1,10 @@
+\select@language {german}
+\beamer@sectionintoc {1}{Einleitung}{3}{0}{1}
+\beamer@sectionintoc {2}{M\"ogliche Probleme zwischen RE und SA}{4}{0}{2}
+\beamer@sectionintoc {3}{Untersuchung}{5}{0}{3}
+\beamer@subsectionintoc {3}{1}{Probing}{6}{0}{3}
+\beamer@subsectionintoc {3}{2}{cbsp}{7}{0}{3}
+\beamer@subsectionintoc {3}{3}{COSMOD-RE}{8}{0}{3}
+\beamer@subsectionintoc {3}{4}{ADD 3.0}{17}{0}{3}
+\beamer@sectionintoc {4}{Auswertung}{18}{0}{4}
+\beamer@sectionintoc {5}{Fazit}{22}{0}{5}
